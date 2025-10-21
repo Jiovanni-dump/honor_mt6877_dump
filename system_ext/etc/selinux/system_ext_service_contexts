@@ -1,0 +1,496 @@
+#line 1 "vendor/honor/common/sepolicy/base/system_ext/service_contexts"
+# RCS begin
+RenderComposer  u:object_r:rcs_service:s0
+RenderBufferProducer u:object_r:rbp_service:s0
+# RCS end
+
+
+#<AR0009L6M8 caohaiheng 00293686 20170920 begin
+com.hihonor.turing        u:object_r:turing_service:s0
+com.hihonor.vision        u:object_r:vision_service:s0
+#<AR0009L6M8 caohaiheng 00293686 20170920 end
+
+#DTS2017050408602 humin/00221506 add IAware sdk service begin
+IAwareSdkService        u:object_r:iaware_sdk_service:s0
+#DTS2017050408602 humin/00221506 20161021 add sdk service end
+
+# for AGP Service
+AGPService u:object_r:agp_service:s0
+
+# for pg
+Binder.Pged        u:object_r:hwpged_service:s0
+
+
+DisplayEngineExService  u:object_r:displayengineex_service:s0
+DisplayEngineService    u:object_r:display_engine_service:s0
+
+# AR000925MQ zhouben/00210504 20170509 begin
+hwSaveDataService                                u:object_r:hw_savedata_service:s0
+# AR000925MQ zhouben/00210504 20170509 end
+
+#AR000B0PON taoqiang 00279197 20180731 begin
+media_assist        u:object_r:media_assist_service:s0
+#AR000B0PON taoqiang 00279197 20180731 end
+
+#DTS2018090605177 zhangmin 00447886 20180903 begin
+HiMPEngineService      u:object_r:hi_mp_engine:s0
+#DTS2018090605177 zhangmin 00447886 20180903 end
+
+# AR0008VGVU renwenjie/00403064  begin
+APKPatchService         u:object_r:apkpatch_service:s0
+# AR0008VGVU renwenjie/00403064  end
+
+# AR00090FGV songzili/00349876 20170614 begin
+DubaiService                              u:object_r:dubai_service:s0
+# AR00090FGV songzili/00349876  20170614 end
+
+game_assist        u:object_r:game_assist_service:s0
+
+#<AR00095UCV huangdezhi 00176038 20170601 begin
+hwaftpolicy                                u:object_r:hwaftpolicy:s0
+#<AR00095UCV huangdezhi 00176038 20170601 end
+
+hwswing                          u:object_r:hwswing:s0
+
+# common communication
+DdmpDeviceMonitorService u:object_r:ddmp_device_monitor_svc:s0
+DdmpDataBusService u:object_r:ddmp_databus_svc:s0
+DdmpTrustEngineService u:object_r:ddmp_trustengine_svc:s0
+
+# DTS2017062011585 xiaocong/00173384 20170621 begin
+com.hihonor.bd.BDService   u:object_r:hwue_bdservice:s0
+# DTS2017062011585 xiaocong/00173384 20170621 end
+
+# for distributeddata
+DdmpDistributedData u:object_r:ddmp_distributed_data_svc:s0
+
+# for fusionsearch
+fusion_search u:object_r:fusion_search_svc:s0
+
+#DTS2017062209022 l00380049 begin
+vr_system               u:object_r:vr_system_service:s0
+#DTS2017062209022 l00380049 end
+
+# AR00093IPQ xiashaohua/00347572 desktop mode BEGIN
+hwPcManager           u:object_r:hwPcManager_service:s0
+# AR00093IPQ xiashaohua/00347572 desktop mode END
+
+# AR0009KSS6 wangling/00355495 20171012 begin
+HwFileMonitorService          u:object_r:hw_filemonitor_service:s0
+# AR0009KSS6 wangling/00355495 20171012 end
+
+#for hotfixchecker
+hotfixchecker-daemon.service     u:object_r:hotfixchecker-daemon_service:s0
+hwrmeservice     u:object_r:hwrme_service:s0
+
+#AR0009CIP0 likai/00350226 begin
+hnsync                   u:object_r:hnsync_service:s0
+#AR0009CIP0 likai/00350226 end
+#AR000C10QM tongjuanjuan/00349015 begin
+turbozoned                   u:object_r:turbo_service:s0
+#AR000C10QM tongjuanjuan/00349015 end
+#AR0009N5NJ jiangminghui/00181309 20171024 begin
+BootAnimationBinderServer           u:object_r:bootanim_server_service:s0
+#AR0009N5NJ jiangminghui/00181309 20171024 end
+
+# AR0009OCQ9 xiayuan/00184050 HwCommBoosterService add 20171120
+HwCommBoosterService u:object_r:hw_commbooster_service:s0
+
+# FOR MR1
+# DTS2015082101822 malijuan kf67138 20150821 begin
+internet_audio                                                         u:object_r:internet_audio_service:s0
+# DTS2015082101822 malijuan kf67138 20150821 end
+
+# add hwGeneralService DTS2015052502269 begin
+hwGeneralService                                                       u:object_r:hw_general_service:s0
+# add hwGeneralService DTS2015052502269 end
+
+# DTS2015080307994 liutie/00176215 20150805 begin
+hwAntiTheftService                                                       u:object_r:hw_antitheft_service:s0
+# DTS2015080307994 liutie/00176215 20150805 end
+
+# add hwBootanimExService DTS2015042406452 begin
+hwBootanimExService                                                       u:object_r:hw_bootanimex_service:s0
+# add hwBootanimExService DTS2015042406452 end
+
+# add system.hsmcore on DTS2015031701911
+system.hsmcore  u:object_r:system_hsmcore_service:s0
+
+# add com.hihonor.cryptosms.service on DTS2015042005211
+# com.hihonor.cryptosms.service begin
+com.hihonor.cryptosms.service            u:object_r:crypto_sms_service:s0
+# com.hihonor.cryptosms.service end
+
+# com.hihonor.cryptosms.service                            u:object_r:system_app_service:s0
+smartDisplay_service                                    u:object_r:smart_display_service:s0
+
+# PFW add hwPfwService on DTS2015062405732
+hwPfwService                                            u:object_r:hw_pfw_service:s0
+
+# telephony services begin
+# DTS2014101006257 jiayanhong/00176905 20141105 begin
+phone_apdu                                u:object_r:radio_service:s0
+# DTS2014101006257 jiayanhong/00176905 20141105 end
+# DTS2015082803406 jiayanhong/00176905 20150828 begin
+phone_honor                              u:object_r:radio_service:s0
+# DTS2015082803406 jiayanhong/00176905 20150828 end
+# DTS2015091410126 jiayanhong/00176905 20150915 begin
+isms_interception                         u:object_r:radio_service:s0
+# DTS2015091410126 jiayanhong/00176905 20150915 end
+# DTS2015122305073 chenxiaoxuan00217940 20151223 begin
+ihwvsim                                   u:object_r:radio_service:s0
+# DTS2015122305073 chenxiaoxuan00217940 20151223 end
+# telephony services end
+
+com.hihonor.harassmentinterception.service.HarassmentInterceptionService         u:object_r:hsm_harassmentinterception_service:s0
+com.hihonor.netassistant.service.netassistantservice                             u:object_r:hsm_netassistant_service:s0
+com.hihonor.netassistant.binder.notificationcallbackbinder                       u:object_r:hsm_netassistant_callback_service:s0
+com.hihonor.systemmanager.netassistant.netpolicy.NatNetworkPolicyService         u:object_r:hsm_natnetworkpolicy_service:s0
+com.hihonor.systemmanager.netassistant.netnotify.policy.NatTrafficNotifyService  u:object_r:hsm_nattrafficnotify_service:s0
+com.hihonor.systemmanager.rainbow.service                          u:object_r:hsm_rainbow_service:s0
+com.hihonor.systemmanager.preventmode.PreventModeService           u:object_r:hsm_dnd_service:s0
+HsmStat                                                           u:object_r:hsm_stat_service:s0
+
+# HwSystemManager services begin
+com.hihonor.permissionmanager.service.holdservice                  u:object_r:hsm_hold_service:s0
+# HwSystemManager services end
+
+# AR000AA4BH AIProtectionAnalyzer services begin
+hihonor.android.security.IAppBehaviorDataAnalyzer                  u:object_r:hsm_aiprotection_analyzer_service:s0
+# AR000AA4BH AIProtectionAnalyzer services end
+
+# AR000FVSGH AppRogueBehaviorDataAnalyzer services begin
+hihonor.android.security.IAppRogueBehaviorDataAnalyzer     u:object_r:hn_behavior_analyzer_service:s0
+# AR000FVSGH AppRogueBehaviorDataAnalyzer services end
+
+# AR000C0VPC HwSecService begin
+com.hihonor.securitycenter.mainservice.HwSecService           u:object_r:hsc_security_center_service:s0
+# AR000C0VPC HwSecService end
+
+# AR000CUI5B dPermissionManagerService begin
+com.hihonor.security.dpermission.service.HwDPermissionService           u:object_r:dpermission_manager_service:s0
+# AR000CUI5B dPermissionManagerService end
+
+# AR000DAOCA DistributedPermissionManagerService begin
+distributedPermission           u:object_r:distributed_permission_manager_service:s0
+# AR000DAOCA DistributedPermissionManagerService end
+
+#DTS2017060113701 HwSecureIME service begin
+input_method_secure u:object_r:input_method_secure_service:s0
+#DTS2017060113701 HwSecureIME service end
+
+#SR000FQ01U HwStylusIME service begin
+input_method_stylus u:object_r:input_method_stylus_service:s0
+#SR000FQ01U HwStylusIME service end
+
+# DTS2015082100482 hanmincheng/00178881 20150822 begin
+attestation_service                                     u:object_r:attestation_service:s0
+cover                                                   u:object_r:cover_service:s0
+SelfbuildIRService                                      u:object_r:SelfbuildIR_service:s0
+hwUsbExService                                          u:object_r:hwUsbEx_service:s0
+hwAlarmService                                          u:object_r:hwAlarm_service:s0
+hwConnectivityExService                                 u:object_r:hwConnectivityEx_service:s0
+easywakeup                                              u:object_r:easywakeup_service:s0
+# DTS2015082100482 hanmincheng/00178881 20150822 end
+# AR0008VI1A baiyang/00404206 begin
+aps_service                                             u:object_r:aps_service:s0
+# AR0008VI1A baiyang/00404206 end
+
+# DTS2015082510916 hanmincheng/00178881 20150822 begin
+pgservice                                               u:object_r:pgservice_service:s0
+# DTS2015082510916 hanmincheng/00178881 20150822 end
+
+gmsservice                                               u:object_r:gms_service:s0
+iostatsservice                                          u:object_r:iostatsservice_service:s0
+
+# fido authentication service
+fido_authenticator  u:object_r:fido_authenticator_service:s0
+# add s00356424 20151022 end
+
+# honor keystore service
+com.hihonor.security.IHwKeystoreService  		u:object_r:honor_keystore_service:s0
+# add z00290226 20170816 end
+
+# authentication_service
+authentication_service u:object_r:authentication_service:s0
+
+# MW Integration : DTS2015041101215 Magesh/mwx209439 20150411 begin
+# Added to register multi window service
+multiwin                                                u:object_r:hw_multiwin_service:s0
+# MW Integration : DTS2015041101215 Magesh/mwx209439 20150411 end
+
+#DTS2015102201700 lijiechun/00101002 20151022 begin
+# multitask add a service 
+multi_task                                              u:object_r:hw_multitask_service:s0
+#DTS2015102201700 lijiechun/00101002 20151022 end
+
+# DTS:DTS2016041302339 zhangyachao/zwx315975 20160415 begin
+hwfm_service                                            u:object_r:hw_fm_service:s0
+# DTS:DTS2016041302339 zhangyachao/zwx315975 20160415 end
+
+# AR000460JA limengna/00350313 20160520 begin
+securityserver u:object_r:securityserver_service:s0
+# AR000460JA limengna/00350313 20160520 end
+
+# zhudengkui begin
+EmcomManager u:object_r:emcommanager_service:s0
+# zhudengkui end
+CommunicationManager u:object_r:communicationmanager_service:s0
+# AR0004IR2S chengjing/00378874 20161212 for smartRotation start
+forceRotationService                             u:object_r:force_rotation_service:s0
+# AR0004IR2S chengjing/00378874 20161212 for smartRotation end
+
+#AR000945FM chenjiachang/00346897 20170424 begin
+# DTS2019061805346 hujiajia/00290208 20190618 add for ServiceBusManager begin
+hwservicebusmanager               u:object_r:hwservicebusmanager_service:s0
+# DTS2019061805346 hujiajia/00290208 20190618 add for ServiceBusManager end
+##AR000945FM chenjiachang/00346897 20170424 end
+
+# DTS2017052502584  gaoyuan/00356695 20170525 begin
+#SELinux : avc: denied  { add } for service=powergenius  pid=2971 uid=1001 scontext=u:r:system_app:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager
+powergenius u:object_r:powergenius_service:s0
+# DTS2017052502584  gaoyuan/00356695 20170525 end
+
+# BEGIN PN: DTS2017072806122, Added by l00377102, 2017/07/27
+# for ChrService
+chr_service             u:object_r:chr_service:s0
+# END PN: DTS2017072806122, Added by l00377102, 2017/07/27
+
+# BEGIN PN: DTS2017072806122, Added by l00377102, 2017/07/27
+# for ChrReport
+chr_report             u:object_r:chr_report:s0
+# END PN: DTS2017072806122, Added by l00377102, 2017/07/27
+
+# DTS2015082100482 hanmincheng/00178881 20150822 begin
+smartcardservice                                        u:object_r:smartcard_service:s0
+# DTS2015082100482 hanmincheng/00178881 20150822 end
+
+#DTS2015082603024 liyu/00304948 20150826 begin
+hwsysresmanager                                         u:object_r:hwsysresmanager_service:s0
+#DTS2015082603024 liyu/00304948 20150826 end
+
+# DTS2015031908073 c00287748 20151010 begin
+# Add for postCamera
+post.camera                                             u:object_r:mediaserver_service:s0
+# DTS2015031908073 c00287748 20151010 end
+
+Hwmedia.monitor u:object_r:hw_mediamonitor_service:s0
+
+# AR0004KQRS DTS_EAGLE xiehui 00350179 201600901 BEGIN
+# DTS HPX service
+dts_hpx_service                           u:object_r:dtshpxservice_service:s0
+# AR0004KQRS DTS_EAGLE xiehui 00350179 201600901 END
+
+com.hihonor.servicehost                                 u:object_r:hwservicehost_service:s0
+
+hnthermal                                 u:object_r:hwthermal_service:s0
+
+aod_service               u:object_r:aod_service:s0
+
+# add felica
+felica                                    u:object_r:nfc_service:s0
+
+# AR0009P5LI xuwenfang 00185409 20171103 begin
+facerecognition u:object_r:facerecognition:s0
+# AR0009P5LI xuwenfang 00185409 20171103 end
+
+# AR000B4D17 jinmengtong 00377619 20180920 begin
+voicerecognition u:object_r:voicerecognition:s0
+# AR000B4D17 jinmengtong 00377619 20180920 end
+
+# AR000A6FRI guohaoping/220141 20180211 begin
+# for hwCarrierConfig
+hwCarrierConfig u:object_r:hwCarrierConfig_service:s0
+# AR000A6FRI guohaoping/220141 20180211 end
+
+# AR0009P6D6 h00263470 20180108 begin
+com.hihonor.security.tpm2attest.IHwTpm2AttestService                    u:object_r:tpm2_attest_service:s0
+# AR0009P6D6 h00263470 20180108 end
+
+# AR000A748K dubingjian/347686 20180408  begin
+com.hihonor.iconnect.ConnectService        u:object_r:iconnect_connect_service:s0
+# AR000A748K dubingjian/347686 20180408  end
+
+# AR000A4RIC z00202435 2018/4/24 begin
+callrecord      u:object_r:syssvccallrecord_service:s0
+# AR000A4RIC z00202435 2018/4/24 end
+
+# AR000AQ36H c00316995 20180613 begin
+com.hihonor.pcassistant.handoffsdk.HandoffSdkService      u:object_r:handoffsdk_service:s0
+# AR000AQ36H c00316995 20180613 end
+
+# SR000ALOI1 HiShow yangwenbin/00200572 BEGIN
+HwHiShowManagerService           u:object_r:hwhishowmanagerservice_service:s0
+# SR000ALOI1 HiShow yangwenbin/00200572 END
+
+# 20190718 AR000CO5TL zengzhiling/zwx490647 BEGIN
+HwMagicWindowService             u:object_r:hwmagicwindow_service:s0
+# 20190718 AR000CO5TL zengzhiling/zwx490647 END
+
+com.hihonor.goldeneye                      u:object_r:goldeneye_service:s0
+com.hihonor.goldeneye.service              u:object_r:goldeneye_service:s0
+
+# AR000B8OMU h00379818 2018/10/16 begin
+hinetwork    u:object_r:hinetwork_service:s0
+# AR000B8OMU h00379818 2018/10/16 end
+
+# AR000AVGAA zhaoxiaohu 00202435 2018.11.10 begin
+fold_screen  u:object_r:fold_screen_service:s0
+# AR000AVGAA zhaoxiaohu 00202435 2018.11.10 end
+
+# SR000BUQRU shiyuanchang/00271386 20190416 begin
+hwExtDisplayUI u:object_r:hw_ext_display_ui:s0
+# SR000BUQRU shiyuanchang/00271386 20190416 end
+
+# AR000CKCPA shituanhui/00455936 begin
+security_server u:object_r:hw_security_server:s0
+# AR000CKCPA shituanhui/00455936 end
+
+# AR000CBM1S lanling/00216976 20190726 begin
+appassistant u:object_r:appassistant_service:s0
+# AR000CBM1S lanling/00216976 20190726 end
+
+# SR000DALQT z00263445 20191127 begin
+pluginmanager u:object_r:pluginmanager_service:s0
+# SR000DALQT z00263445 20191127 end
+
+# HwWatchConnectivityService AR000DOU16 m00378746 20200519
+HwWatchConnectivityService u:object_r:hw_watch_connectivity_service:s0
+
+# AR000CVAF7 xuhangyu/00447026 begin
+trustcircle_manager_service u:object_r:hw_trust_circle_manager:s0
+# AR000CVAF7 xuhangyu/00447026 end
+
+# AR000D0N31 FaultNotifyService xiaoyun/x00524222 begin
+hwFaultNotifyService u:object_r:fault_notify_service:s0
+# AR000D0N31 FaultNotifyService xiaoyun/x00524222 end
+
+com.hihonor.mdfs.DistributedFileService u:object_r:distributedfileservice:s0
+com.hihonor.mdfs.DistributedFileDaemon u:object_r:distributedfiledaemon:s0
+IDistributedGatewayService u:object_r:distributedgateway_service:s0
+# SR000DOTN4 z00527622 20200213 begin
+hw_device_profile u:object_r:hw_device_profile_service:s0
+# SR000DOTN4 z00527622 20200213 end
+
+# for hw distributed network native service
+DistributedNetNativeService u:object_r:distributed_net_service:s0
+com.hihonor.android.distributed.net.IDistributedNetNativeService u:object_r:distributed_net_native_service:s0
+
+# for SimpleperfService
+SimpleperfService  u:object_r:hiview_service:s0
+
+# AR000DQIQP w00426904 20200413 for higeo service
+higeo_service u:object_r:hw_higeo_service:s0
+
+# Group Authenticate Service
+group_authenticate_service u:object_r:hw_groupauth_service:s0
+
+# for Wifi Enhance Service
+wifienhance u:object_r:wifienhance_service:s0
+
+# for media.hncodec service
+media.hncodec   u:object_r:mediaserver_service:s0
+
+# yourphone: yanjinbao
+cross_device_service  u:object_r:cross_device_service_service:s0
+
+
+# DTS2022032526504 yourphone xw0035365 20220420 begin
+virtual_keyboard      u:object_r:virtual_keyboard_service:s0
+# DTS2022032526504 yourphone xw0035365 20220420 end
+
+# AR000FUSO5 add for Hiview binder service
+MulDevLinkageService u:object_r:mulDevLinkage_service:s0
+
+hn_accessdevicelock_service      u:object_r:hn_accessdevicelock_service:s0
+payjoy_access_service u:object_r:payjoy_access_service:s0
+#line 1 "vendor/honor/common/sepolicy/mtk/service_contexts"
+jankshield u:object_r:jankshield_service:s0
+powerprofile u:object_r:powerprofile_service:s0
+
+#AR #25616 m00022118 20220517
+deviceinfoex u:object_r:deviceinfoex_service:s0
+
+SysinfoService                            u:object_r:hiview_service:s0
+faultdetectservice                        u:object_r:hiview_service:s0
+hiview                                    u:object_r:hiview_service:s0
+jank		                          u:object_r:jankservice_service:s0
+ioinfo                                    u:object_r:ioinfo_service:s0
+IAwareCMSService                          u:object_r:iawarecmservice:s0
+ITouchservice                             u:object_r:itouch_service:s0
+hwext_device_service                      u:object_r:hwext_device_service:s0
+ITeecService                              u:object_r:iteec_service:s0
+ims_ut                                    u:object_r:ims_ut_service:s0
+unrmd                                     u:object_r:unrmd_service:s0
+iGraphicsservice                          u:object_r:igraphics_service:s0
+hivrar.ndk.server                         u:object_r:hivrarserver_service:s0
+tui                                       u:object_r:tui_service:s0
+BastetService                             u:object_r:bastetd_service:s0
+
+#line 1 "device/mediatek/sepolicy/basic/plat_private/service_contexts"
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+memory_dumper u:object_r:mediaserver_service:s0
+imsa          u:object_r:radio_service:s0
+mtkIms        u:object_r:radio_service:s0
+GbaService    u:object_r:radio_service:s0
+
+#line 1 "device/mediatek/sepolicy/bsp/plat_private/service_contexts"
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+anrmanager                                              u:object_r:mtk_anrmanager_service:s0
+permrecords                                             u:object_r:mtk_permrecords_service:s0
+media.mmsdk                                             u:object_r:mtk_advcamserver_service:s0
+media.advcam                                            u:object_r:mtk_advcamserver_service:s0
+AAL                                                     u:object_r:aal_service:s0
+terservice                                              u:object_r:terservice_service:s0
+mtk-perfservice                                         u:object_r:mtk_perf_service:s0
+power_hal_mgr_service                                   u:object_r:mtk_power_hal_mgr_service:s0
+phoneEx                                                 u:object_r:mtk_radio_service:s0
+telephony.mtkregistry                                   u:object_r:mtk_registry_service:s0
+iphonesubinfoEx                                         u:object_r:mtk_phonesubinfo_service:s0
+mtk_telecom                                             u:object_r:mtk_telecom_service:s0
+mtksimphonebook                                         u:object_r:mtk_simphonebook_service:s0
+data_shaping                                            u:object_r:mtk_data_shaping_service:s0
+mtkconnmetrics                                          u:object_r:mtk_connmetrics_service:s0
+duraspeed                                               u:object_r:mtk_duraspeed_service:s0
+capctrl                                                 u:object_r:mtk_radio_service:s0
+autoboot                                                u:object_r:mtk_autoboot_service:s0
+smartratswitch                                          u:object_r:mtk_radio_service:s0
+GoogleOtaBinder                                         u:object_r:ota_agent_service:s0
+GpuAppSpectatorService                                  u:object_r:gas_srv_service:s0
+FpsPolicyService                                        u:object_r:fpspolicy-server_service:s0
+isubstub                                                u:object_r:radio_service:s0
+wfo                                                     u:object_r:radio_service:s0
+imtksms                                                 u:object_r:radio_service:s0
+carrierexpress                                          u:object_r:mtk_carrierexpress_service:s0
+media.VTS                                               u:object_r:vtservice_service:s0
+mwis                                                    u:object_r:radio_service:s0
+PPLAgent                                                u:object_r:ppl_agent_service:s0
+nfc.st_ext                                              u:object_r:nfc_service:s0
+nfc_settings                                            u:object_r:nfc_service:s0
+gwsd                                                    u:object_r:mtk_gwsd_service:s0
+ctanetworkdatacontroller                                u:object_r:cta_networkdatacontroller_service:s0
+vodata                                                  u:object_r:mtk_vodata_service:s0
+vendor.trustonic.teeservice.ITeeService                 u:object_r:tee_service:s0
+vendor.trustonic.teeregistryservice.ITeeRegistryService u:object_r:teeregistry_service:s0
+mediatek.campostalgo                                    u:object_r:camerapostalgo_service:s0
+NvRAMAgent                                              u:object_r:nvram_agent_service:s0
+mobile                                                  u:object_r:mtk_mobile_service:s0
+msgmonitorservice                                       u:object_r:mtk_msg_monitor_service:s0
+epdg_service                                            u:object_r:mtk_epdg_service:s0
+rns                                                     u:object_r:mtk_rns_service:s0
+search_engine_service                                   u:object_r:mtk_search_engine_service:s0
+omadm_service                                           u:object_r:mtk_omadm_service:s0
+fm_radio_service                                        u:object_r:mtk_fm_radio_service:s0
+vow_bridge                                              u:object_r:mtk_vowbridge_service:s0
+appdetection                                            u:object_r:mtk_appdetection_service:s0
+media.VTS.HiDL                                          u:object_r:vtservice_hidl_service:s0
+
+# MICROTRUST Policy Rule
+# for ifaa upgrade on android O
+ifaa_service     u:object_r:teei_ifaa_service:s0

@@ -1,0 +1,45 @@
+on post-fs-data
+    mkdir /data/mdlog 0775 system system
+    mkdir /data/ramdump 0775 shell system
+    mkdir /data/debuglogger 0770 shell log
+    # DTS202102080D2UDHH0A00 p00012723 commercial version config select dump use data/log/ramdump begin
+    mkdir /data/log/ramdump 0775 shell system
+    # DTS202102080D2UDHH0A00 p00012723 commercial version config select dump use data/log/ramdump end
+
+service emdlogger1 /system/system_ext/bin/emdlogger1
+   # class main
+    user shell
+    group log system shell radio sdcard_rw inet sdcard_r media_rw
+    disabled
+    oneshot
+
+on property:vold.decrypt=trigger_restart_framework
+    start emdlogger1
+
+on property:persist.vendor.em.dy.debug=1
+    stop emdlogger1
+	
+	
+# DTS202102080D2UDHH0A00 p00012723 for commercial version open select dump begin
+on boot
+    setprop persist.sys.mdlog_dumpback 0
+    setprop persist.vendor.mdlog.need_dump 1
+
+on property:ro.logsystem.usertype=3
+    setprop persist.sys.mdlog_dumpback 2
+
+# DTS2023072541030 for overseabetauser version open mini dump begin
+on property:ro.logsystem.usertype=5
+    setprop persist.sys.mdlog_dumpback 2
+# DTS2023072541030 for overseabetauser version open mini dump end
+
+on property:ro.logsystem.usertype=1
+    setprop persist.sys.rm_sensitive_data 1
+    setprop persist.vendor.mdlog.max_dump_file_count 5
+
+on property:ro.runmode=factory
+    setprop persist.sys.mdlog_dumpback 0
+
+# DTS202102080D2UDHH0A00 p00012723 for commercial version open select dump end
+	
+

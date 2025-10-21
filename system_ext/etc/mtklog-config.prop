@@ -1,0 +1,34 @@
+# mtk log path can be set as system_data or device_storage or portable_storage
+mtklog_path = system_data
+com.mediatek.log.mobile.AndroidLog = false
+com.mediatek.log.mobile.KernelLog = false
+com.mediatek.log.mobile.AllMode = true
+com.mediatek.log.mobile.path = /data/log
+com.mediatek.log.mobile.customer = GOD_A
+
+com.mediatek.log.mobile.enabled = true
+com.mediatek.log.modem.enabled = false
+com.mediatek.log.net.enabled = false
+com.mediatek.log.connsysfw.enabled = true
+com.mediatek.log.gpshost.enabled = false
+com.mediatek.log.bthost.enabled = false
+
+com.mediatek.log.mobile.maxsize = 1000
+com.mediatek.log.mobile.totalmaxsize = 1000
+com.mediatek.log.modem.maxsize = 2000
+com.mediatek.log.net.maxsize =600
+com.mediatek.log.connsysfw.maxsize = 2000
+com.mediatek.log.bthost.maxsize = 2000
+
+com.mediatek.log.wifisa.enabled = true
+com.mediatek.log.wifisa.size = 30
+com.mediatek.log.wifisa.count = 3
+com.mediatek.log.wifisa.path = /data/log_wifi_temp/
+
+# mashike m00017977 DTS2022012479486 begin
+com.mediatek.log.modem.suffix_remove=true
+# mashike m00017977 DTS2022012479486 end
+
+# mashike m00017977 DTS2022030104985 begin
+com.mediatek.log.modem.ee.autoreset=true
+# mashike m00017977 DTS2022030104985 end
