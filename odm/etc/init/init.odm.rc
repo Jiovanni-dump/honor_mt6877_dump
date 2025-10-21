@@ -1,0 +1,63 @@
+on early-init
+
+on init
+
+on early-fs
+
+on fs
+
+on post-fs
+
+on post-fs-data
+
+on early-boot
+
+on boot
+    setprop ro.odm.build.fingerprint ${ro.product.odm.brand}/${ro.product.odm.name}/${ro.product.odm.device}_${ro.boot.product.hardware.sku}:${ro.build.version.release}/${ro.vendor.build.id}/${ro.vendor.build.version.incremental}:${ro.vendor.build.type}/${ro.vendor.build.tags}
+
+# Enable filesystem anti-aging feature
+    setprop persist.sys.fsantiaging.enable 1
+
+on property:sys.boot_completed=1
+    write /proc/self/reclaim file
+
+#nfc
+service mtk_secure_element_hal_service /vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
+    disabled
+    class hal
+    user secure_element
+    group secure_element
+service vendor.vibrator-1-0 /vendor/bin/hw/android.hardware.vibrator@1.0-service
+    interface android.hardware.vibrator@1.0::IVibrator default
+    override
+    class hal
+    user system
+    group system
+    disabled
+
+# sensor
+service vendor.sensors-hal-2-0 /vendor/bin/hw/android.hardware.sensors@2.0-service-mediatek
+    override
+    disabled
+    class main
+    user system
+    group system
+    rlimit rtprio 10 10
+
+service vendor.ir-hal-1-0 /vendor/bin/hw/android.hardware.ir@1.0-service
+    interface android.hardware.ir@1.0::IConsumerIr default
+    override
+    disabled
+    class hal
+    user system
+    group system
+
+# hyperhold
+service hyperhold-hw-1-0 /vendor/bin/hw/vendor.honor.hardware.hyperhold@1.0-service
+    override
+    interface vendor.honor.hardware.hyperhold@1.0::IPersistingData hyperhold_hal
+    oneshot
+    disabled
+    class hal
+    user root
+    group system

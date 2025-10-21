@@ -1,0 +1,4 @@
+version=1.10.25.111
+type=NCFG_DEF
+subtype=NCFG_mt6877
+compatibleVersion=1

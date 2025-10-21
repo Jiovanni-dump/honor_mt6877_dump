@@ -1,0 +1,64 @@
+{
+    "version": "1.0.0",
+    "delay" : 10,
+    "schedule_time" : 10,
+    "sensor" : {
+        "name": "mtktsAP",
+        "accuracy": 1
+    },
+    "temp_level" : {
+        "comments" : "low_threshold, high_threshold, hysteresis_value, unit is millicentigrade",
+        "table" : [
+            [38000, 39000, 5000],
+            [39000, 41000, 1000],
+            [41000, 42000, 2000],
+            [42000, 45000, 1000],
+            [45000, 49000, 1000],
+            [49000, 99000, 3000]
+        ]
+    },
+    "current_limit" : {
+        "comments" : "scale1, scale2, scale3, scale4, scale5, scale6",
+        "wcurrent_5v" : {
+            "channel" : 0,
+            "prefix" : "dcp 0#",
+            "limit" : [2000, 1600, 1200, 1000, 900, 500]
+        },
+        "wcurrent_9v" : {
+            "channel" : 0,
+            "prefix" : "dcp 1#",
+            "limit": [1600, 1400, 1000, 700, 500, 200]
+        },
+        "direct_charger" : {
+            "channel" : 1,
+            "prefix" : "lvc ",
+            "limit": [4000, 3000, 2800, 2600, 2200, 1500]
+        },
+        "direct_charger_sc" : {
+            "channel" : 0,
+            "prefix" : "sc 0#",
+            "limit": [4000, 3600, 3400, 3000, 2500, 2500]
+        },
+        "direct_charger_duo_sc" : {
+            "channel" : 0,
+            "prefix" : "sc 1#",
+            "limit": [4000, 3600, 3400, 3000, 2500, 2500]
+        },
+	"wlcurrent_5v" : {
+            "channel" : 0,
+            "prefix" : "dcp 2#",
+            "limit" : [2000, 1600, 1200, 1000, 900, 500]
+        },
+	"wlcurrent_9v" : {
+            "channel" : 0,
+            "prefix" : "dcp 3#",
+            "limit" : [1600, 1400, 1000, 700, 500, 200]
+        },
+         "wlcurrent_sc" : {
+            "channel" : 0,
+            "prefix" : "wl_sc 0#",
+            "limit" : [0, 1000, 800, 700, 700, 700]
+        }
+    }
+}
+

@@ -1,0 +1,26 @@
+<DisplayEngineConfig>
+	<id>23</id>
+	<updated>2017-06-16</updated>
+	<feature name="AMOLEDDIMMING">
+		<mode name="MODE_AMOLED">
+			<param name="AmoledDimingEnable">1</param>
+			<param name="NormalizedMinBrightness">24</param>
+			<param name="NormalizedMaxBrightness">2047</param>
+			<param name="ActualMaxLuminance">600</param>
+			<param name="ActualMinLuminance">2</param>
+			<param name="DBVLumThres">36</param>
+			<param name="DBVThres">187</param>
+			<param name="DBV_XCC_LumThres">16</param>
+			<param name="DBV_XCCThres">65</param>
+			<param name="DBV_XCC_MinLumThres">2</param>
+			<param name="DBV_XCC_MinThres">31</param>
+			<param name="HBM_DBVLumThres">50</param>
+			<param name="HBM_DBVThres">250</param>
+			<param name="HBM_DBV_XCC_LumThres">16</param>
+			<param name="HBM_DBV_XCCThres">80</param>
+			<param name="EnableCloseDCinLowBrightness">1</param>
+			<param name="BrightnessLeveltoCloseDC">1900</param>
+		</mode>
+	</feature>
+</DisplayEngineConfig>
+

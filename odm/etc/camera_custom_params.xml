@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<camera_params>
+	<DropFrameParams>
+		<isAvailable>0</isAvailable>
+		<zoomRatioThreshold>150</zoomRatioThreshold>
+		<startDropFrames>3</startDropFrames>
+		<workingDropFrames>1</workingDropFrames>
+		<dropFrameAppWhite>com.tencent.mm</dropFrameAppWhite>
+	</DropFrameParams>
+	<ScanZoomParams>
+		<isAvailable>1</isAvailable>
+		<isSmoothZoomEnable>1</isSmoothZoomEnable>
+		<smoothZoomSteps>5</smoothZoomSteps>
+		<scanZoomAppWhiteListCount>2</scanZoomAppWhiteListCount>
+		<minZoomRatio>120</minZoomRatio>
+		<smoothZoomRatioThreshold>120</smoothZoomRatioThreshold>
+		<shortFocusDistanceCode>350</shortFocusDistanceCode>
+		<mediumFocusDistanceCode>100</mediumFocusDistanceCode>
+		<longFocusDistanceCode>100</longFocusDistanceCode>
+		<scanZoomAppWhiteList>com.tencent.mm</scanZoomAppWhiteList>
+		<scanZoomAppWhiteList>com.eg.android.AlipayGphone</scanZoomAppWhiteList>
+	</ScanZoomParams>
+</camera_params>

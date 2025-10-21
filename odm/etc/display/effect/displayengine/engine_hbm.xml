@@ -1,0 +1,17 @@
+<DisplayEngineConfig>
+	<id>23</id>
+	<updated>2017-06-16</updated>
+	<feature name="HBM">
+		<mode name="MODE_AMOLED">
+			<param name="HBMEnable">1</param>
+			<param name="HBM_Threshold_BackLight">185</param>
+			<param name="HBM_Threshold_Dimming">100</param>
+			<param name="HBM_Dimming_Frames">64</param>
+			<param name="HBM_Min_BackLight">4</param>
+			<param name="HBM_Max_BackLight">255</param>
+			<param name="HBM_MinLum_Regvalue">848</param>
+			<param name="HBM_MaxLum_Regvalue">16</param>
+		</mode>
+	</feature>
+</DisplayEngineConfig>
+

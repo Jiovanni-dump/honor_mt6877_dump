@@ -1,0 +1,12 @@
+<DisplayEngineConfig>
+	<id>24</id>
+	<updated>2020-09-01</updated>
+	<feature name="UDALS">
+		<mode name="MODE_DEFAULT">
+			<param name="enable">1</param>
+			<param name="enable_runstop">1</param>
+			<param name="frame_interval">1</param>
+		</mode>
+	</feature>
+</DisplayEngineConfig>
+
