@@ -1,0 +1,57 @@
+{
+    "MemoryLeak": {
+        "enable" : true,
+        "max_slope" : 500,
+        "upload_interval" : 21600,
+        "exclude_time_out" : 365,
+        "exclude_list": {
+            "com.ss.android.ugc.aweme" : "2022/04/13",
+            "com.ss.android.article.news" : "2022/04/13",
+            "com.ss.android.ugc.aweme.lite" : "2023/02/01"
+        },
+        "memory_type": {
+            "slub": {
+                "monitor_threshold": 1024
+            },
+            "vmalloc": {
+                "monitor_threshold": 2560
+            },
+            "user": {
+                "min_slope" : 60,
+                "leak_threshold" : 614400,
+                "monitor_threshold": 300
+            },
+            "java": {
+                "min_slope" : 30,
+                "leak_threshold" : 204800
+            },
+            "native": {
+                "min_slope" : 60,
+                "leak_threshold" : 409600
+            },
+            "dma_buf": {
+                "min_slope" : 60,
+                "leak_threshold" : 614400,
+                "monitor_threshold": 300
+            },
+            "kernel": {
+                "min_slope" : 60,
+                "leak_threshold" : 409600
+            }
+        },
+        "health_process": {
+            "test": {
+                "monitor_threshold": 15,
+                "detect_delay":0
+            },
+            "beta": {
+                "monitor_threshold": 15,
+                "detect_delay":7200
+            },
+            "commercial": {
+                "monitor_threshold": 3,
+                "detect_delay":7200
+            }
+        }
+    }
+}

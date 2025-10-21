@@ -1,0 +1,4 @@
+<permissions>
+    <library name="com.hihonor.nb"
+    file="/system/framework/com.hihonor.nb.sdk.jar" />
+</permissions>

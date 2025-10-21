@@ -1,0 +1,45 @@
+{
+  "version": 33,
+  "changes": {
+    "com.hihonor.desktop.systemui": [
+      {
+        "newChannelId": "com.hihonor.systemui_NOTIFICATION_MAIN_CHANNEL_ID",
+        "oldChannelId": "com.huawei.systemui_NOTIFICATION_MAIN_CHANNEL_ID"
+      }
+    ],
+    "com.hihonor.desktop.explorer": [
+      {
+        "newChannelId": "com.hihonor.explorer_NOTIFICATION_MAIN_CHANNEL_ID",
+        "oldChannelId": "com.huawei.explorer_NOTIFICATION_MAIN_CHANNEL_ID"
+      }
+    ],
+    "com.hihonor.android.instantshare": [
+      {
+        "newChannelId": "Honor Sync",
+        "oldChannelId": "Huawei Sync"
+      }
+    ],
+    "com.hihonor.deviceauth": [
+      {
+        "newChannelId": "com.hihonor.deviceauth",
+        "oldChannelId": "com.huawei.deviceauth"
+      }
+    ],
+    "com.hihonor.devicegroupmanage": [
+      {
+        "newChannelId": "com.hihonor.devicegroupmanage",
+        "oldChannelId": "com.huawei.devicegroupmanage"
+      }
+    ],
+    "com.hihonor.ouc": [
+      {
+        "newChannelId": "HnOUC_Low",
+        "oldChannelId": "HwOUC_Low"
+      },
+      {
+        "newChannelId": "HnOUC_Default",
+        "oldChannelId": "HwOUC_Default"
+      }
+    ]
+  }
+}

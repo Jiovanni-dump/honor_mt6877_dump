@@ -1,0 +1,693 @@
+[
+  {
+    "SESSION_NAME": "com\\.hihonor\\.def.*",
+    "REGEXP": "true",
+    "DEVID": "NETWORKID",
+    "APP_INFO": [
+      {
+        "TYPE": "system_app",
+        "UID": "1000",
+        "PKG_NAME": "com.hihonor.def",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com\\.hihonor\\.hwddmp.*",
+    "REGEXP": "true",
+    "DEVID": "UUID",
+    "APP_INFO": [
+      {
+        "TYPE": "system_app",
+        "UID": "1000",
+        "PKG_NAME": "com.hihonor.hwddmp",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com.hihonor.devicegroupmanage",
+    "DEVID": "UDID",
+    "APP_INFO": [
+      {
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.devicegroupmanage",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com\\.hihonor\\.dmsdp.*",
+    "REGEXP": "true",
+    "DEVID": "NETWORKID",
+    "SEC_LEVEL": "protected",
+    "SERVICENAME": "com.hihonor.dmsdpdevice",
+    "SESSION_INFO" :[
+      {
+        "SESSION_NAME": "com\\.hihonor\\.dmsdp.*(modem|Modem|mic|speaker|Camera).*",
+        "APP_PRIORITY": "0",
+        "SESSION_PRIORITY": "1",
+        "CACHED_DELAY":[0, 0, 600]
+      }
+    ],
+    "APP_INFO": [
+      {
+        "SEQ": 2,
+        "TYPE": "system_app",
+        "SERVICE_NAME": "",
+        "SERVICE_NAME_LIST": ["com.hihonor.dmsdpdevice.DMSDP_DEVICE_SERVICE"],
+        "UID": "1000",
+        "PKG_NAME": "com.hihonor.dmsdp",
+        "ACTIONS": "create,open"
+      },
+      {
+        "TYPE": "system_app",
+        "UID": "1000",
+        "PKG_NAME": "com.hihonor.dmsdpdevice",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "DBinderService",
+    "DEVID": "NETWORKID",
+    "APP_INFO": [
+      {
+        "TYPE": "native_app",
+        "UID": "1000",
+        "PKG_NAME": "DBinderService",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "DBinder.*",
+    "REGEXP": "true",
+    "DEVID": "NETWORKID",
+    "SEC_LEVEL": "public",
+    "APP_INFO": [
+      {
+        "TYPE": "granted_app",
+        "PKG_NAME": "DBinderBus",
+        "ACTIONS": "open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "DDMP_CTRL_BUS",
+    "DEVID": "UUID",
+    "APP_INFO": [
+      {
+        "TYPE": "system_app",
+        "UID": "1000",
+        "PKG_NAME": "com.hihonor.hwddmp",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "DDMP_FILE_LCD_THUMB",
+    "DEVID": "UUID",
+    "APP_INFO": [
+      {
+        "TYPE": "system_app",
+        "UID": "1000",
+        "PKG_NAME": "com.hihonor.hwddmp",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "DDMP_FILE_MINI_THUMB",
+    "DEVID": "UUID",
+    "APP_INFO": [
+      {
+        "TYPE": "system_app",
+        "UID": "1000",
+        "PKG_NAME": "com.hihonor.hwddmp",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "DDS.*",
+    "REGEXP": "true",
+    "DEVID": "UUID",
+    "SEC_LEVEL": "public",
+    "APP_INFO": [
+      {
+        "TYPE": "system_app",
+        "UID": "1000",
+        "PKG_NAME": "com.hihonor.hwddmp",
+        "ACTIONS": "create,open"
+      },
+      {
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.photos",
+        "ACTIONS": "create,open"
+      },
+      {
+        "TYPE": "system_app",
+        "PKG_NAME": "com.android.gallery3d",
+        "ACTIONS": "create,open"
+      },
+      {
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.photos",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com.hihonor.photos_PERMISSION_CHECK",
+    "DEVID": "UUID",
+    "APP_INFO": [
+      {
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.photos",
+        "ACTIONS": "create,open"
+      },
+      {
+        "TYPE": "system_app",
+        "PKG_NAME": "com.android.gallery3d",
+        "ACTIONS": "create,open"
+      },
+      {
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.photos",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "SPE",
+    "DEVID": "UUID",
+    "APP_INFO": [
+      {
+        "TYPE": "self_app",
+        "UID": "1000",
+        "PKG_NAME": "com.hihonor.nearby",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com.hihonor.nearby.MsgMiddleware",
+    "DEVID": "UUID",
+    "APP_INFO": [
+      {
+        "TYPE": "self_app",
+        "UID": "1000",
+        "PKG_NAME": "com.hihonor.nearby",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "distributeddata.*",
+    "REGEXP": "true",
+    "DEVID": "UUID",
+    "APP_INFO": [
+      {
+        "TYPE": "system_app",
+        "UID": "1000",
+        "PKG_NAME": "com.hihonor.hwddmp",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "notepad",
+    "DEVID": "UUID",
+    "APP_INFO": [
+      {
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.notepad",
+        "ACTIONS": "create,open"
+      },
+      {
+        "TYPE": "system_app",
+        "PKG_NAME": "com.example.android.notepad",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com.hihonor.android.airsharing+CastPlusDiscoveryModule",
+    "DEVID": "UDID",
+    "APP_INFO": [
+      {
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.android.airsharing",
+        "ACTIONS": "create,open"
+      },
+      {
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.android.mirrorshare",
+        "ACTIONS": "create,open"
+      },
+      {
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.miracast",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "CastPlusSessionName",
+    "DEVID": "UDID",
+    "SESSION_INFO" :[
+      {
+        "APP_PRIORITY": "0",
+        "SESSION_PRIORITY": "1",
+        "CACHED_DELAY":[0, 0, 50]
+      }
+    ],
+    "APP_INFO": [
+      {
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.android.airsharing",
+        "ACTIONS": "create,open"
+      },
+      {
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.android.mirrorshare",
+        "ACTIONS": "create,open"
+      },
+      {
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.miracast",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "SystemAbilityManager_DDC.*",
+    "REGEXP": "true",
+    "DEVID": "UUID",
+    "APP_INFO": [
+      {
+        "TYPE": "native_app",
+        "UID": "1000",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "hiview_distributed_network_softbus.*",
+    "DEVID": "NETWORKID",
+    "REGEXP": "true",
+    "SEC_LEVEL": "protected",
+    "SESSION_NUM": "15",
+    "APP_INFO": [
+      {
+        "TYPE": "native_app",
+        "UID": "0",
+        "PKG_NAME": "hiview_distributed_network_softbus",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "DistributedFileService.*",
+    "REGEXP": "true",
+    "DEVID": "UUID",
+    "APP_INFO": [
+      {
+        "TYPE": "native_app",
+        "UID": "1000",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "register",
+    "REGEXP": "true",
+    "DEVID": "UUID",
+    "APP_INFO": [
+      {
+        "TYPE": "self_app",
+        "UID": "1000",
+        "PKG_NAME": "com.hihonor.clouddevicemanager",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "control",
+    "REGEXP": "false",
+    "DEVID": "NETWORKID",
+    "APP_INFO": [
+      {
+        "TYPE": "self_app",
+        "UID": "1000",
+        "PKG_NAME": "com.hihonor.devicemanager",
+        "ACTIONS": "create,open"
+      },
+      {
+        "TYPE": "self_app",
+        "UID": "1000",
+        "PKG_NAME": "com.hihonor.iconnect",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com\\.hihonor\\.systemserver.*",
+    "REGEXP": "true",
+    "DEVID": "NETWORKID",
+    "APP_INFO": [
+      {
+        "TYPE": "system_app",
+        "UID": "1000",
+        "PKG_NAME": "com.hihonor.systemserver",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "RouterRemoteControl",
+    "DEVID": "UUID",
+    "APP_INFO": [
+      {
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.magichome",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "HdRemoteControl",
+    "DEVID": "UUID",
+    "APP_INFO": [
+      {
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.magichome",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "netCfg",
+    "DEVID": "UUID",
+    "APP_INFO": [
+      {
+        "TYPE": "self_app",
+        "UID": "1000",
+        "PKG_NAME": "com.hihonor.clouddevicemanager",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com.hihonor.pcassistant.*",
+    "DEVID": "NETWORKID",
+    "REGEXP": "true",
+    "SESSION_NUM": "15",
+    "SESSION_INFO" :[
+      {
+        "APP_PRIORITY": "0",
+        "SESSION_PRIORITY": "0",
+        "CACHED_DELAY":[0, 0, 50]
+      }
+    ],
+    "APP_INFO": [
+      {
+        "SEQ": 1,
+        "TYPE": "system_app",
+        "SERVICE_NAME": "com.hihonor.pcassistant.service.MagicLinkStartService",
+        "PKG_NAME": "com.hihonor.pcassistant",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com.android.phone.*",
+    "DEVID": "NETWORKID",
+    "REGEXP": "true",
+    "SESSION_NUM": "15",
+    "APP_INFO": [
+      {
+        "SEQ": 3,
+        "TYPE": "system_app",
+        "PKG_NAME": "com.android.phone",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com.hihonor.assistant.*",
+    "REGEXP": "true",
+    "SEC_LEVEL": "protected",
+    "DEVID": "NETWORKID",
+    "SESSION_NUM": "15",
+    "APP_INFO": [
+      {
+        "SEQ": 4,
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.assistant",
+        "SERVICE_NAME": "com.hihonor.assistant.magiclink.NOTIFY",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com.hihonor.brain.*",
+    "REGEXP": "true",
+    "SEC_LEVEL": "protected",
+    "DEVID": "NETWORKID",
+    "SESSION_NUM": "15",
+    "APP_INFO": [
+      {
+        "SEQ": 5,
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.brain",
+        "SERVICE_NAME": "com.hihonor.brain.action.BIND_BRAIN_MAGIC_LINK",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com.hihonor.awareness.*",
+    "REGEXP": "true",
+    "SEC_LEVEL": "protected",
+    "DEVID": "NETWORKID",
+    "SESSION_NUM": "15",
+    "APP_INFO": [
+      {
+        "SEQ": 6,
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.awareness",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com.hihonor.contacts.sync",
+    "REGEXP": "true",
+    "SEC_LEVEL": "protected",
+    "SESSION_NUM": "15",
+    "DEVID": "NETWORKID",
+    "APP_INFO": [
+      {
+        "SEQ": 7,
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.contacts.sync",
+        "SERVICE_NAME": "com.hihonor.contacts.syncbymagiclink.SpeSyncService",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com.hihonor.cooperatedconfig.*",
+    "REGEXP": "true",
+    "DEVID": "UUID",
+    "SESSION_NUM": "15",
+    "APP_INFO": [
+      {
+        "SEQ": 8,
+        "TYPE": "system_app",
+        "UID": "1000",
+        "PKG_NAME": "com.hihonor.cooperatedconfig",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com.hihonor.handoff",
+    "DEVID": "NETWORKID",
+    "SESSION_NUM": "15",
+    "APP_INFO": [
+      {
+        "SEQ": 9,
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.handoff",
+        "SERVICE_NAME": "com.hihonor.handoff.service.HandoffService",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com.hihonor.virtualinput.connect",
+    "REGEXP": "true",
+    "SEC_LEVEL": "protected",
+    "DEVID": "NETWORKID",
+    "SESSION_NUM": "15",
+    "APP_INFO": [
+      {
+        "SEQ": 10,
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.virtualinput",
+        "SERVICE_NAME": "com.hihonor.virtualinput.startVirtualInput",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com.hihonor.virtualinput.business",
+    "REGEXP": "true",
+    "SEC_LEVEL": "protected",
+    "DEVID": "NETWORKID",
+    "SESSION_NUM": "15",
+    "SESSION_INFO" :[
+      {
+        "SESSION_NAME": "com.hihonor.virtualinput.business",
+        "APP_PRIORITY": "0",
+        "SESSION_PRIORITY": "0",
+        "CACHED_DELAY":[30, 50, 50]
+      }
+    ],
+    "APP_INFO": [
+      {
+        "SEQ": 10,
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.virtualinput",
+        "SERVICE_NAME": "com.hihonor.virtualinput.startVirtualInput",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "BioInfoSyncService",
+    "DEVID": "NETWORKID",
+    "SESSION_NUM": "15",
+    "APP_INFO": [
+      {
+        "SEQ": 11,
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.securityserver",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com.hihonor.remotepassword.magiclink",
+    "DEVID": "NETWORKID",
+    "SEC_LEVEL": "protected",
+    "APP_INFO": [
+      {
+        "SEQ": 12,
+        "TYPE": "system_app",
+        "SERVICE_NAME": "com.hihonor.remotepassword.RemotePasswordService",
+        "PKG_NAME": "com.hihonor.remotepassword",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com.hihonor.controlcenter.*",
+    "REGEXP": "true",
+    "DEVID": "UDID",
+    "SESSION_NUM": "15",
+    "APP_INFO": [
+      {
+        "SEQ": 13,
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.controlcenter",
+        "SERVICE_NAME": "com.hihonor.controlcenter.startbusiness",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com.hihonor.airsharing.magiclink.*",
+    "REGEXP": "true",
+    "SEC_LEVEL": "protected",
+    "DEVID": "NETWORKID",
+    "SESSION_NUM": "15",
+    "SESSION_INFO" :[
+      {
+        "SESSION_NAME": "com.hihonor.airsharing.magiclink.(VTP|TCP).*",
+        "APP_PRIORITY": "0",
+        "SESSION_PRIORITY": "1",
+        "CACHED_DELAY":[0, 0, 50]
+      }
+    ],
+    "APP_INFO": [
+      {
+        "SEQ": 14,
+        "TYPE": "system_app",
+        "UID": "1000",
+        "PKG_NAME": "com.hihonor.android.airsharing",
+        "ACTIONS": "create,open"
+      },
+      {
+        "SEQ": 15,
+        "TYPE": "system_app",
+        "UID": "1000",
+        "PKG_NAME": "com.hihonor.hisight",
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com.hihonor.networksynergy",
+    "REGEXP": "false",
+    "DEVID": "NETWORKID",
+    "SESSION_NUM": "15",
+    "SESSION_INFO" :[
+      {
+        "APP_PRIORITY": "0",
+        "SESSION_PRIORITY": "0"
+      }
+    ],
+    "APP_INFO": [
+      {
+        "SEQ": 18,
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.ddmp",
+        "SERVICE_NAME_LIST": ["com.hihonor.ddmp.file.FILE", "com.hihonor.ddmp.data.DATA",
+          "com.hihonor.networksynergy.NETWORKSYNERGYSERVICE"],
+        "ACTIONS": "create,open"
+      }
+    ]
+  },
+  {
+    "SESSION_NAME": "com.hihonor.crossdeviceserviceshare.*",
+    "REGEXP": "true",
+    "SEC_LEVEL": "protected",
+    "DEVID": "NETWORKID",
+    "SESSION_NUM": "15",
+    "SESSION_INFO" :[
+      {
+        "SESSION_NAME": "com.hihonor.crossdeviceserviceshare.devicehardwareshare",
+        "APP_PRIORITY": "0",
+        "SESSION_PRIORITY": "0"
+      },
+      {
+        "SESSION_NAME": "com.hihonor.crossdeviceserviceshare.deviceserviceshare",
+        "APP_PRIORITY": "0",
+        "SESSION_PRIORITY": "0"
+      }
+    ],
+    "APP_INFO": [
+      {
+        "SEQ": 19,
+        "TYPE": "system_app",
+        "PKG_NAME": "com.hihonor.crossdeviceserviceshare",
+        "SERVICE_NAME_LIST": ["com.hihonor.devicehardwareshare.startHardwareShare","com.hihonor.deviceserviceshare.DeviceServiceShareService"],
+        "ACTIONS": "create,open"
+      }
+    ]
+  }
+]

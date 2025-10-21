@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cleanup-packages>
+  <hota-boot>
+     <package name="com.huawei.hifolder"/>
+     <package name="com.huawei.browser"/>
+     <package name="com.huawei.gameassistant"/>
+     <package name="com.huawei.search"/>
+     <package name="com.huawei.hbm"/>
+  </hota-boot>
+</cleanup-packages>

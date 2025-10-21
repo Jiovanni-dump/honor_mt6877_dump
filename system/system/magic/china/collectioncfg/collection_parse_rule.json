@@ -1,0 +1,1186 @@
+{
+"appParseRuleInfo":[
+    {
+        "activityInfo":"com.sina.news.modules.article.normal.activity.NewsContentActivity2,com.sina.news.components.hybrid.activity.HybridContainerActivity",
+        "titleRules":[{"tag":"h1"}],
+        "removeRule":[{"attr":"class=M_specialSubject|changeHead M_source_time|M_hotbar|Card_discuss|key_btn_wrap"},{"attr":"id=^async-content$"}]
+    },
+    {
+        "activityInfo":"com.netease.newsreader.article.framework.view.NewsPageActivity",
+        "nativeUrlRule":{"urlTemplate":"https://c.m.163.com/news/a/%s.html",
+            "paramRuleList":[{"type":12, "keyPath":["param_news", "docid"]}]}
+    },
+    {
+        "activityInfo":"com.netease.newsreader.common.base.activity.SingleFragmentActivity",
+        "nativeUrlRule":{"urlTemplate":"https://c.m.163.com/news/rec/%s.html",
+            "paramRuleList":[{"type":12, "keyPath":["fragment_argu", "recommendId"]}]}
+    },
+    {
+        "activityInfo":"c.m.163.com",
+        "preRemoveRules":[{"tag":"div","attr":"class=u-tip"}],
+        "removeRule":[{"tag":"div","attr":"class=hotSlider|header-bottom|action|dkeys|u-tip"},{"attr":"class=hotSlider|g-relative-new|hotRank|toast-wrap-d7fef5|seoSearchWords|m-header|m-tag|header-bottom|breadcrumb|action|dkeys|openNewsapp"},{"attr":"data-stat=bottomBar|bottom@show_more_button|top"}]
+    },
+    {
+        "activityInfo":"cn.com.sina.finance.article.ui.NewsTextActivity",
+        "titleRules":[{"tag":"h1"}],
+        "preRemoveRules":[{"attr":"class=tts-wrap"}]
+    },
+    {
+        "activityInfo":"m.sohu.com",
+        "titleRules":[{"tag":"h3|h1"}]
+    },
+    {
+        "activityInfo":"com.ucpro.BrowserActivity",
+        "titleRules":[{"tag":"h3|h1"}],
+        "preRemoveRules":[{"attr":"class=countryData hidden"}],
+        "removeRule":[{"attr":"class=sub-title|^button-view$|video-card "}],
+        "webViewPos": -1,
+        "filterRules":[{"attr":"class=quark-iflow-content ","type":3}],
+        "imageRules":[{"tag":"p","displayType":1,"attr":"class=content-poster"},{"tag":"div","displayType":1,"attr":"class=content-poster"}]
+    },
+    {
+        "activityInfo":"news.quark.cn",
+        "titleRules":[{"tag":"h3"}],
+        "removeRule":[{"attr":"class=sub-title|^button-view$|video-card "}],
+        "imageRules":[{"tag":"p","displayType":1,"attr":"class=content-poster"},{"tag":"div","displayType":1,"attr":"class=content-poster"}]
+    },
+    {
+        "activityInfo":"com.ifeng.news2.activity.DocDetailActivity,com.ifeng.news2.advertise.AdDetailActivity",
+        "titleRules":[{"tag":"div","attr":"class=title mid|title big|index_title"}],
+        "titlePaths":[{"tag":"div","attr":"class=index_header"}],
+        "titleDepth":2,
+        "removeRule":[{"attr":"id=time-and-source-panel"}]
+    },
+    {
+        "activityInfo":"com.yidian.news.ui.newsmain.NewsActivity",
+        "titleRules":[{"tag":"h1"}],
+        "removeRule":[{"attr":"id=hot-container"}],
+        "preRemoveRules":[{"attr":"class=gif-play"}],
+        "imageRules":[{"tag":"div","displayType":4,"attr":"data-src"}, {"tag":"div","displayType":8}]
+    },
+    {
+        "activityInfo":"com.ss.android.detail.feature.detail2.view.NewDetailActivity,com.bytedance.ugc.wenda.detail.slide.SlideAnswerDetailActivity",
+        "titleRules":[{"tag":"div","attr":"class=tt-title|wenda-title"},{"tag":"h1"}],
+        "titlePaths":[{"tag":"header"}],
+        "titleDepth":2,
+        "imageRules":[{"tag":"div","displayType":7,"attr":"class=pgc-img"},{"tag":"p","displayType":7,"attr":"class=image-wrap"},{"tag":"a","displayType":9,"attr":"href=^bytedance://large_image\\?url"},
+            {"tag":"article","displayType":7,"attr":"id=mc-article"}]
+    },
+    {
+        "activityInfo":"com.ss.android.article.base.feature.detail2.view.NewDetailActivity",
+        "packageName":"com.ss.android.article.lite",
+        "titleRules":[{"tag":"div","attr":"class=tt-title|wenda-title"},{"tag":"h1"}],
+        "titlePaths":[{"tag":"header"}],
+        "titleDepth":2,
+        "imageRules":[{"tag":"div","displayType":7,"attr":"class=pgc-img"},{"tag":"p","displayType":7,"attr":"class=image-wrap"},{"tag":"a","displayType":9,"attr":"href=^bytedance://large_image\\?url"},
+            {"tag":"article","displayType":7,"attr":"id=mc-article"}]
+    },
+    {
+        "activityInfo":"com.ss.android.article.base.feature.detail2.view.NewDetailActivity",
+        "packageName":"com.ss.android.auto",
+        "titleRules":[{"tag":"div","attr":"class=tt-title|wenda-title"},{"tag":"h1"}],
+        "titlePaths":[{"tag":"header"}],
+        "titleDepth":2,
+        "nativeUrlRule": {"urlTemplate": "https://dcd.zjbyte.cn/i%s",
+            "paramRuleList": [{"type": 1, "keyPath" : ["item_id"]}]}
+    },
+    {
+        "activityInfo":"com.peopledailychina.activity.activity.detail.ArticleDetialAct",
+        "titleRules":[{"tag":"h1"},{"tag":"div","attr":"class=atc-title"}],
+        "titlePaths":[{"tag":"header"}],
+        "titleDepth":2
+    },
+    {
+        "activityInfo":"com.jiemian.news.base.NormalActivity",
+        "titleRules":[{"tag":"h1"}],
+        "removeRule":[{"attr":"class=article-column|author-card"},{"attr":"id=^ads$"}]
+    },
+    {
+        "activityInfo":"com.wallstreetcn.newsdetail.Main.NewsDetailActivityNew",
+        "titleRules":[{"tag":"h1"}],
+        "titlePaths":[{"tag":"header"}],
+        "titleDepth":2
+    },
+    {
+        "activityInfo":"net.xinhuamm.mainclient.mvp.ui.news.activity.NewsDetailActivity",
+        "titleRules":[{"tag":"p","attr":"class=title"}],
+        "titlePaths":[{"tag":"header"}],
+        "titleDepth":2,
+        "removeRule":[{"attr":"class=v8-panel-wrap detail-custom-panel|c-pvs"}],
+        "imageRules":[{"tag":"p","displayType":1,"attr":"class=media-image"},{"tag":"div","displayType":1,"attr":"class=media-image"}]
+    },
+    {
+        "activityInfo":"cn.youth.news.ui.homearticle.articledetail.ContentCommonActivity",
+        "titleRules":[{"tag":"h2","attr":"class=rich_media_title"}],
+        "titleDepth":5
+    },
+    {
+        "activityInfo":"com.xingin.matrix.notedetail.NoteDetailActivity,com.xingin.matrix.v2.notedetail.NoteDetailActivity",
+        "nativeUrlRule": {"urlTemplate": "https://www.xiaohongshu.com/discovery/item/%s?xhsshare=CopyLink",
+            "paramRuleList":[{"type":1, "keyPath":["id"]}]}
+    },
+    {
+        "activityInfo":"www.xiaohongshu.com,xhslink.com",
+        "titleRules":[{"tag":"div","attr":"class=reds-text fs18 fw500 title"}],
+        "removeRule":[{"attr":"class=onix-image normal-image|reds-box y-middle flex block winkblank-padding author-container exp-style|reds-box block winkblank-padding topic-container|reds-box x-between y-middle flex block action-bar engage-bar-box"}],
+        "imageRules":[{"tag":"img","displayType":7,"attr":"class=long-size-image"}],
+        "filterRules":[{"attr":"class=reds-text fs16 desc","type":3}]
+    },
+    {
+        "activityInfo":"com.leisu.sports.base.BaseActivity",
+        "titleViewId":"tv_title"
+    },
+    {
+        "activityInfo":"com.news.shangyounews.mvp.home.detail.ui.NewsDetailActivity",
+        "titleViewId":"newsTitle"
+    },
+    {
+        "activityInfo":"com.baidu.news.ui.NewsDetailActivity,com.baidu.news.ui.BrowserActivity",
+        "titleRules":[{"tag":"h1"}],
+        "removeRule":[{"attr":"class=subtitle|comments|headDeflectorContainer"}]
+    },
+    {
+        "activityInfo":"com.zjrb.zjxw.detail.ui.normal.NewsDetailActivity",
+        "titleViewId":"tv_title"
+    },
+    {
+        "activityInfo":"com.neusoft.app.beijingdaily.phone.activity.NewsDetailActivity,com.neusoft.app.beijingdaily.phone.bjh.Activity.BjhWebViewActivity,com.neusoft.app.beijingdaily.phone.activity.TabActivity",
+        "titleRules":[{"tag":"div","attr":"class=title"}],
+        "removeRule":[{"attr":"class=relationContent"}]
+    },
+    {
+        "activityInfo":"com.zhihu.android.app.ui.activity.HostActivity,com.zhihu.android.ContentActivity,com.zhihu.android.mixshortcontainer.MixShortContainerActivity",
+        "titleRules":[{"tag":"h1"},{"tag":"div","attr":"class=questiontitle"}],
+        "titlePaths":[{"tag":"header"}],
+        "titleDepth":2,
+        "titleViewId":"info_title",
+        "isTitledByContent":true,
+        "filterRules":[{"attr":"class=RichText ztext","type":1}],
+        "webViewPos": -1,
+        "forceAddRules":[{"tag":"img","attr":"class=Post-TitleImage"}],
+        "imageRules":[{"tag":"img","displayType":2,"attr":"class=gif","parentTag":"div","parentAttr":"class=GifPlayer","gifOriType":".jpg"}]
+    },
+    {
+        "activityInfo":"com.zhihu.android.app.base.ui.activity.KmHostActivity,com.zhihu.android.mix.activity.ContentMixProfileActivity",
+        "titleRules":[{"tag":"h1|h2|h3"},{"tag":"div","attr":"class=questiontitle"}],
+        "titlePaths":[{"tag":"header"}],
+        "titleDepth":2,
+        "titleViewId":"info_title",
+        "isTitledByContent":true,
+        "filterRules":[{"attr":"class=RichText ztext","type":1}],
+        "webViewPos": 1,
+        "forceAddRules":[{"tag":"img","attr":"class=Post-TitleImage"}],
+        "imageRules":[{"tag":"img","displayType":2,"attr":"class=gif","parentTag":"div","parentAttr":"class=GifPlayer","gifOriType":".jpg"}]
+    },
+    {
+        "activityInfo":"com.sohu.newsclient.common.activity.SohuWebViewActivity,com.sohu.newsclient.newsviewer.activity.NewWebViewActivity,com.sohu.newsclient.sohuevent.activity.SohuEventActivity,com.sohu.newsclient.snsfeed.activity.FeedDetailsActivity,com.sohu.newsclient.sohuevent.activity.SohuEventReadingActivity",
+        "titleRules":[{"tag":"h3"},{"tag":"div","attr":"class=article-title"}],
+        "removeRule":[{"tag":"img","attr":"class=nolongtap|backHeadChanne"},{"attr":"id=author-container|focus-recommended-user|relevance"},{"attr":"class=seeAccusate|feedback$"}]
+    },
+    {
+        "activityInfo":"com.douban.frodo.group.activity.GroupTopicActivity,com.douban.frodo.fangorns.note.NoteActivity,com.douban.frodo.subject.activity.ReviewActivity",
+        "titleRules":[{"tag":"h1"}]
+    },
+    {
+        "activityInfo":"www.douban.com",
+        "titleRules":[{"tag":"h1"}],
+        "imageRules":[{"tag":"p","displayType":1,"attr":"class=item landscape|item portrait"},
+            {"tag":"div","displayType":1,"attr":"class=item landscape|item portrait"}],
+        "preRemoveRules":[{"attr":"class=comment-list|desc|info|list-link|download-app|tabs|topic-reply|opreations|oia-readall|note-comments|aside|more_topic"}]
+    },
+    {
+        "activityInfo":"www.hihonor.com,com.browser2345.BrowserActivity",
+        "preRemoveRules":[{"attr":"class=countryData hidden"}]
+    },
+    {
+        "activityInfo":"com.meiyou.framework.ui.webview.WebViewActivity,com.meetyou.news.ui.knowleage.activity.KnowleageDetailH5Activity",
+        "packageName": "com.lingan.seeyou",
+        "titleRules":[{"tag":"h1"}],
+        "titlePaths":[{"tag":"header"}],
+        "titleDepth":1,
+        "imageRules":[{"tag":"img","displayType":5,"attr":"class=img-head","parentTag":"header","imgDepth":1}]
+    },
+    {
+        "activityInfo":"com.lingan.seeyou.ui.activity.mother.activity.LifeThousandDayActivity",
+        "packageName": "com.lingan.seeyou",
+        "nativeUrlRule":{"urlTemplate":"https://link.meiyou.com/1000-days/%s/appid=1&public_type=fzlj",
+            "paramRuleList":[{"type":1, "keyPath":["id"]}]}
+    },
+    {
+        "activityInfo":"com.meiyou.interlocution.problemdetail.ProblemDetailActivity",
+        "packageName": "com.lingan.seeyou",
+        "nativeUrlRule":{"urlTemplate":"https://myyq.seeyouyima.com/qa/detail/%s",
+            "paramRuleList":[{"type":1, "keyPath":["topic_id"]}]}
+    },
+    {
+        "activityInfo":"myyq.seeyouyima.com",
+        "preRemoveRules":[{"tag":"p","attr":"class=publisher__info"},{"tag":"div","attr":"class=item__user"}]
+    },
+    {
+        "activityInfo":"com.lingan.seeyou.ui.activity.community.topicdetail.TopicDetailActivity",
+        "packageName": "com.lingan.seeyou",
+        "nativeUrlRule":{"urlTemplate":"https://view.seeyouyima.com/circle/detail/%s",
+            "paramRuleList":[{"type":1, "keyPath":["topicID"]}]}
+    },
+    {
+        "activityInfo":"com.lingan.seeyou.ui.activity.community.topicdetail.TopicDetailActivity",
+        "packageName": "com.lingan.yunqi",
+        "nativeUrlRule":{"urlTemplate":"https://view.seeyouyima.com/circle/detail/%s",
+            "paramRuleList":[{"type":1, "keyPath":["topicID"]}]}
+    },
+    {
+        "activityInfo":"view.seeyouyima.com",
+        "imageRules":[{"tag":"img","displayType":4,"attr":"data-url"}],
+        "preRemoveRules":[{"tag":"ul","attr":"class=reply-list"},{"tag":"div","attr":"class=publish publish-auth"}]
+    },
+    {
+        "activityInfo":"com.meetyou.news.ui.NewsDetailH5Activity",
+        "packageName": "com.lingan.seeyou",
+        "nativeUrlRule":{"urlTemplate":"http://news-node.seeyouyima.com/short/share.html?news_id=%s",
+            "paramRuleList":[{"type":14, "keyPath":["url"]},{"type":1, "keyPath":["newsId"]}]}
+    },
+    {
+        "activityInfo":"news-node.seeyouyima.com",
+        "titleRules":[{"tag":"h1"}],
+        "imageRules":[{"tag":"div","displayType":1,"attr":"class=image"},{"tag":"p","displayType":1,"attr":"class=image"},{"tag":"section","displayType":7,"attr":"class=my-slide"}],
+        "removeRule":[{"attr":"class=author"}]
+    },
+    {
+        "activityInfo":"link.meiyou.com",
+        "titleRules":[{"tag":"h1|h2"}],
+        "titlePaths":[{"tag":"header"}],
+        "titleDepth":1,
+        "imageRules":[{"tag":"img","displayType":5,"attr":"class=img-head","parentTag":"header","imgDepth":1}],
+        "filterRules":[{"tag":"div","attr":"class=video-program"}],
+        "preRemoveRules":[{"attr":"class=reply-list|publish publish-auth|author|counter|content__publisher"}],
+        "removeRule":[{"attr":"class=video-program__download|expert|video-program__awake-app"}]
+    },
+    {
+        "activityInfo": "enapp.chinadaily.com.cn",
+        "filterRules": [{"tag":"div","attr":"class=content videoPlayer"}]
+    },
+    {
+        "activityInfo":"com.myzaker.ZAKER_Phone.view.article.ArticleContentActivity,com.myzaker.ZAKER_Phone.view.article.content.sns.SnsArticleContentActivity,com.myzaker.ZAKER_Phone.view.channelintegration.ChannelIntegrationArticleContentActivity,com.myzaker.ZAKER_Phone.view.feature.FeatureContentActivity,com.myzaker.ZAKER_Phone.view.article.content.relative.RelativeArticleContentActivity",
+        "titleRules":[{"tag":"div","attr":"id=tpl_title"},{"tag":"div","attr":"class=h3"}]
+    },
+    {
+        "activityInfo":"com.hexin.plat.android.Hexin",
+        "titleRules":[{"tag":"div","attr":"class=title"}],
+        "removeRule":[{"attr":"class=creative-dom"}]
+    },
+    {
+        "activityInfo":"com.xcar.comp.articles.detail.ArticleDetailNewActivity,com.xcar.activity.ui.discovery.PostDetailActivity,com.xcar.comp.newcommunity.publish.activity.ImgTextDetailActivity,com.xcar.comp.self.media.detail.SelfMediaDetailActivity",
+        "titleRules":[{"tag":"h1"},{"tag":"p","attr":"class=master-title"}],
+        "titlePaths":[{"tag":"header"}],
+        "titleDepth":2
+    },
+    {
+        "activityInfo":"android.zhibo8.ui.contollers.detail.DetailActivity,android.zhibo8.ui.contollers.bbs.FPostActivity",
+        "titleRules":[{"tag":"h3"}],
+        "isTitledByContent":true,
+        "removeRule":[{"tag":"img","attr":"class=media-logo|media flex-v-center"}]
+    },
+    {
+        "activityInfo":"com.dongqiudi.news.SubscriptionDetailActivity,com.dongqiudi.news.NewsDetailActivity,com.dongqiudi.group.ThreadInfoActivity,com.dongqiudi.news.WebActivity",
+        "titleRules":[{"tag":"h1"}],
+        "titlePaths":[{"tag":"header"}],
+        "titleDepth":2,
+        "removeRule":[{"attr":"class=ad-wrapper"}]
+    },
+    {
+        "activityInfo":"com.hexun.news.ui.NewsDetailActivity,com.hexun.news.ui.HotFastBrowseActivity",
+        "titleRules":[{"tag":"h1"}],
+        "titleViewId":"tv_content_title",
+        "removeRule":[{"attr":"class=dettime"}]
+    },
+    {
+        "activityInfo":"com.huxiu.ui.activity.ArticleDetailActivity",
+        "nativeUrlRule":{"urlTemplate":"https://www.huxiu.com/article/%s",
+            "paramRuleList":[{"type":1, "keyPath":["article_id"]}]}
+    },
+    {
+        "activityInfo":"m.huxiu.com,www.huxiu.com",
+        "imageRules":[{"tag":"img","displayType":4,"attr":"data-original"},{"tag":"p","displayType":7,"attr":"class=article-content-img"}],
+        "titleRules":[{"tag":"div","attr":"class=brief-detail"}],
+        "removeRule":[{"tag":"div","attr":"id=id|qr_code_pc|related-article-wrap|messenger"},{"attr":"class=article-detail-swiper-container|brief-user-pic|moment-user-intro-wrap|article-recommend-wrap|hot-active|alert-reward-wrap"}]
+    },
+    {
+        "activityInfo":"com.eastmoney.android.fund.fundbar.article.view.FundNewsArticleActivity",
+        "titleRules":[{"tag":"div","attr":"class=title-padding-top"}],
+        "removeRule":[{"attr":"id=^share-wrap$"},{"attr":"class=news-ad-main"}]
+    },
+    {
+        "activityInfo":"com.bytedance.howy.main.homepage.MainActivity",
+        "titleViewId":"timeline_detail_top_title"
+    },
+    {
+        "activityInfo":"cn.thepaper.paper.ui.post.news.norm.NewsNormActivity,cn.thepaper.paper.ui.post.news.pengpaihao.PengpaihaoNormActivity",
+        "titleViewId":"article_title"
+    },
+    {
+        "activityInfo":"cn.guancha.app.ui.activity.content.NewsContentActivity",
+        "titleViewId":"tv_newscontent_title"
+    },
+    {
+        "activityInfo":"cn.guancha.app.ui.activity.content.HearsayContentActivity",
+        "titleViewId":"details_tv_title"
+    },
+    {
+        "activityInfo":"com.cyol.news.activity.NewsDetailActivity",
+        "titleViewId":"news_title"
+    },
+    {
+        "activityInfo":"com.tencent.news.ui.NewsDetailActivity",
+        "titleViewId":"news_detail_title",
+        "nativeUrlRule": {"urlTemplate": "https://new.qq.com/rain/a/%s",
+            "paramRuleList": [{"type": 13, "keyPath" : ["com.tencent.news.detail","getId"]}]}
+    },
+    {
+        "activityInfo":"com.autohome.plugin.uchuang.activity.CheJiaHaoH5Activity,com.autohome.main.article.articlefinalpage.ArticlePagerActivity,com.autohome.mainlib.business.reactnative.base.AHCommRNActivity",
+        "titleRules":[{"tag":"h2"}],
+        "removeRule":[{"attr":"class=c-media-block c-media-videolist|c-media-block c-media-playlist|carSeriesListWrap|c-media-intro"}]
+    },
+    {
+        "activityInfo":"com.nowcoder.app.florida.activity.home.MainV2Activity,com.nowcoder.app.florida.activity.discuss.DiscussTerminalActivity",
+        "titleRules":[{"tag":"div","attr":"class=post-title|feed-title|em tw-mx-3"}],
+        "isTitledByContent":true,
+        "removeRule":[{"attr":"class=avatar|swiper-list"}]
+    },
+    {
+        "activityInfo":"com.zol.android.renew.news.ui.detail.news.NewsDetailActivity,com.zol.android.publictry.ui.PublicTryDetailActivity",
+        "titleRules":[{"tag":"span","attr":"class=title-con"},{"tag":"h2"}],
+        "titlePaths":[{"tag":"div","attr":"class=header"}],
+        "titleDepth":2,
+        "removeRule":[{"attr":"class=relation-recommend|^discuss$|show-goods|bagnum|info fix-flex p30|zan-module p30|product-card"}]
+    },
+    {
+        "activityInfo":"com.tencent.mm.plugin.brandservice.ui.timeline.preload.ui.TmplWebViewMMUI,com.tencent.mm.plugin.brandservice.ui.timeline.preload.ui.TmplWebViewToolUI,com.tencent.mm.plugin.webview.ui.tools.WebViewUI,com.tencent.mm.plugin.webview.ui.tools.fts.MMSosWebViewUI,com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI",
+        "titleRules":[{"tag":"h1"}],
+        "imageRules":[{"tag":"svg","displayType":1}],
+        "preRemoveRules":[{"attr":"class=discuss_mod|g-reporter|u-reporter|g-articleMsg|u-reporterHead"}],
+        "removeRule":[{"attr":"class=wx_follow_media weui-flex"}],
+        "filterRules": [{"tag":"div","attr":"class=share_media_text share_media_text_overflow"}]
+    },
+    {
+        "activityInfo":"com.eastmoney.android.news.activity.NewsDetailActivity,com.eastmoney.android.berlin.h5.WebH5Activity",
+        "titleRules":[{"tag":"h3"}],
+        "titleDepth":1
+    },
+    {
+        "activityInfo":"com.torch.open.news.detail.FeedsDetailActivity",
+        "removeRule":[{"attr":"class=recommend-content|container-like-list|media-|logo-placeholder-container"}]
+    },
+    {
+        "activityInfo":"cn.com.modernmedia.views.ArticleActivity,cn.com.modernmedia.views.PushArticleActivity",
+        "removeRule":[{"attr":"class=greendiv|marketpayIcon|greenimg|relation-articles-box|greenchildspan|tagBox bottom-content|share bottom-content"}]
+    },
+    {
+        "activityInfo":"com.huawei.browser.BrowserMainActivity",
+        "webView": "com.huawei.android.webview.chromium.hwwebview.HwWebView",
+        "urlFilter": "(http[^&]*(?=&))",
+        "removeRule":[{"attr":"class=media-|logo-placeholder-container"}]
+    },
+    {
+        "activityInfo":"blog.sina.cn",
+        "filterRules":[{"tag":"Referer","attr":"%s", "type":2}]
+    },
+    {
+        "activityInfo":"com.caixin.android.component_content.ContentContainerActivity",
+        "removeRule":[{"attr":"id=cx-promote"},{"attr":"class=wall-ads|pip-ads"}]
+    },
+    {
+        "activityInfo":"flipboard.activities.DetailActivityStayOnRotation",
+        "removeRule":[{"attr":"data-role=outer$"},{"attr":"data-from=yb-recommend-list"}]
+    },
+    {
+        "activityInfo":"com.huanqiu.news.MainActivity",
+        "removeRule":[{"attr":"class=like_btn"}]
+    },
+    {
+        "activityInfo":"com.doc360.client.activity.Article",
+        "titleViewId":"txt_arttit"
+    },
+    {
+        "activityInfo":"net.csdn.csdnplus.mvvm.ui.activity.BlogDetailActivity",
+        "removeRule":[{"attr":"class=article_top_msg_box"}]
+    },
+    {
+        "activityInfo":"cn.com.pcgroup.android.browser.module.information.InformationArticleActivity",
+        "removeRule":[{"attr":"class=about-serial-wrap"}],
+        "imageRules":[{"tag":"img","displayType":4,"attr":"src2"}]
+    },
+    {
+        "activityInfo":"mrobot.pcauto.com.cn",
+        "removeRule":[{"attr":"class=about-serial-wrap"}],
+        "imageRules":[{"tag":"img","displayType":4,"attr":"src2"}]
+    },
+    {
+        "activityInfo":"com.qihoo.browser.BrowserActivity",
+        "removeRule":[{"attr":"class=follow_btn|button-groups"},{"attr":"id=zmt_name|zmt_time"}]
+    },
+    {
+        "activityInfo":"com.starnews2345.pluginsdk.plugin.delegate.SingleTopProxyActivity1",
+        "titleViewId":"news2345_news_detail_title"
+    },
+    {
+        "activityInfo":"com.uc.browser.InnerUCMobile",
+        "titleRules":[{"tag":"h1"}],
+        "preRemoveRules":[{"attr":"id=__vconsole|comment"},{"attr":"class=countryData hidden"}]
+    },
+    {
+        "activityInfo":"photo.sina.cn",
+        "preRemoveRules":[{"attr":"id=__vconsole"}]
+    },
+    {
+        "activityInfo":"news.ifeng.com",
+        "titleRules":[{"tag":"div","attr":"class=index_title"}],
+        "titlePaths":[{"tag":"div","attr":"class=index_header"}],
+        "titleDepth":1
+    },
+    {
+        "activityInfo":"m.toutiao.com",
+        "titleRules":[{"tag":"div","attr":"class=p-article-title"}],
+        "imageRules":[{"tag":"p","displayType":1,"attr":"role=img"}, {"tag":"div","displayType":1,"attr":"role=img"}],
+        "preRemoveRules":[{"tag":"div","attr":"id=comment-area"}]
+    },
+    {
+        "activityInfo":"mp.weixin.qq.com",
+        "imageRules":[{"tag":"svg","displayType":1},{"tag":"img","displayType":6},
+            {"tag":"img","displayType":10,"parentTag":"section","parentAttr":"class=js_darkmode__8","imgDepth":1}],
+        "preRemoveRules":[{"attr":"class=discuss_mod"}],
+        "removeRule":[{"attr":"class=wx_follow_media weui-flex"}],
+        "filterRules": [{"tag":"div","attr":"class=share_media_text share_media_text_overflow"}],
+        "isNotParseIframeUrl": true
+    },
+    {
+        "activityInfo":"club.hihonor.com",
+        "imageRules":[{"tag":"img","displayType":4,"attr":"file"},{"tag":"img","displayType":4,"attr":"imgurl"},{"tag":"img","displayType":7,"attr":"class=swiper-img"}],
+        "userAgentIndex":1,
+        "removeRule": [{"attr":"class=authi|fastre|replyadd|report-rate|em-clublogo|eh-menu|foot-wrap|authi view-authi|cl view-con-bot|plc pbn vwthd vw-top|tip tip_4 aimg_tip|viewthread_topic_tag|bm cl|pstatus|emjImg|ptm pbm xs1|swiper-bottom"},{"attr":"id=navBox"}],
+        "preRemoveRules":[{"attr":"id=threadstamp"}],
+        "filterRules":[{"attr":"id=post_","type":4}]
+    },
+    {
+        "activityInfo":"weibo.com,m.weibo.cn",
+        "titleRules":[{"tag":"h2"}],
+        "preRemoveRules":[{"attr":"class=comment|from"}],
+        "removeRule":[{"attr":"class=feed-mark"}],
+        "isTitledByContent":true
+    },
+    {
+        "activityInfo":"act.quark.cn",
+        "titleRules":[{"tag":"h3"}]
+    },
+    {
+        "activityInfo":"www.zhihu.com,zhuanlan.zhihu.com",
+        "userAgentIndex":2,
+        "titleRules":[{"attr":"class=questionheader-title"},{"tag":"h1"}],
+        "titlePaths":[{"tag":"div","attr":"class=questionheader"},{"tag":"header"}],
+        "titleDepth":4,
+        "isTitledByContent":true,
+        "imageRules":[{"tag":"img","displayType":6},{"tag":"img","displayType":5,"parentTag":"div","parentAttr":"class=css-","imgDepth":1},{"tag":"img","displayType":2,"attr":"class=gif","parentTag":"div","parentAttr":"class=GifPlayer","gifOriType":".jpg"}],
+        "filterRules":[{"attr":"class=RichText ztext","type":1}]
+    },
+    {
+        "activityInfo":"t.csdn.cn",
+        "titleRules":[{"tag":"h1","attr":"class=article_title"}]
+    },
+    {
+        "activityInfo":"m.zhibo8.cc",
+        "titleRules":[{"tag":"h1","attr":"class=title"}],
+        "imageRules":[{"tag":"img","displayType":6}]
+    },
+    {
+        "activityInfo":"www.nowcoder.com",
+        "titleRules":[{"attr":"class=feed-title"}]
+    },
+    {
+        "activityInfo":"mparticle.uc.cn",
+        "imageRules":[{"tag":"img","displayType":3}],
+        "preRemoveRules":[{"attr":"id=relate"}]
+    },
+    {
+        "activityInfo":"api3.cls.cn,iav.cls.cn",
+        "titleRules":[{"tag":"span","attr":"class=title"}],
+        "imageRules":[{"tag":"img","displayType":5,"parentTag":"div","parentAttr":"class=top-image-background","imgDepth":1}]
+    },
+    {
+        "activityInfo":"iflow.uc.cn",
+        "preRemoveRules":[{"attr":"id=relate"}]
+    },
+    {
+        "activityInfo":"hj.pcauto.com.cn,bbs.pcauto.com.cn",
+        "preRemoveRules":[{"attr":"class=half-price|recommendation|recommendation m-list-reply|m-list-reply-con|dm-list-outer"}]
+    },
+    {
+        "activityInfo":"h.xinhuaxmt.com",
+        "preRemoveRules":[{"attr":"class=link-app"}],
+        "imageRules":[{"tag":"p","displayType":1,"attr":"class=media-image"},{"tag":"div","displayType":1,"attr":"class=media-image"}]
+    },
+    {
+        "activityInfo":"a.xcar.com.cn",
+        "preRemoveRules":[{"attr":"class=main_top clearfix|usedCar_content|edit_popup|recommend_list|list_box parent|giveThumbs_content|read-more-btn|main_box other_main_box floor"}]
+    },
+    {
+        "activityInfo":"com.hupu.android.bbs.detail.PostDetailActivity",
+        "titleRules":[{"tag":"p","attr":"class=bbs-header-title hupu-font-title1"}],
+        "titlePaths":[{"attr":"class=bbs-header"}],
+        "titleDepth":2,
+        "removeRule":[{"attr":"class=simple-card-span tag-zhuanqu|bbs-hcoin|hupu-thread-detailbottom"},{"tag":"img","attr":"class=hupu-bbs-post-custom-emoji"}]
+    },
+    {
+        "activityInfo":"com.sina.weibo.feed.DetailWeiboActivity",
+        "nativeUrlRule": {"urlTemplate": "https://m.weibo.cn/status/%s",
+            "paramRuleList": [{"type": 3, "keyPath" : ["KEY_MBLOG","id"]}]}
+    },
+
+    {
+        "activityInfo":"com.bytedance.ugc.UgcDetailInfoActivity",
+        "nativeUrlRule": {"urlTemplate": "https://m.toutiao.com/w/%s",
+            "paramRuleList": [{"type": 1, "keyPath" : ["post_id"]}]}
+    },
+    {
+        "activityInfo":"cn.TuHu.Activity.forum.BBSTopicDetailAct",
+        "nativeUrlRule": {"urlTemplate": "https://m.tuhu.cn/ugc/auto-home/shareLandingPage?topicId=%s",
+            "paramRuleList": [{"type": 1, "keyPath" : ["topicId"]}]}
+    },
+    {
+        "activityInfo":"com.taobao.trip.weex.WeexActivity",
+        "nativeUrlRule": {"urlTemplate": "%s",
+            "paramRuleList": [{"type": 1, "keyPath" : ["url"]}]}
+    },
+    {
+        "activityInfo":"market.m.taobao.com",
+        "titleRules":[{"tag":"div","attr":"data-spm=title"}],
+        "preRemoveRules":[{"attr":"data-spm=6|interact-fliggy"},{"attr":"id=gotopBox"}]
+    },
+    {
+        "activityInfo":"com.baidu.tieba.pb.pb.main.PbActivity",
+        "nativeUrlRule": {"urlTemplate": "https://tieba.baidu.com/p/%s",
+            "paramRuleList": [{"type": 1, "keyPath" : ["thread_id"]}]}
+    },
+    {
+        "activityInfo":"com.tencent.qqsports.bbs.BbsTopicDetailActivity",
+        "nativeUrlRule": {"urlTemplate": "https://kbsapp.sports.qq.com/topic/%s",
+            "paramRuleList": [{"type": 1, "keyPath" : ["topicId"]}]}
+    },
+    {
+        "activityInfo":"com.tencent.qqsports.news.NewsContainerActivity",
+        "nativeUrlRule": {"urlTemplate": "https://kbsapp.sports.qq.com/article/%s",
+            "paramRuleList": [{"type": 1, "keyPath" : ["id"]}]}
+    },
+    {
+        "activityInfo":"com.weico.international.activity.SeaStatusDetailActivity",
+        "nativeUrlRule": {"urlTemplate": "https://m.weibo.cn/status/%s",
+            "paramRuleList": [{"type": 4, "keyPath" : ["status","id"]}]}
+    },
+    {
+        "activityInfo":"sportswebapi.qq.com,kbsapp.sports.qq.com",
+        "preRemoveRules":[{"attr":"class=tit-content|topic-related|support|sports-bottom-bar|module-detail boss boss-exp-reported"}]
+    },
+    {
+        "activityInfo":"tieba.baidu.com",
+        "titleRules":[{"tag":"h1"}],
+        "preRemoveRules":[{"attr":"class=nav-bar-v2-fixed|reply-switch|comment-box|post-item|recommend-list|user-line|recommend-title|recommend-title-open-app|recommend-title hot-recommend-title|more-image-desc|interaction-bar w-row w-row-align-center w-row-justify-between"}]
+    },
+    {
+        "packageName": "com.baidu.browser.apps",
+        "activityInfo":"com.baidu.searchbox.home.feed.FeedDetailActivity,com.baidu.browser.search.LightSearchActivity",
+        "preRemoveRules":[{"attr":"class=countryData hidden"}],
+        "removeRule":[{"attr":"class=layout columnCenter rowBetween null|infinite-scroll-component__outerdiv|avatar"},{"attr":"data-tplname=OtherModContainer|OtherModBaikeContainer|RelateContainer"},{"attr":"id=spy-topbar"}]
+    },
+    {
+        "packageName": "com.baidu.searchbox.tomas",
+        "activityInfo":"com.baidu.searchbox.home.feed.FeedDetailActivity,com.baidu.browser.search.LightSearchActivity",
+        "preRemoveRules":[{"attr":"class=countryData hidden"}],
+        "removeRule":[{"attr":"class=layout columnCenter rowBetween null|infinite-scroll-component__outerdiv|avatar"},{"attr":"data-tplname=OtherModContainer|OtherModBaikeContainer|RelateContainer"},{"attr":"id=spy-topbar"}]
+    },
+    {
+        "packageName": "com.baidu.searchbox",
+        "activityInfo":"com.baidu.searchbox.home.feed.FeedDetailActivity,com.baidu.browser.search.LightSearchActivity,com.baidu.searchbox.feed.news.FeedDetailActivity",
+        "preRemoveRules":[{"attr":"class=countryData hidden"}],
+        "removeRule":[{"attr":"class=layout columnCenter rowBetween null|infinite-scroll-component__outerdiv|avatar"},{"attr":"data-tplname=OtherModContainer|OtherModBaikeContainer|RelateContainer"},{"attr":"id=spy-topbar"}]
+    },
+    {
+        "packageName": "com.baidu.hao123",
+        "activityInfo":"com.baidu.searchbox.home.feed.FeedDetailActivity",
+        "removeRule":[{"attr":"class=layout columnCenter rowBetween null|infinite-scroll-component__outerdiv|avatar"},{"attr":"data-tplname=OtherModContainer|OtherModBaikeContainer|RelateContainer"},{"attr":"id=spy-topbar"}]
+    },
+    {
+        "packageName": "com.baidu.searchbox.lite",
+        "activityInfo":"com.baidu.searchbox.home.feed.FeedDetailActivity",
+        "removeRule":[{"attr":"class=layout columnCenter rowBetween null|infinite-scroll-component__outerdiv|avatar"},{"attr":"data-tplname=OtherModContainer|OtherModBaikeContainer|RelateContainer"},{"attr":"id=spy-topbar"}]
+    },
+    {
+        "packageName": "com.dianping.v1",
+        "activityInfo":"com.dianping.social.activity.NewFeedDetailActivity",
+        "nativeUrlRule": {"urlTemplate": "https://m.dianping.com/ugcdetail/%s?sceneType=0&bizType=%s&utm_source=ugcshare&msource=Appshare2021&utm_medium=h5",
+            "paramRuleList": [{"type": 5, "keyPath" : ["mainid"]},
+                {"type": 5, "keyPath" : ["type"]}]}
+    },
+    {
+        "activityInfo":"m.dianping.com",
+        "titleRules":[{"tag" : "div", "attr" : "class=feed-content-txt"}],
+        "preRemoveRules":[{"attr":"class=recommend-content-wrap|seed-waterfall recommend-waterfall"},
+            {"attr":"data-launch-name=moreRecommend"}],
+        "forceAddRules":[{"tag":"img","attr":"class=img-false"}],
+        "forceAddPosition": 0
+    },
+    {
+        "activityInfo":"com.jianshu.wireless.articleV2.X5ArticleDetailActivity",
+        "titleRules":[{"tag":"h1"}],
+        "removeRule":[{"attr":"class=author|NoteMeta|data-extra|publish-time"}]
+    },
+    {
+        "packageName": "com.luojilab.player",
+        "activityInfo":"com.luojilab.component.web.ddfe.proxy.ArticleProxyActivity",
+        "titleRules":[{"tag":"h1","attr":"class=course-article-title iget-article-title"}],
+        "titlePaths":[{"attr":"class=article-body-wrap article-title-body-wrap"}],
+        "titleDepth":3
+    },
+    {
+        "activityInfo":"cn.com.cherish.whb.ui.ContentActivity",
+        "titleRules":[{"tag":"div","attr":"class=title titleFont marginTop_normal marginLeft_big marginRight_big"}]
+    },
+    {
+        "activityInfo":"com.wuba.hybird.TownHybirdWebActivity",
+        "titleRules":[{"tag":"h2"},{"tag":"div","attr":"class=text|title|title2"}],
+        "removeRule":[{"tag":"div","attr":"class=master-block"}]
+    },
+    {
+        "activityInfo":"com.guosen.commonui.act.NewsDetailAct",
+        "titleRules":[{"tag":"h2","attr":"class=details_title"}]
+    },
+    {
+        "activityInfo":"com.trs.bj.zxs.activity.news.NewsZwDetailsActivity",
+        "titleViewId":"news_title"
+    },
+    {
+        "activityInfo":"com.csztv.general.main.activity.MainActivity",
+        "titleRules":[{"tag":"div","attr":"class=title"}],
+        "titlePaths":[{"attr":"class=content"}],
+        "titleDepth":2,
+        "removeRule":[{"attr":"class=time|audioplay"}]
+    },
+    {
+        "activityInfo":"com.yicai.news.view.activity.newsdetails.CBNNewsDetailsActivity",
+        "titleViewId":"cbn_news_details_news_NewsTitle"
+    },
+    {
+        "activityInfo":"com.iflytek.cip.activity.CrossActivity",
+        "titleRules":[{"tag":"uni-view","attr":"class=title"}]
+    },
+    {
+        "activityInfo":"com.neusoft.hrssapp.activity.commonquery.PublicWebActivity",
+        "titleRules":[{"tag":"div","attr":"class=news_title"}]
+    },
+    {
+        "activityInfo":"com.hanweb.android.product.tianjin.socialcard.NewWebviewCountActivity",
+        "titleRules":[{"tag":"h3"}]
+    },
+    {
+        "activityInfo":"com.hanweb.android.product.component.article.ArticleActivity",
+        "titleRules":[{"tag":"div","attr":"class=info_title"},{"tag":"div","attr":"id=title"}]
+    },
+    {
+        "activityInfo":"com.unicde.smartcity.bridge.H5ContainerActivity",
+        "titleRules":[{"tag":"h1","attr":"class=s-article-title"}]
+    },
+    {
+        "activityInfo":"com.smxxy.module_web.CommonWebActivity",
+        "titleRules":[{"tag":"div","attr":"class=news-detail-title"}]
+    },
+    {
+        "activityInfo":"com.powersi.powerapp.activity.WindowActivity",
+        "titleRules":[{"tag":"h4"}]
+    },
+    {
+        "activityInfo":"com.dzwww.news.android.ui.NewsContentActivity2",
+        "titleViewId":"news_content_title"
+    },
+    {
+        "activityInfo":"com.suning.infoa.info_detail.activity.InfoWithPictureActivity",
+        "titleRules":[{"tag":"h3"}]
+    },
+    {
+        "activityInfo":"mlol.qt.qq.com",
+        "titleRules":[{"tag":"h1"}],
+        "removeRule":[{"attr":"class=article-userinfo|appointment-card hide"}]
+    },
+    {
+        "activityInfo":"com.yuedong.sport.main.articledetail.ActivityArticleDetail",
+        "titleViewId":"article_detail_head_title"
+    },
+    {
+        "activityInfo":"home.pingan.com.cn",
+        "titleRules":[{"tag":"h1"}]
+    },
+    {
+        "activityInfo":"h5-mmb.mmbang.com",
+        "titleRules":[{"tag":"h2","attr":"class=title"}]
+    },
+    {
+        "activityInfo":"harbor.qz100.com",
+        "titleRules":[{"tag":"h1"}]
+    },
+    {
+        "activityInfo":"com.fosung.lighthouse.master.amodule.main.activity.NewsDetailActivity",
+        "titleRules":[{"tag":"h6","attr":"id=tit$"}]
+    },
+    {
+        "activityInfo":"n.tianyancha.com",
+        "titleRules":[{"tag":"div","attr":"class=index_title"}],
+        "preRemoveRules":[{"attr":"class=index_top-banner|index_tyc-header|index_header|index_other-content-more|index_open-app-btn|index_botttom-container|index_discuss-item|index_business-link-container"}]
+    },
+    {
+        "activityInfo":"www.ahzwfw.gov.cn",
+        "titleRules":[{"tag":"div","attr":"class=details-title"}]
+    },
+    {
+        "activityInfo":"hrss.yn.gov.cn",
+        "titleRules":[{"tag":"h1"}]
+    },
+    {
+        "activityInfo":"com.tencent.portfolio.hybrid.SHYActivity",
+        "titleRules":[{"tag":"div","attr":"id=news_title"}]
+    },
+    {
+        "activityInfo":"news-app.360che.com",
+        "titleRules":[{"tag":"p","attr":"class=title"},{"tag":"div","attr":"class=title"}]
+    },
+    {
+        "activityInfo":"com.wondersgroup.eshimin.activity.WebBrowserActivity,com.wondersgroup.eshimin.home.activity.MainActivity,com.wondersgroup.eshimin.activity.WebAppActivity",
+        "titleRules":[{"tag":"div","attr":"class=title"}]
+    },
+    {
+        "activityInfo":"m.18183.com",
+        "titleRules":[{"tag":"h1"}]
+    },
+    {
+        "activityInfo":"com.smzdm.client.android.module.community.module.articledetail.ArticleDetailLongActivity,com.smzdm.client.android.module.community.module.bask.BaskDetailActivity",
+        "titleRules":[{"tag":"h1"}],
+        "titlePaths":[{"tag":"div","attr":"class=m-banner-box"}],
+        "titleDepth":1
+    },
+    {
+        "activityInfo":"m.17u.cn,m.ly.com",
+        "titleRules":[{"tag":"div","attr":"class=title has-tag"},{"tag":"span","attr":"class=linetitle"}]
+    },
+    {
+        "activityInfo":"me.chunyu.askdoc.DoctorService.Topic.TopicRepliesActivity",
+        "titleViewId":"topic_tv_title"
+    },
+    {
+        "activityInfo":"api.chunyuyisheng.com",
+        "isTitledByContent":true
+    },
+    {
+        "activityInfo":"m.lifeapp.pingan.com.cn",
+        "isTitledByContent":true
+    },
+    {
+        "activityInfo":"com.wondersgroup.hksmy.MainNewActivity",
+        "titleRules":[{"tag":"div","attr":"class=header-title"}]
+    },
+    {
+        "activityInfo":"com.bytedance.howy.webview.WebViewActivity",
+        "packageName": "com.ss.android.article.search",
+        "preRemoveRules":[{"tag":"div","attr":"class=s-result-list"}]
+    },
+    {
+        "activityInfo":"com.tencent.mtt.MainActivity",
+        "packageName":"sogou.mobile.explorer",
+        "preRemoveRules":[{"tag":"div","attr":"class=app-btn-box2"},{"attr":"class=countryData hidden"}]
+    },
+    {
+        "activityInfo":"com.tencent.mtt.MainActivity",
+        "packageName":"com.tencent.mtt",
+        "preRemoveRules":[{"tag":"div","attr":"class=app-btn-box2"},{"attr":"class=countryData hidden"}]
+    },
+    {
+        "activityInfo": "newsa.html5.qq.com",
+        "preRemoveRules":[{"tag":"div","attr":"articleFromExp4-a21|class=query-module-wrapper|bottomRecommendListWrap|articleNewsInteract"}]
+    },
+    {
+        "activityInfo":"com.gov.cn.GovNewsAt",
+        "removeRule":[{"tag":"img","attr":"class=placeholder"}]
+    },
+    {
+        "activityInfo":"com.tencent.mudule_web.info.NewsDetailXmlActivity",
+        "titleRules":[{"tag":"h1"}],
+        "removeRule":[{"attr":"class=article-userinfo|appointment-card hide"}]
+    },
+    {
+        "activityInfo":"cn.dxy.idxyer.biz.post.PostDetailActivity",
+        "titleRules":[{"tag":"div","attr":"class=postTitle"}],
+        "titlePaths":[{"tag":"div","attr":"id=root"}],
+        "titleDepth":3
+    },
+    {
+        "activityInfo": "com.topmty.view.news.activity.DetailsActivity",
+        "packageName":"com.topmty.app",
+        "webViewPos": -1,
+        "titleViewId": "newsDetail_textView_title"
+    },
+    {
+        "activityInfo": "com.miercnnew.view.news.activity.DetailsActivity",
+        "packageName":"com.miercnnew.app",
+        "webViewPos": -1,
+        "titleViewId": "newsDetail_textView_title"
+    },
+    {
+        "activityInfo":"m.mydrivers.com",
+        "removeRule":[{"attr":"class=news_t1"}]
+    },
+    {
+        "activityInfo":"wealthplus.cmschina.com",
+        "titleRules":[{"tag":"h2"}],
+        "removeRule":[{"attr":"class=van-sticky|store-center|tui-point"}]
+    },
+    {
+        "activityInfo":"com.xueqiu.android.community.StatusDetailActivity",
+        "titleViewId": "post_title_view"
+    },
+    {
+        "activityInfo":"xueqiu.com",
+        "titleRules":[{"tag":"h1"}]
+    },
+    {
+        "activityInfo":"android.xbiao.com",
+        "titleRules":[{"tag":"h1"}]
+    },
+    {
+        "activityInfo":"com.alibaba.aliyun.windvane.activity.WindvaneActivity",
+        "titleRules":[{"tag":"span","attr":"class=title"},{"tag":"h2"}]
+    },
+    {
+        "activityInfo":"fgw.nanning.gov.cn",
+        "titleRules":[{"tag":"h2","attr":"class=left-title"}]
+    },
+    {
+        "activityInfo":"com.ccb.function_hotpoint.ui.detail.HotpointDetailActivity",
+        "titleRules":[{"tag":"h3"}]
+    },
+    {
+        "activityInfo":"www.meipian.cn",
+        "removeRule":[{"attr":"class=mp-article-caption-avatar-wrap|mp-article-caption-subhead|mp-article-caption-title title"}]
+    },
+    {
+        "activityInfo":"m.hupu.com",
+        "titleRules":[{"tag":"p","attr":"class=bbs-header-title hupu-font-title1"}],
+        "titlePaths":[{"attr":"class=bbs-header"}],
+        "titleDepth":2,
+        "removeRule":[{"attr":"class=bbs-hcoin|discuss-section|index_discuss-post-list|hupu-thread-detailbottom|footer"},{"tag":"img","attr":"class=hupu-bbs-post-custom-emoji"}],
+        "imageRules":[{"tag":"center","displayType":8}]
+    },
+    {
+        "activityInfo":"com.mobileconnected.MainActivity",
+        "titleRules":[{"tag":"h5","attr":"class=title-text"}],
+        "removeRule":[{"attr":"class=circle-cotainer"}]
+    },
+    {
+        "activityInfo":"com.zwzt.feature_detail.LongPaperDetailActivity",
+        "titleViewId":"web_top_title"
+    },
+    {
+        "activityInfo":"com.huayi.cme.ui.web.WebActivity",
+        "preRemoveRules":[{"tag":"div","attr":"class=black_box ng-scope none"}]
+    },
+    {
+        "activityInfo":"com.microsoft.ruby.Main",
+        "packageName": "com.microsoft.emmx",
+        "nativeUrlRule": {"urlTemplate": "%s",
+            "paramRuleList": [{"type": 8, "keyPath" : ["org.chromium.components.embedder_support.view.ContentView","org.chromium.content.browser.webcontents.WebContentsImpl", "org.chromium.url.GURL", "a"]}]
+        }
+    },
+    {
+        "activityInfo":"com.google.android.apps.chrome.Main",
+        "packageName": "com.android.chrome",
+        "nativeUrlRule": {"urlTemplate": "%s",
+            "paramRuleList": [{"type": 9, "keyPath" : ["org.chromium.chrome.browser.compositor.CompositorViewHolderForQ","org.chromium.content_public.browser.WebContents", "java.lang.String"]}]
+        }
+    },
+    {
+        "activityInfo":"org.mozilla.firefox.App",
+        "packageName": "org.mozilla.firefox",
+        "nativeUrlRule": {"urlTemplate": "%s",
+            "paramRuleList": [{"type": 10, "keyPath" : ["mozilla.components.browser.engine.gecko.GeckoEngineView","mozilla.components.browser.engine.gecko.GeckoEngineSession", "currentUrl"]}]
+        }
+    },
+    {
+        "activityInfo":"com.mqunar.react.base.stack.container.QReactNativeActivity1",
+        "nativeUrlRule": {"urlTemplate": "https://lang.qunar.com/site_node/mavericks/detailOld?gk=%s",
+            "paramRuleList": [{"type": 6, "keyPath" : ["initProps", "qJsonInitProps", "globalKey"]}]}
+    },
+    {
+        "activityInfo":"ctrip.android.reactnative.CRNBaseActivity",
+        "nativeUrlRule": {"urlTemplate": "https://m.ctrip.com/webapp/you/tripshoot/paipai/detail/detail?articleId=%s&fromcrn=1&autoawaken=close&popup=close&ishideheader=true&isHideNavBar=YES&seo=0&aid=965684&sid=1897542",
+            "paramRuleList": [{"type": 7, "keyPath" : ["getActivityPageUrl"]}]}
+    },
+    {
+        "activityInfo":"com.honor.club.module.forum.activity.BlogDetailsActivity",
+        "nativeUrlRule": {"urlTemplate": "https://club.hihonor.com/cn/thread-%s-1-1.html",
+            "paramRuleList": [{"type": 1, "keyPath" : ["blog_tid"]}]}
+    },
+    {
+        "activityInfo":"com.lanjingren.ivwen.home.discussion.DiscussionActivity",
+        "imageRules":[{"tag":"div","displayType":1,"attr":"class=cover-img"},{"tag":"p","displayType":1,"attr":"class=cover-img"}],
+        "nativeUrlRule": {"urlTemplate": "https://www.meipian.cn/platform/hot-discussion?mask_id=%s",
+            "paramRuleList": [{"type": 1, "keyPath" : ["mask_id"]}]}
+    },
+    {
+        "activityInfo":"com.broken.molaware.xinhua_android.ui.home.ManuscriptDetailsActivity",
+        "titleViewId": "content_title"
+    },
+    {
+        "activityInfo":"com.stcn.newmedia.activity.activitymodule.InfoDetailArticleActivity",
+        "titleViewId": "item_detail_content_article_title"
+    },
+    {
+        "activityInfo":"new.qq.com",
+        "userAgentIndex":1,
+        "removeRule":[{"attr":"id=LeftTool|Status"}]
+    },
+    {
+        "activityInfo":"com.ctvit.module_article.ArticleActivity",
+        "packageName":"com.cctv.caijing",
+        "webViewPos": -1,
+        "filterRules":[{"tag":"section","type":3}],
+        "titleViewId": "article_title"
+    },
+    {
+        "activityInfo":"org.geekbang.geekTime.project.article.ArticleDetailsActivity,org.geekbang.geekTime.project.tribe.channel.HordePostDetailActivity",
+        "titleRules":[{"tag":"h1"}],
+        "packageName": "org.geekbang.geekTime",
+        "removeRule":[{"attr":"class=UserInfo_ignoreContentBlock"}]
+    },
+    {
+        "activityInfo":"com.baidu.baijia.business.article.preview.ArticleDetailActivity",
+        "packageName": "com.baidu.baijia",
+        "removeRule":[{"attr":"class=headDeflectorContainer|infinite-scroll-component"}]
+    },
+    {
+        "activityInfo":"com.tuniu.plugin.dl.DLProxyFragmentActivity",
+        "nativeUrlRule": {"urlTemplate": "https://m.tuniu.com/trips/%s",
+            "paramRuleList": [{"type": 1, "keyPath" : ["trip_id"]}]}
+    },
+    {
+        "activityInfo":"com.bcy.biz.item.detail.view.NoteDetailActivity,com.bcy.biz.item.detail.view.AnswerDetailActivity",
+        "nativeUrlRule": {"urlTemplate": "https://bcy.net/item/detail/%s",
+            "paramRuleList": [{"type": 1, "keyPath" : ["item_id"]}]}
+    },
+    {
+        "activityInfo":"com.bcy.biz.item.groupask.view.GroupAskDetailActivity",
+        "nativeUrlRule": {"urlTemplate": "https://bcy.net/group/list/%s",
+            "paramRuleList": [{"type": 1, "keyPath" : ["gid"]}]}
+    },
+    {
+        "packageName": "com.sankuai.movie",
+        "activityInfo":"com.sankuai.movie.movie.MovieDetailActivity",
+        "nativeUrlRule": {"urlTemplate": "https://m.maoyan.com/asgard/movie/%s",
+            "paramRuleList": [{"type": 5, "keyPath" : ["id"]}]}
+    },
+    {
+        "packageName": "com.douban.frodo",
+        "activityInfo":"com.douban.frodo.subject.structure.activity.MovieActivity",
+        "nativeUrlRule": {"urlTemplate": "https://movie.douban.com/subject/%s/",
+            "paramRuleList": [{"type": 11, "keyPath" : ["uri"]}]}
+    },
+    {
+        "packageName": "com.douban.frodo",
+        "activityInfo":"com.douban.frodo.subject.structure.activity.BookActivity",
+        "nativeUrlRule": {"urlTemplate": "https://book.douban.com/subject/%s/",
+            "paramRuleList": [{"type": 11, "keyPath" : ["uri"]}]}
+    },
+    {
+        "activityInfo":"net.anquanneican.aqnc.articledetail.ArticleDetailActivity",
+        "titleViewId": "activity_article_detail_title"
+    },
+    {
+        "activityInfo":"im.juejin.android.modules.home.impl.ui.detail.DetailActivity",
+        "titleViewId": "article_title"
+    },
+    {
+        "activityInfo":"com.tencent.gamehelper.ui.information.InformationDetailActivity",
+        "packageName": "com.tencent.gamehelper.smoba",
+        "removeRule":[{"attr":"class=mtui-user"}]
+    },
+    {
+        "activityInfo":"com.tencent.gamehelper.ui.information.InformationDetailActivity",
+        "packageName": "com.tencent.gamehelper.dnf",
+        "removeRule":[{"attr":"class=mtui-user"}]
+    },
+    {
+        "activityInfo":"com.tencent.gamehelper.ui.information.InformationDetailActivity",
+        "packageName": "com.tencent.gamehelper",
+        "removeRule":[{"attr":"class=mtui-user"}]
+    },
+    {
+        "activityInfo":"com.tencent.gamehelper.ui.information.InformationDetailActivity",
+        "packageName": "com.tencent.gamehelper.speed",
+        "removeRule":[{"attr":"class=mtui-user"}]
+    },
+    {
+        "activityInfo":"com.tencent.gamehelper.ui.information.InformationDetailActivity",
+        "packageName": "com.tencent.gamehelper.nz",
+        "removeRule":[{"attr":"class=mtui-user"}]
+    },
+    {
+        "activityInfo":"com.tencent.gamehelper.ui.information.InformationDetailActivity",
+        "packageName": "com.tencent.qt.sns",
+        "removeRule":[{"attr":"class=mtui-user"}]
+    },
+    {
+        "activityInfo":"weatheroperating.nineton.cn",
+        "titleRules":[{"attr":"class=news-detail_head"}]
+    },
+    {
+        "activityInfo":"www.ln.gov.cn",
+        "titleRules":[{"attr":"class=h3|dlist_title|shu_title1"},{"attr":"class=^tit$"}]
+    },
+    {
+        "activityInfo":"app.zwfw.nmg.gov.cn:4443,app.zwfw.nmg.gov.cn,www.nmg.gov.cn,fgw.nmg.gov.cn",
+        "titleRules":[{"attr":"class=title"},{"tag":"h1"}]
+    },
+    {
+        "activityInfo":"com.jdd.motorfans.modules.detail.DetailActivity2",
+        "titleRules":[{"tag":"h2","attr":"class=title"}],
+        "titlePaths":[{"tag":"body"}],
+        "titleDepth":4
+    },
+    {
+        "activityInfo":"com.finance.market.moudule_hybird.WebContainerAc",
+        "titleRules":[{"tag":"p","attr":"class=title"}]
+    },
+    {
+        "activityInfo":"com.xzgdjt.smartmetro.activity.WebViewActivity",
+        "titleRules":[{"tag":"h1"}],
+        "titlePaths":[{"tag":"div","attr":"class=box_news_in"}],
+        "titleDepth":1
+    },
+    {
+        "activityInfo": "api.toutiaoapi.com,ic.snssdk.com,sport.zijieapi.com,api5-normal-lf.toutiaoapi.com,novel.snssdk.com,profile.zjurl.cn",
+        "titleRules":[{"tag":"h1"},{"tag":"span","attr":"class=brief-component-title"}],
+        "onlyOnlineCard": true
+    },
+    {
+        "activityInfo": "com.bytedance.ugc.profile.user.profile.TouTiaoUserProfileActivity",
+        "titleRules":[{"tag":"h1"}],
+        "onlyOnlineCard": true,
+        "nativeUrlRule": {"urlTemplate": "https://profile.zjurl.cn/rogue/ugc/profile/?user_id=%s",
+            "paramRuleList": [{"type": 1, "keyPath" : ["userId"]}]}
+    },
+    {
+        "activityInfo":"www.nbd.com.cn,m.nbd.com.cn",
+        "preRemoveRules":[{"attr":"class=header|g-reporter|u-reporter|g-articleMsg|u-reporterHead|slideList|tempWrap|slideBox|slideLeft|slideRight|u-topText|g-aboutReading"}]
+    },
+    {
+        "activityInfo":"www.yn.gov.cn",
+        "preRemoveRules":[{"attr":"class=main-nt ohd|main-ns ohd|main-bottom-m ohd|main-header"}]
+    },
+    {
+        "activityInfo":"com.ss.android.homed.pm_article.ArticleDetailActivity",
+        "titleRules":[{"tag":"h2"}],
+        "titlePaths":[{"tag":"div","attr":"class=style__content"}],
+        "titleDepth":2
+    },
+    {
+        "activityInfo":"com.ss.android.homed.pm_app_base.web.ui.WebActivity",
+        "titleRules":[{"attr":"class=IAzbL"}]
+    },
+    {
+        "activityInfo":"com.ss.android.homed.pm_essay.essaylist.EssayListActivity",
+        "nativeUrlRule": {"urlTemplate": "https://m.zhuxiaobang.com/weitoutiao/%s?channel_source=android&platform=system_copy",
+            "paramRuleList": [{"type": 1, "keyPath" : ["group_id"]}]}
+    },
+    {
+        "activityInfo":"com.huxiu.ui.activity.MomentDetailActivity",
+        "nativeUrlRule": {"urlTemplate": "https://m.huxiu.com/moment/%s.html",
+            "paramRuleList": [{"type": 1, "keyPath" : ["com.huxiu.arg_id"]}]}
+    },
+    {
+        "activityInfo":"view.inews.qq.com",
+        "userAgentIndex":1,
+        "removeRule":[{"attr":"id=LeftTool|Status"}],
+        "nativeUrlRule": {"urlTemplate": "https://new.qq.com/rain/a/%s",
+            "paramRuleList": [{"type": 100, "keyPath" : ["https://view.inews.qq.com/a/", "?uid"]}]}
+    },
+    {
+        "activityInfo":"m.zhuxiaobang.com",
+        "preRemoveRules":[{"tag":"a","attr":"class=weitoutiao__author"},{"tag":"img","attr":"class=index__avatar"},{"tag":"div","attr":"class=style__tag|index__releated|index__feed-list"}]
+    },
+    {
+        "activityInfo":"com.nfdaily.nfplus.ui.activity.NewsContentViewActivityV3",
+        "titleRules":[{"tag":"div","attr":"id=title"}],
+        "imageRules":[{"tag":"img","displayType":4,"attr":"data-original"}],
+        "preRemoveRules":[{"tag":"div","attr":"id=reporterInfo|nfhSubscriber|people_attention_div_father|likeToast|intoColumn|column_div_art|bottomAdvContainer|commentwrapContainer|relatedNewsContainer|informant|source_reporter_div|article_head"},
+            {"tag":"div","attr":"class=like-share_wrap|video"}]
+    }
+    ],
+    "webViewList": [
+        "com.uc.webview.export.WebView",
+        "com.tencent.tbs.core.webkit.WebView",
+        "com.tencent.xweb.pinus.PSWebview",
+        "com.qihoo360.newssdk.ui.common.NewsWebView",
+        "com.qihoo.browser.browser.tab.CustomWebView",
+        "com.baidu.webkit.sdk.WebView",
+        "com.tencent.smtt.webkit.WebView",
+        "com.hd.smartVillage.modules.h5service.H5WebView"
+    ],
+    "validUrlWebViews": [
+        "com.qihoo360.newssdk.ui.common.NewsWebView",
+        "com.qihoo.browser.browser.tab.CustomWebView",
+        "com.tencent.smtt.webkit.WebView",
+        "com.tencent.xweb.pinus.PSWebview"
+    ],
+    "forceMhtList": [
+        "com.browser2345",
+        "com.sohu.newsclient",
+        "com.xcar.activity",
+        "com.topmty.app",
+        "com.zol.android",
+        "com.dongqiudi.news",
+        "com.douban.frodo",
+        "com.zhihu.android",
+        "com.hupu.games",
+        "com.ycwb.android.ycpai",
+        "com.touchtv.touchtv",
+        "com.szgov.entrance",
+        "com.chengdudaily.activity",
+        "com.yoloho.dayima",
+        "com.cmbchina.ccd.pluto.cmbActivity",
+        "de.bmw.connected.mobile20.cn",
+        "com.powersi.zhsw",
+        "com.winbaoxian.wybx",
+        "com.hexin.plat.android",
+        "com.ctdcn.ishebao",
+        "com.smxxy.sc",
+        "com.liuzhou.apps.android.lcsmy",
+        "com.wondersgroup.hksmy",
+        "mobi.w3studio.apps.android.shsmy.phone",
+        "com.neusoft.hrssapp",
+        "com.changsha.apps.android.mycs",
+        "com.unicde.smartcity_lyg",
+        "com.sankuai.movie",
+        "me.chunyu.ChunyuDoctor",
+        "com.lingan.seeyou",
+        "com.ss.android.article.search",
+        "com.huayi.cme",
+        "com.plagh.heartstudy",
+        "com.jzzs.ParentsHelper",
+        "com.miercnnew.app",
+        "com.baidu.baijia",
+        "com.finace.market",
+        "com.leisu.sports",
+        "com.guosen.android",
+        "com.wuba.town.client",
+        "com.hd.smartVillage.modules.h5service.H5WebActivity",
+        "com.xzgdjt.smartmetro",
+        "com.ss.android.homed",
+        "com.ccbhome.lanhai"
+    ],
+    "userAgentList": [
+        "Mozilla/5.0 (Windows; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.4515.105 Safari/537.36",
+        "Mozilla/5.0 (Linux; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.4515.105 Mobile Safari/537.36"
+    ]
+}

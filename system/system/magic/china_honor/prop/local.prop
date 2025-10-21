@@ -1,0 +1,20 @@
+# 2021-09-22 17:10:53.0
+msc.config.ecclist_nocard=+120,+122
+# 2021-09-22 17:10:53.0
+msc.config.ecclist_withcard=+112
+# 2021-09-22 17:10:53.0
+msc.config.globalEcc=false
+# 2021-09-22 17:10:53.0
+msc.config.nlp=com.huawei.lbs
+# 2021-09-22 17:10:53.0
+msc.config.updateCotaPara=true
+# 2021-09-22 17:10:53.0
+msc.config.vassistant_honor=true
+# 2021-11-27 17:24:51.0
+msc.protocol.radio.sa_to_lte_for_power_save=true
+# 2021-09-22 17:10:53.0
+persist.radio.defdualsimltemenu=false
+# 2021-09-22 17:10:53.0
+ro.config.support_doubletap_pay=true
+# 2021-09-22 17:10:53.0
+ro.iconnect.trustpair=true

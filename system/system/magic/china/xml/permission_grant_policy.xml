@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DefaultPermissionPolicy>
+  <Package name="com.huawei.cloudtwopizza.apkmanager">
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.MANAGE_EXTERNAL_STORAGE " grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.sceneservice">
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.NEARBY_WIFI_DEVICES" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.gamecenter">
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="true"/>
+  </Package>
+  <Package name="com.hihonor.baidu.browser">
+    <PermissionGroup name="android.permission.POST_NOTIFICATIONS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.cloudmusic">
+    <PermissionGroup name="android.permission.POST_NOTIFICATIONS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.dz.reader">
+    <PermissionGroup name="android.permission.POST_NOTIFICATIONS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.redteamobile.roaming">
+    <PermissionGroup name="android.permission.POST_NOTIFICATIONS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.youku.video">
+    <PermissionGroup name="android.permission.POST_NOTIFICATIONS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.quickengine">
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_BACKGROUND_LOCATION" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.skytone">
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_BACKGROUND_LOCATION" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.gameassistant">
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.appmarket">
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.gamebox">
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.RECORD_AUDIO" grant="true" systemFixed="false"/>
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.camera">
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.android.hwmirror">
+    <PermissionGroup name="android.permission.CAMERA" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.RECORD_AUDIO" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.android.thememanager">
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.android.soundrecorder">
+    <PermissionGroup name="android.permission.RECORD_AUDIO" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.soundrecorder">
+    <PermissionGroup name="android.permission.RECORD_AUDIO" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.ouc">
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.android.launcher">
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.mms">
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_CALENDAR" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_CALENDAR" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.CAMERA" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.RECORD_AUDIO" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.android.totemweather">
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_BACKGROUND_LOCATION" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.android.mediacenter">
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.RECORD_AUDIO" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.music">
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.RECORD_AUDIO" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.remoteassistant">
+    <PermissionGroup name="android.permission.READ_CONTACTS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.RECORD_AUDIO" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.GET_ACCOUNTS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.contacts">
+    <PermissionGroup name="android.permission.WRITE_CALENDAR" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_CALENDAR" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.android.contacts">
+    <PermissionGroup name="android.permission.WRITE_CALENDAR" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_CALENDAR" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.android.gallery3d">
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.photos">
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.himovie">
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.intelligent">
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.CALL_PHONE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_CONTACTS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.SEND_SMS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.RECEIVE_SMS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_SMS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_CALENDAR" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_CALENDAR" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.hwid">
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_SMS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.SEND_SMS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_BACKGROUND_LOCATION" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.id">
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_SMS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.SEND_SMS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.hwireader">
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.hnreader">
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.wallet">
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.android.hwpay">
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.CAMERA" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_SMS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.phonediagnose">
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.CAMERA" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.RECORD_AUDIO" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.rcsserviceapplication">
+    <PermissionGroup name="android.permission.READ_CONTACTS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_CONTACTS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.GET_ACCOUNTS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_CALL_LOG" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_CALL_LOG" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.CALL_PHONE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.PROCESS_OUTGOING_CALLS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.CAMERA" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_SMS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.SEND_SMS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.RECEIVE_MMS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.RECEIVE_SMS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.example.android.notepad">
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.vdrive">
+    <PermissionGroup name="android.permission.READ_CONTACTS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.CALL_PHONE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_CALL_LOG" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_CALL_LOG" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.yellowpage">
+    <PermissionGroup name="com.hihonor.contacts.permission.CHOOSE_SUBSCRIPTION" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.vmall.client">
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.locationsharing">
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.videoeditor">
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.hiskytone">
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.CAMERA" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.android.deskclock">
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.deskclock">
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.screenrecorder">
+    <PermissionGroup name="android.permission.RECORD_AUDIO" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.compass">
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.android.vending">
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.contentsensor">
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.hicar">
+    <PermissionGroup name="android.permission.ANSWER_PHONE_CALLS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.CALL_PHONE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.RECORD_AUDIO" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_CONTACTS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_CALL_LOG" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.SYSTEM_ALERT_WINDOW" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.vassistant">
+    <PermissionGroup name="android.permission.ANSWER_PHONE_CALLS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.search">
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.HnMultiScreenShot">
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.smartshot">
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.filemanager">
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.filemanager">
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.meetime">
+    <PermissionGroup name="android.permission.READ_CONTACTS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_CONTACTS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.GET_ACCOUNTS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.CALL_PHONE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_CALL_LOG" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_CALL_LOG" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.CAMERA" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.RECORD_AUDIO" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.huawei.hilink.framework">
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_BACKGROUND_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_CALENDAR" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.awareness">
+    <PermissionGroup name="android.permission.READ_SMS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_BACKGROUND_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACTIVITY_RECOGNITION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.BLUETOOTH_CONNECT" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.RECORD_AUDIO" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_CONTACTS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.brain">
+    <PermissionGroup name="android.permission.ACTIVITY_RECOGNITION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_CALL_LOG" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.android.wfdft">
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_BACKGROUND_LOCATION" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.findmydevice">
+    <PermissionGroup name="android.permission.READ_PHONE_NUMBERS" grant="true" systemFixed="true"/>
+    <PermissionGroup name="android.permission.CALL_PHONE" grant="true" systemFixed="true"/>
+    <PermissionGroup name="android.permission.READ_PHONE_STATE" grant="true" systemFixed="true"/>
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="true"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="true"/>
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="true"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.SEND_SMS" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_BACKGROUND_LOCATION" grant="true" systemFixed="true"/>
+  </Package>
+  <Package name="com.android.bluetooth">
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.trustagent">
+    <PermissionGroup name="android.permission.BLUETOOTH_CONNECT" grant="true" systemFixed="true"/>
+  </Package>
+  <Package name="com.hihonor.securitypluginbase">
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.imedia.sws">
+    <PermissionGroup name="android.permission.BLUETOOTH_CONNECT" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.medialibrary">
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="true"/>
+    <PermissionGroup name="android.permission.ACCESS_MEDIA_LOCATION" grant="true" systemFixed="true"/>
+  </Package>
+  <Package name="com.android.settings">
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.android.permissioncontroller">
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="true"/>
+  </Package>
+  <Package name="com.hihonor.hiboard">
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.BLUETOOTH_CONNECT" grant="true" systemFixed="false"/>
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.servicecenter">
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.android.providers.media.module">
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="true"/>
+  </Package>
+  <Package name="com.android.managedprovisioning">
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="true"/>
+  </Package>
+  <Package name="com.baidu.input_hihonor">
+    <PermissionGroup name="android.permission.READ_SMS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.parentcontrol">
+    <PermissionGroup name="android.permission.CAMERA" grant="true" systemFixed="true"/>
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="true"/>
+    <PermissionGroup name="android.permission.ACCESS_FINE_LOCATION" grant="true" systemFixed="true"/>
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="true"/>
+    <PermissionGroup name="android.permission.ACCESS_BACKGROUND_LOCATION" grant="true" systemFixed="true"/>
+    <PermissionGroup name="android.permission.PROCESS_OUTGOING_CALLS" grant="true" systemFixed="true"/>
+  </Package>
+  <Package name="com.hihonor.servicerecommend">
+    <PermissionGroup name="android.permission.ACCESS_COARSE_LOCATION" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.ACCESS_BACKGROUND_LOCATION" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.appmarket">
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="true"/>
+  </Package>
+  <Package name="com.hihonor.search">
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="true"/>
+  </Package>
+  <Package name="com.android.packageinstaller">
+    <PermissionGroup name="com.android.permission.GET_INSTALLED_APPS" grant="true" systemFixed="true"/>
+  </Package>
+</DefaultPermissionPolicy>

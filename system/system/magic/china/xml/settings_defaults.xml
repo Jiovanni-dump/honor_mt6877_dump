@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2021-09-22 17:10:53.0-->
+  <string black_languages="*_EH,*_XK"/>
+  <!--2021-09-22 17:10:53.0-->
+  <string custom_certify_picture="/system/magic/china/media/certify_infor.png"/>
+  <!--2021-09-22 17:10:53.0-->
+  <string default_input_method="com.baidu.input_hihonor/com.baidu.input_honor.ImeService"/>
+  <!--2021-09-22 17:10:53.0-->
+  <string hn_customized_networkType="CA:4G+"/>
+  <!--2021-09-22 17:10:53.0-->
+  <string hn_theme_support_hnid="true"/>
+  <!--2021-09-22 17:10:53.0-->
+  <string hn_theme_support_pay="true"/>
+  <!--2021-09-22 17:10:53.0-->
+  <integer is_show_google="0"/>
+  <!--2021-09-22 17:10:53.0-->
+  <string roamingBrokerSequenceList="CTExcel,45431,46003|CTExcel,45431,45400"/>
+  <!--2021-09-22 17:10:53.0-->
+  <string settings.global.hn_RemindWifiToPdp="true"/>
+  <!--2021-09-22 17:10:53.0-->
+  <integer settings.global.mobile_data="1"/>
+  <!--2021-09-22 17:10:53.0-->
+  <integer settings.global.notification_bubbles="0"/>
+  <!--2021-09-22 17:10:53.0-->
+  <string settings.global.private_dns_default_mode="off"/>
+  <!--2021-09-22 17:10:53.0-->
+  <integer settings.secure.intelligent_awaken_enabled="0"/>
+  <!--2021-09-22 17:10:53.0-->
+  <integer settings.secure.multi_win_interact="1"/>
+  <!--2022-04-08 18:33:46.0-->
+  <integer settings.secure.oem_installed_apps_runtime_permission_enable="1"/>
+  <!--2021-09-22 17:10:53.0-->
+  <integer settings.secure.secure_gesture_navigation_horizontalswitch="1"/>
+  <!--2021-09-22 17:10:53.0-->
+  <integer settings.secure.ui_night_mode="1"/>
+  <!--2021-09-22 17:10:53.0-->
+  <integer settings.system.androidBeam="0" reset="only_factory"/>
+  <!--2022-07-14 10:20:18.0-->
+  <integer settings.system.vonr_hd_call="1"/>
+  <!--2021-09-22 17:10:53.0-->
+  <string white_languages="en_US,ar_EG,de_DE,bs_BA,es_ES,uk_UA,fr_FR,pt_PT,ru_RU,zh_CN,zh_TW,zh_HK,es_US,cs_CZ,da_DK,el_GR,hu_HU,pt_BR,it_IT,ja_JP,lt_LT,lv_LV,bg_BG,nb_NO,pl_PL,ro_RO,et_EE,sk_SK,sr_Latn,sv_SE,tr_TR,th_TH,fi_FI,in_ID,mk_MK,sl_SI,ms_MY,vi_VN,hr_HR,nl_NL,ca_ES,hi_IN,ko_KR,en_GB,iw_IL,eu_ES,gl_ES,bo_CN,ka_GE,az_AZ,uz_UZ,km_KH,si_LK,ur_PK,kk_KZ,lo_LA,be_BY,bn_BD,my_Qaag,ne_NP,tl_PH,jv_Latn,ug_CN,en_Qaag,my_MM"/>
+</resources>

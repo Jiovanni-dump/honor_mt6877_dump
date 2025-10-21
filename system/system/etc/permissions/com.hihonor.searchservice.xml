@@ -1,0 +1,4 @@
+<permissions>
+    <library name="com.hihonor.searchservice"
+    file="/system/framework/com.hihonor.searchservice.sdk.jar" />
+</permissions>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<intent-rename version="1.0">
+  <caller-package name="com.huawei.vassistant">
+    <intent oldAction="com.huawei.screenrecorder.Start" oldComponent="com.hihonor.screenrecorder/com.huawei.screenrecorder.ScreenRecordService" newAction="com.hihonor.screenrecorder.Start" newComponent="com.hihonor.screenrecorder/com.hihonor.screenrecorder.ScreenRecordService"/>
+    <intent oldPackage="com.huawei.motionservice" oldComponent="com.huawei.motionservice/com.huawei.motionsettings.search.MotionScenesSettingsNormalForSettings" newPackage="com.hihonor.motionservice" newComponent="com.hihonor.motionservice/com.hihonor.motionsettings.search.MotionScenesSettingsNormalForSettings"/>
+    <intent oldPackage="com.huawei.aod" oldComponent="com.huawei.aod/com.huawei.aod.ui.AODSettingsActivity" newPackage="com.hihonor.aod" newComponent="com.hihonor.aod/com.hihonor.aod.ui.AODSettingsActivity"/>
+    <intent oldPackage="com.huawei.magazine" oldComponent="com.huawei.magazine/com.huawei.keyguard.magazine.settings.MagazineUnlockPicMgrActivity" newPackage="com.hihonor.magazine" newComponent="com.hihonor.magazine/com.hihonor.keyguard.magazine.settings.MagazineUnlockPicMgrActivity"/>
+    <intent oldPackage="com.huawei.android.thememanager" oldComponent="com.huawei.android.thememanager/com.huawei.android.thememanager.wallpaper.WallPaperSetActivity" newComponent="com.huawei.android.thememanager/com.huawei.android.thememanager.wallpaper.MagicSixWallPaperSetActivity"/>
+    <intent oldAction="android.media.action.STILL_IMAGE_CAMERA_SECURE" oldPackage="com.huawei.camera" newPackage="com.hihonor.camera"/>
+    <intent oldAction="com.huawei.contacts.OneStep.OneStepCall" oldPackage="com.huawei.contacts" newAction="com.hihonor.contacts.OneStep.OneStepCall" newPackage="com.hihonor.contacts"/>
+    <intent oldAction="com.android.contacts.huawei.permission.NOTIFICATION_UPDATE_ACTION" oldPackage="com.android.mms" newAction="com.android.contacts.hihonor.permission.NOTIFICATION_UPDATE_ACTION" newPackage="com.hihonor.mms"/>
+    <intent oldAction="com.huawei.HwMultiScreenShot.Start" oldComponent="com.hihonor.HnMultiScreenShot/com.huawei.HwMultiScreenShot.MultiScreenShotService" newAction="com.hihonor.HnMultiScreenShot.start" newComponent="com.hihonor.HnMultiScreenShot/com.hihonor.HnMultiScreenShot.MultiScreenShotService"/>
+    <intent oldAction="com.huawei.settings.hivoicesettingservice" oldComponent="com.android.settings/com.android.settings.hivoice.service.HiVoiceSettingsService" newAction="com.hihonor.settings.hivoicesettingservice"/>
+    <intent oldAction="huawei.intent.action.HwHiVoiceSearchService" newAction="hihonor.intent.action.HwHiVoiceSearchService"/>
+    <intent oldAction="huawei.intent.action.hsm_remove_pkg" newAction="hihonor.intent.action.hsm_remove_pkg"/>
+    <intent oldAction="com.huawei.android.powerkit.PowerKitService" newAction="com.hihonor.android.powerkit.PowerKitService"/>
+    <intent oldAction="com.huawei.action.MOTION_SCENES_SETTINGS" oldPackage="com.hihonor.motionservice" oldComponent="com.hihonor.motionservice/com.huawei.motionsettings.tutorial.MotionScenesSettings" newAction="com.hihonor.action.MOTION_SCENES_SETTINGS" newComponent="com.hihonor.motionservice/com.hihonor.motionsettings.tutorial.MotionScenesSettings"/>
+    <intent oldAction="huawei.intent.action.PHONE_MANAGER" oldPackage="com.hihonor.systemmanager" newAction="hihonor.intent.action.PHONE_MANAGER"/>
+    <intent oldAction="huawei.intent.action.POWER_MANAGER" oldPackage="com.hihonor.systemmanager" newAction="hihonor.intent.action.POWER_MANAGER"/>
+    <intent oldAction="huawei.intent.action.HSM_HARASS_RULE_SETTING" oldPackage="com.hihonor.systemmanager" newAction="hihonor.intent.action.HSM_HARASS_RULE_SETTING"/>
+    <intent oldAction="huawei.intent.action.HSM_HARASSMENT" oldPackage="com.hihonor.systemmanager" newAction="hihonor.intent.action.HSM_HARASSMENT"/>
+    <intent oldAction="com.huawei.gallery.action.SEARCH_GALLERY" oldPackage="com.hihonor.photos" newAction="com.hihonor.gallery.action.SEARCH_GALLERY"/>
+    <intent oldAction="com.huawei.gallery.action.SHARE_GALLERY" oldPackage="com.hihonor.photos" newAction="com.hihonor.gallery.action.SHARE_GALLERY"/>
+    <intent oldAction="com.huawei.deskclock.android.intent.action.SET_ALARM" oldPackage="com.hihonor.deskclock" newAction="com.hihonor.deskclock.android.intent.action.SET_ALARM"/>
+    <intent oldAction="com.huawei.deskclock.android.intent.action.CLOSE_ALL_ALARM" oldPackage="com.hihonor.deskclock" newAction="com.hihonor.deskclock.android.intent.action.CLOSE_ALL_ALARM"/>
+    <intent oldAction="com.huawei.emuimanual.ACTION_VIEW_TIPS" oldPackage="com.hihonor.tips" newAction="com.hihonor.tips.ACTION_VIEW_TIPS"/>
+    <intent oldAction="com.huawei.android.tips.ACTION_FEATURE_ID" oldPackage="com.hihonor.tips" newAction="com.hihonor.android.tips.ACTION_FEATURE_ID"/>
+    <intent oldAction="com.huawei.instantshare.action.START_SETTINGS" newAction="com.hihonor.instantshare.action.START_SETTINGS" newComponent="com.hihonor.android.instantshare/com.hihonor.android.hwshare.ui.hnsync.SettingsActivity"/>
+    <intent oldAction="com.huawei.settings.DARK_MODE_SETTINGS" oldPackage="com.android.settings" newAction="com.android.settings.DISPLAY_SETTINGS"/>
+    <intent oldPackage="com.hihonor.hndockbar" oldComponent="com.hihonor.hndockbar/com.huawei.hwdockbar.settings.MultiWinSettingsForSettings" newPackage="com.hihonor.hndockbar" newComponent="com.hihonor.hndockbar/com.hihonor.hndockbar.settings.MultiWinSettingsForSettings"/>
+  </caller-package>
+</intent-rename>

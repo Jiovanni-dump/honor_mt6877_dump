@@ -1,0 +1,98 @@
+# 2021-09-22 17:10:53.0
+msc.config.aqv_enabled=false
+# 2021-09-22 17:10:53.0
+msc.config.ecclist_nocard=+120,+122
+# 2021-09-22 17:10:53.0
+msc.config.ecclist_withcard=+112
+# 2021-09-22 17:10:53.0
+msc.config.fake_ecc_list=110,120,122,999,119
+# 2021-09-22 17:10:53.0
+msc.config.globalEcc=false
+# 2021-11-22 15:26:41.0
+msc.config.gta_words=huawei
+# 2021-09-22 17:10:53.0
+msc.config.nlp=com.huawei.lbs
+# 2021-09-22 17:10:53.0
+msc.config.optb=156
+# 2021-09-22 17:10:53.0
+msc.config.updateCotaPara=true
+# 2021-09-22 17:10:53.0
+msc.foreground_data_opt_enable=true
+# 2021-09-22 17:10:53.0
+msc.hicall.screensharing=true
+# 2021-09-22 17:10:53.0
+msc.meetime.message.mode=1
+# 2021-09-22 17:10:53.0
+msc.only_ipv6_allowed_cure=true
+# 2021-09-22 17:10:53.0
+msc.pp.ds_fail=111,30,32,33,35
+# 2021-12-07 16:32:58.0
+msc.protocol.pdu_failure_close_nr=true
+# 2021-11-27 17:24:51.0
+msc.protocol.radio.sa_to_lte_for_power_save=true
+# 2021-10-19 16:19:56.0
+msc.protocol.smart_dual_card=true
+# 2021-09-22 17:10:53.0
+msc.speed_limit_notifier_enable=true
+# 2021-09-22 17:10:53.0
+msc.speed_test_limit_notifier_enable=true
+# 2021-09-22 17:10:53.0
+msc.sys.ipv6opt=true
+# 2021-09-22 17:10:53.0
+msc.sys.sub1_disable_switch_cs=true
+# 2021-09-22 17:10:53.0
+msc.telephony.rat_changed_delay=true
+# 2021-09-22 17:10:53.0
+ro.camera.sound.not_forced=true
+# 2021-09-22 17:10:53.0
+ro.config.dataoff_timeout=5
+# 2021-09-22 17:10:53.0
+ro.config.dnscure_ipcfg=10.8.2.1;10.8.2.2|8.8.8.8;208.67.222.222;180.76.76.76;223.5.5.5
+# 2021-09-22 17:10:53.0
+ro.config.enable_rms=true
+# 2021-09-22 17:10:53.0
+ro.config.hicall=true
+# 2021-09-22 17:10:53.0
+ro.config.music_region=lowfreq
+# 2021-09-22 17:10:53.0
+ro.config.permanent_error_heal=true
+# 2021-09-22 17:10:53.0
+ro.config.pre_dns_query=true
+# 2021-09-22 17:10:53.0
+ro.config.support_doubletap_pay=true
+# 2022-03-17 10:18:15.0
+ro.config.support_etcis=true
+# 2021-09-22 17:10:53.0
+ro.config.support_iseapp=true
+# 2021-09-22 17:10:53.0
+ro.config.support_privacyspace=true
+# 2021-09-22 17:10:53.0
+ro.iconnect.trustpair=true
+# 2021-09-22 17:10:53.0
+ro.odm.cdma.dormancy.mode=1
+# 2021-09-22 17:10:53.0
+ro.odm.cdma.dormancy.screen=3
+# 2021-09-22 17:10:53.0
+ro.odm.cur_primary_dns=114.114.114.114
+# 2021-09-22 17:10:53.0
+ro.odm.cur_secondary_dns=180.76.76.76
+# 2021-09-22 17:10:53.0
+ro.odm.gsm.fastdormancy.mode=3
+# 2021-09-22 17:10:53.0
+ro.odm.gsm.fd.screen=2
+# 2021-09-22 17:10:53.0
+ro.odm.gsm.fd.time_scroff=4000
+# 2021-09-22 17:10:53.0
+ro.odm.high_priority_data_mode=true
+# 2021-09-22 17:10:53.0
+ro.product.locale=zh-Hans-CN
+# 2021-09-22 17:10:53.0
+ro.product.locale.language=zh
+# 2021-09-22 17:10:53.0
+ro.product.locale.region=CN
+# 2021-09-22 17:10:53.0
+ro.setupwizard.mode=DISABLED
+# 2021-09-22 17:10:53.0
+ro.sys.ping_bf_dorecovery=true
+# 2021-09-22 17:10:53.0
+vendor.msc.radio.key_app_close_nr=true

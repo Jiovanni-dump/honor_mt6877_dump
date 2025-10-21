@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wifi_enhance_config>
+  <wifi_hidata_boost_caller_apk_list>
+    <apk name="com.huawei.hwvoipservice"/>
+  </wifi_hidata_boost_caller_apk_list>
+  <wifi_apinfo_caller_apk_list>
+    <apk name="com.android.nfc"/>
+    <apk name="com.android.settings"/>
+    <apk name="com.huawei.smarthome"/>
+    <apk name="com.huawei.smartspeaker"/>
+    <apk name="com.huawei.health:PhoneService"/>
+  </wifi_apinfo_caller_apk_list>
+  <wifi_scan_allow_apk_list>
+    <apk name="com.huawei.smarthome"/>
+    <apk name="com.huawei.smartspeaker"/>
+    <apk name="com.sankuai.meituan.dispatch.homebrew"/>
+    <apk name="com.sankuai.meituan.dispatch.crowdsource"/>
+    <apk name="com.sankuai.meituan"/>
+    <apk name="com.hihonor.android.clone"/>
+    <apk name="com.hicloud.android.clone"/>
+    <apk name="com.hihonor.awareness"/>
+  </wifi_scan_allow_apk_list>
+  <wifi_connect_allow_apk_list>
+    <apk name="com.hicloud.android.clone"/>
+    <apk name="com.hihonor.android.instantonline"/>
+    <apk name="com.hihonor.android.clone"/>
+  </wifi_connect_allow_apk_list>
+  <probe_address_list>
+    <probeaddress type="http" address="http://connectivitycheck.platform.hihonorcloud.com/generate_204"/>
+    <probeaddress type="https" address="https://connectivitycheck.platform.hihonorcloud.com/generate_204"/>
+    <probeaddress type="httpfallback" address="http://connectivitycheck.platform.hicloud.com/generate_204"/>
+    <probeaddress type="httpsfallback" address="https://connectivitycheck.platform.hicloud.com/generate_204"/>
+  </probe_address_list>
+</wifi_enhance_config>

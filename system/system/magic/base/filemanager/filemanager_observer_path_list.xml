@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dir_policy>
+<dir extension="doc,docx,xls,xlsx,pdf,ppt,pptx,zip,rar,7z" />
+<dir packageName="com.tencent.mm" observerPath="/storage/emulated/0/Download/WeiXin" hasChild="false"/>
+<dir packageName="com.tencent.mm" observerPath="/storage/emulated/0/Download/WeChat" hasChild="false"/>
+<dir packageName="com.tencent.mm" observerPath="/storage/emulated/0/Android/data/com.tencent.mm/MicroMsg/Download" hasChild="false"/>
+<dir packageName="com.tencent.mtt" observerPath="/storage/emulated/0/QQBrowser/editcopyfiles" hasChild="true"/>
+<dir packageName="com.tencent.mtt" observerPath="/storage/emulated/0/QQBrowser/文档" hasChild="false"/>
+<dir packageName="com.tencent.mtt" observerPath="/storage/emulated/0/QQBrowser/其他" hasChild="false"/>
+<dir packageName="com.huawei.browser" observerPath="/storage/emulated/0/Download/Browser" hasChild="false"/>
+<dir packageName="com.hihonor.baidu.browser" observerPath="/storage/emulated/0/Download/HonorBrowser" hasChild="false"/>
+<dir packageName="com.UCMobile" observerPath="/storage/emulated/0/UCDownloads" hasChild="false"/>
+</dir_policy>

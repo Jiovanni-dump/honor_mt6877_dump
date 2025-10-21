@@ -1,0 +1,659 @@
+{
+  "appinfo": {
+    "version": "001.001",
+    "video_applist": [
+      {
+        "packageName": "com.hihonor.youku.video",
+        "activityList": ["com.youku.nav.OldVerPromptActivity",
+        "com.youku.ui.activity.DetailActivity"]
+      },
+      {
+        "packageName": "com.cctv.yangshipin.app.androidp",
+        "activityList": ["com.tencent.videolite.android.ui.HomeActivity",
+        "com.tencent.videolite.android.business.videolive.VideoLiveActivity",
+        "com.tencent.videolite.android.business.videodetail.VideoDetailActivity"]
+      },
+      {
+        "packageName": "tv.danmaku.bili",
+        "activityList": ["com.bilibili.video.videodetail.VideoDetailsActivity",
+      "com.bilibili.video.story.StoryVideoActivity",
+      "com.bilibili.video.story.StoryTransparentActivity",
+      "com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3",
+      "com.bilibili.multitypeplayerV2.MultiTypeVideoContentActivity",
+      "com.bilibili.bangumi.ui.page.detail.BangumiDetailActivityV3",
+      "com.bilibili.cheese.ui.page.detail.CheeseDetailActivityV3",
+      "com.bilibili.bangumi.ui.page.detail.OGVHDDetailActivity",
+      "tv.danmaku.bili.ui.video.VideoDetailsActivity"]
+      },
+      {
+        "packageName": "com.qiyi.video",
+        "activityList": ["org.iqiyi.video.activity.PlayerActivity",
+      "org.qiyi.android.video.MainActivity",
+      "org.qiyi.pluginlibrary.component.InstrActivityProxy1",
+      "com.qiyi.video.WelcomeActivity"]
+      },
+      {
+        "packageName": "com.qiyi.video.pad",
+        "activityList": ["org.iqiyi.video.activity.PlayerActivity",
+      "org.qiyi.android.video.MainActivity",
+      "org.qiyi.pluginlibrary.component.InstrActivityProxy1",
+      "com.qiyi.video.WelcomeActivity"]
+      },
+      {
+        "packageName": "com.huawei.himovie",
+        "activityList": ["com.huawei.videodetail.impl.activity.vod.VodDetailActivity",
+      "com.huawei.himovie.components.smallvideo.impl.ui.SmallVideoActivity",
+      "com.huawei.component.livedetail.impl.activity.live.SingleLiveDetailActivity",
+      "com.huawei.video.content.impl.explore.main.activity.MainActivity",
+      "com.huawei.component.localplay.impl.ui.FullscreenInnerActivity",
+      "com.huawei.component.localplay.impl.ui.FullscreenActivity",
+      "com.huawei.hwvplayer.service.player.FullscreenActivity"]
+      },
+      {
+        "packageName": "com.tencent.qqlivehuawei",
+        "activityList": ["com.huawei.videodetail.impl.activity.vod.VodDetailActivity"]
+      },
+      {
+        "packageName": "com.baidu.haokan",
+        "activityList": ["com.baidu.haokan.app.feature.video.detail.VideoDetailActivity",
+      "com.baidu.haokan.app.activity.HomeActivity",
+      "com.baidu.searchbox.live.list.MixLiveActivity",
+      "com.baidu.searchbox.live.list.MixLiveTranslucentActivity",
+      "com.baidu.haokan.newhaokan.ares.AresActivity",
+      "com.baidu.haokan.app.feature.video.FullScreenActivity"]
+      },
+      {
+        "packageName": "com.cmcc.cmvideo",
+        "activityList": ["com.cmcc.cmvideo.playdetail.PlayDetailActivity",
+      "com.cmvideo.capability.mgdetail.SingleTaskActivity",
+      "com.cmvideo.capability.mgdetail.StandardActivity",
+      "com.cmcc.cmvideo.playdetail.widget.PlayLiveActivity",
+      "com.cmcc.cmvideo.main.application.CompatibleMainActivity",
+      "com.cmvideo.capability.vod.VodActivity",
+      "com.cmvideo.capability.playdetailshortvideo.StandardActivity"]
+      },
+      {
+        "packageName": "com.ss.android.article.video",
+        "activityList": ["com.ss.android.article.video.activity.SplashActivity",
+      "com.ixigua.pad.main.specific.PadMainActivity",
+      "com.ixigua.pad.immersive.specific.activity.PadMidImmersiveActivity",
+      "com.ixigua.pad.immersive.specific.activity.PadLongImmersiveActivity",
+      "com.ixigua.openliveplugin.LivePlayerActivity",
+      "bytedance.mira.stub.p0.StubSingleTaskActivity1",
+      "com.bytedance.mira.stub.p0.StubSingleTaskActivity1",
+      "com.ixigua.feature.littlevideo.detail.LittleVideoDetailActivity",
+      "com.ixigua.feature.longvideo.detail.LongDetailActivity",
+      "com.ixigua.feature.detail.activity.NewDetailActivity",
+      "com.ss.android.article.base.feature.link.LocalVideoActivity"]
+      },
+      {
+        "packageName": "com.youku.phone",
+        "activityList": ["com.youku.ui.activity.DetailActivity",
+      "com.youku.hotspot.activity.HotSpotActivity",
+      "com.youku.live.YKLiveActivity",
+      "com.youku.live.laifengcontainer.LaifengLiveActivity",
+      "com.youku.android.smallvideo.entry.SmallVideoNoTranslucentActivity",
+      "com.youku.ui.activity.LocalMediaPlayActivity"]
+      },
+      {
+        "packageName": "com.baidu.netdisk",
+        "activityList": ["com.baidu.netdisk.video.ui.preview.video.VideoPlayerActivity",
+      "com.baidu.netdisk.video.VideoPlayerActivity"]
+      },
+      {
+        "packageName": "com.sohu.sohuvideo",
+        "activityList": ["com.sohu.qfsdk.live.ui.activity.LiveActivity",
+      "com.sohu.sohuvideo.mvp.ui.activity.VideoDetailActivity",
+      "com.sohu.sohuvideo.ui.homepage.MainActivity",
+      "com.sohu.sohuvideo.ui.VrsImmersiveActivity",
+      "com.sohu.sohuvideo.mvp.ui.activity.LandscapePlayActivity"]
+      },
+      {
+        "packageName": "com.ss.android.ugc.aweme",
+        "activityList": ["com.ss.android.ugc.aweme.splash.SplashActivity",
+      "com.ss.android.ugc.aweme.detail.ui.DetailActivity",
+      "com.ss.android.ugc.aweme.main.MainActivity",
+      "com.ss.android.ugc.aweme.hotspot.HotSpotDetailActivity",
+      "com.ss.android.ugc.aweme.longervideo.landscape.view.LandscapeFeedActivity",
+      "com.ss.android.ugc.aweme.live.LivePlayActivity",
+      "com.ss.android.ugc.aweme.playlet.videodetail.PlayletVideoPlayActivity",
+      "com.ss.android.ugc.aweme.longervideo.landscape.home.activity.LandscapeFeedActivity",
+      "com.ss.android.ugc.aweme.mix.videodetail.MixVideoPlayActivity",
+      "com.ss.android.ugc.aweme.detail.ui.LiveDetailActivity"]
+      },
+      {
+        "packageName": "com.xingin.xhs",
+        "activityList": ["com.xingin.matrix.detail.activity.DetailFeedActivity",
+      "com.xingin.xhs.index.v2.IndexActivityV2",
+      "com.xingin.alpha.audience.AlphaAudienceActivity",
+      "com.xingin.matrix.detail.old.videofeed.VideoFeedActivity",
+      "com.xingin.alpha.ui.events.AlphaEventsWebActivity"]
+      },
+      {
+        "packageName": "com.netease.edu.ucmooc",
+        "activityList": ["com.netease.edu.ucmooc.player.ui.ActivityPlayerRecommend",
+      "com.easefun.polyv.cloudclassdemo.watch.PolyvCloudClassHomeActivity",
+      "com.baijiahulian.live.ui.flow.FlowLiveRoomActivity",
+      "com.netease.edu.ucmooc.homepage.activity.ActivityCourseIntroduce"]
+      },
+      {
+        "packageName": "com.netease.vopen",
+        "activityList": ["com.netease.vopen.feature.video.free.ui.FreeVideoActivity"]
+      },
+      {
+        "packageName": "com.gaotu100.superclass",
+        "activityList": ["com.gaotu100.superclass.live.livevideo.LiveVideoActivity",
+      "com.gaotu100.superclass.live.playback.PlaybackActivity"]
+      },
+      {
+        "packageName": "com.alicloud.databox",
+        "activityList": ["com.alicloud.databox.mediaplayer.video.VideoPlayerActivity"]
+      },
+      {
+        "packageName": "com.fenbi.android.servant",
+        "activityList": ["com.fenbi.android.module.video.refact.webrtc.replay.ReplayActivity",
+      "com.fenbi.android.module.video.play.webrtc.normal.replay.ReplayActivity",
+      "com.fenbi.android.module.video.play.webrtc.normal.live.LiveActivity",
+      "com.fenbi.android.module.video.refact.webrtc.live.LiveActivity"]
+      },
+      {
+        "packageName": "com.cn21.ecloud",
+        "activityList": ["com.cn21.ecloud.activity.videoplayer.VideoPlayer2Activity",
+      "com.cn21.ecloud.activity.webview.WebViewYunYouActivity"]
+      },
+      {
+        "packageName": "com.alibaba.android.rimet",
+        "activityList": ["com.alibaba.android.teleconf.mozi.activity.TeleVideoConfActivity",
+      "com.alibaba.android.dingtalk.live.ui.slide.SlideLiveActivity",
+      "com.alibaba.android.dingtalk.live.ui.replay.ReplayActivity",
+      "com.alibaba.android.dingtalk.live.ui.anchor2.AnchorActivity",
+      "com.alibaba.android.rimet.biz.LaunchHomeActivity",
+      "com.alibaba.dingtalk.flashminutes.detail.activity.FlashMinutesDetailActivity"]
+      },
+      {
+        "packageName": "com.tencent.wemeet.app",
+        "activityList": ["com.tencent.wemeet.sdk.meeting.inmeeting.InMeetingActivity",
+      "fcom.tencent.wemeet.module.aravatar.activity.ArAvatarActivity",
+      "com.tencent.wemeet.components.webcore.activity.GestureBrowserActivity",
+      "com.tencent.wemeet.module.mediaprocess.activity.UserSettingVirtualbackground"]
+      },
+      {
+        "packageName": "com.netease.edu.study",
+        "activityList": ["com.netease.edu.unitpage.frame.ActivityUnitPage",
+      "com.youdao.course.activity.QuizPlayListActivity",
+      "com.youdao.course.activity.ExtendedLiveActivity",
+      "com.netease.edu.study.rn.view.base.EduReactActivity"]
+      },
+      {
+        "packageName": "com.sohu.tv",
+        "activityList": ["com.sohu.tv.ui.activitys.VideoDetailActivity",
+      "com.sohu.tv.ui.activitys.MainActivity"]
+      },
+      {
+        "packageName": "com.ss.android.lark",
+        "activityList": ["com.ss.android.vc.meeting.module.multi.ByteRTCMeetingActivityInstance",
+      "com.ss.android.lark.mm.module.detail.MmDetailActivity",
+      "com.bytedance.ee.bear.drive.core.DriveActivity"]
+      },
+      {
+        "packageName": "com.hunantv.imgo.activity",
+        "activityList": ["com.mgtv.ui.player.VodPlayerPageActivity",
+      "com.mgtv.ui.channel.immersive.ImmersivePlayActivity",
+      "com.hunantv.imgo.activity.MainActivity",
+      "com.mgtv.ui.liveroom.main.LiveRoomActivity"]
+      },
+      {
+        "packageName": "com.qq.qcloud",
+        "activityList": ["com.qq.qcloud.activity.detail.ViewDetailActivity"]
+      },
+      {
+        "packageName": "com.chinamobile.mcloud",
+        "activityList": ["com.chinamobile.mcloud.common.media.video.PlayerActivity"]
+      },
+      {
+        "packageName": "tv.danmaku.bilibilihd",
+        "activityList": ["com.bilibili.video.videodetail.VideoDetailsActivity",
+      "com.bilibili.bangumi.ui.page.detail.OGVHDDetailActivity",
+      "com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3"]
+      },
+      {
+        "packageName": "com.gotokeep.keep",
+        "activityList": ["com.gotokeep.keep.wt.business.course.detail.activity.CourseDetailActivity",
+      "com.gotokeep.keep.su.social.playlist.activity.VideoPlaylistPlayerActivity",
+      "com.gotokeep.keep.kl.business.keeplive.liveroom.activity.KeepLiveActivity",
+      "com.keep.trainingengine.host.TrainingEngineActivity"]
+      },
+      {
+        "packageName": "cn.com.open.mooc",
+        "activityList": ["cn.com.open.mooc.component.player.ui.PlayCourseActivityV2",
+      "com.netease.edu.ucmooc.activity.ActivitySimpleVideoPlayer",
+      "cn.com.open.mooc.component.live.ui.LiveActivity"]
+      },
+      {
+        "packageName": "com.smile.gifmaker",
+        "activityList": ["com.yxcorp.gifshow.HomeActivity",
+      "com.yxcorp.gifshow.detail.PhotoDetailActivityTablet",
+      "com.kuaishou.live.core.basic.activity.LivePlayActivity",
+      "com.kuaishou.live.core.basic.activity.LiveSlideActivity",
+      "com.yxcorp.gifshow.detail.PhotoDetailActivity",
+      "com.yxcorp.gifshow.corona.detail.CoronaDetailActivity"]
+      },
+      {
+        "packageName": "com.xueersi.parentsmeeting",
+        "activityList": ["com.xueersi.parentsmeeting.modules.contentcenter.subject.activity.SubjectHomeActivity",
+      "com.xueersi.parentsmeeting.module.browser.activity.OtherProcessBrowserActivity",
+      "com.xueersi.base.live.framework.playback.LivePlaybackActivity",
+      "com.xueersi.parentsmeeting.modules.contentcenter.community.activity.VideoDetailActivity"]
+      },
+      {
+        "packageName": "com.tencent.qqlive",
+        "activityList": ["com.tencent.qqlive.ona.activity.VideoDetailActivity",
+      "com.tencent.qqlive.ona.activity.SplashHomeActivity",
+      "com.tencent.qqlive.universal.wtoe.immersive.page.WTOEImmersivePlayActivity",
+      "com.tencent.vlive.VLiveActivity",
+      "com.tencent.qqlive.ona.activity.SplashVideoDetailActivity",
+      "com.tencent.qqlive.ona.activity.shortvideofeeds.SplashVideoImmersiveDirectSecPageActivity",
+      "com.tencent.qqlive.universal.live.ui.UniversalLiveActivity"]
+      },
+      {
+        "packageName": "com.zuoyebang.airclass",
+        "activityList": ["com.zuoyebang.airclass.live.playback.LivePlaybackActivity"]
+      },
+      {
+        "packageName": "com.baidu.homework",
+        "activityList": ["com.zuoyebang.airclass.live.playback.LivePlaybackActivity",
+      "com.zybang.yike.screen.LiveRoomActivity",
+      "com.baidu.homework.activity.web.ZybWebActivity"]
+      },
+      {
+        "packageName": "com.qiyi.video.lite",
+        "activityList": ["com.qiyi.video.lite.videoplayer.activity.PlayerV2Activity",
+      "com.qiyi.video.lite.homepage.HomeActivity"]
+      },
+      {
+        "packageName": "com.huawei.hwvplayer.youku",
+        "activityList": ["com.youku.ui.activity.DetailActivity",
+      "com.youku.hotspot.activity.HotSpotActivity",
+      "com.youku.live.YKLiveActivity",
+      "com.youku.ui.activity.DetailActivity"]
+      },
+      {
+        "packageName": "com.ss.android.ugc.aweme.lite",
+        "activityList": ["com.ss.android.ugc.aweme.detail.ui.DetailActivity",
+      "com.ss.android.ugc.aweme.splash.SplashActivity",
+      "com.ss.android.ugc.aweme.mix.videodetail.MixVideoPlayActivity",
+      "com.ss.android.ugc.aweme.detail.ui.LiveDetailActivity",
+      "com.ss.android.ugc.aweme.main.MainActivity",
+      "com.ss.android.ugc.aweme.hotspot.HotSpotDetailActivity"]
+      },
+      {
+        "packageName": "com.sina.weibolite",
+        "activityList": ["com.weico.international.ui.smallvideo.SmallVideoActivity"]
+      },
+      {
+        "packageName": "com.kuaishou.nebula",
+        "activityList": ["com.yxcorp.gifshow.HomeActivity",
+      "com.yxcorp.gifshow.detail.PhotoDetailActivity"]
+      },
+      {
+        "packageName": "com.zhihu.android",
+        "activityList": ["com.zhihu.android.education.videocourse.VideoCourseActivity",
+      "com.zhihu.android.video_entity.VideoEntitySerialHostActivity",
+      "com.zhihu.android.video_entity.VideoEntityHostActivity",
+      "com.zhihu.android.videox.VideoXHostActivity"]
+      },
+      {
+        "packageName": "com.sina.weibo",
+        "activityList": ["com.sina.weibo.video.tabcontainer.VideoTabContainerActivity",
+      "com.sina.weibo.wblive.container.WBLiveActivity"]
+      },
+      {
+        "packageName": "com.xunlei.downloadprovider",
+        "activityList": ["com.xunlei.downloadprovider.download.taskdetails.newui.DownloadDetailsXTaskActivity",
+      "com.xunlei.web.XLWebViewActivity$XLWebViewActivityImpl",
+      "com.xunlei.downloadprovider.download.taskdetails.newui.DownloadDetailsActivity"]
+      },
+      {
+        "packageName": "com.xunlei.hddownloadprovider",
+        "activityList": ["com.xunlei.downloadprovider.download.taskdetails.newui.DownloadDetailsXTaskActivity",
+      "com.xunlei.downloadprovider.download.taskdetails.newui.DownloadDetailsActivity"]
+      },
+      {
+        "packageName": "com.huawei.welink",
+        "activityList": ["com.huawei.hwmconf.presentation.view.activity.InMeetingActivity"]
+      },
+      {
+        "packageName": "com.youdao.course",
+        "activityList": ["com.youdao.course.sellingdetail.activity.CourseSellingActivity"]
+      },
+      {
+        "packageName": "com.ss.android.article.news",
+        "activityList": ["com.ss.android.ugc.detail.refactor.ui.TikTokActivity",
+      "com.ss.android.article.news.activity.MainActivity",
+      "com.ss.android.ugc.detail.refactor.ui.NewTikTokDetailActivity",
+      "com.ss.android.detail.feature.detail2.view.NewVideoDetailActivity",
+      "com.ss.android.video.impl.feed.immersion.ImmerseDetailActivity",
+      "com.bytedance.mira.stub.p0.StubSingleTaskActivity1",
+      "com.ss.android.xiagualongvideo.detail.LongVideoDetailActivity"]
+      },
+      {
+        "packageName": "com.tencent.edu",
+        "activityList": ["com.tencent.edu.module.course.flutter.FCourseDetailActivity",
+      "com.tencent.edu.module.course.task.CourseTaskActivity",
+      "com.tencent.edu.module.series.SeriesVideoActivity",
+      "com.tencent.edu.module.shortvideo.ShortVideoActivity",
+      "com.tencent.edu.module.course.flutter.FMiniCourseDetailActivity",
+      "com.tencent.edu.module.audiovideo.widget.RecruitAvActivity",
+      "com.tencent.edu.module.webapi.WebOpenUrlActivity"]
+      },
+      {
+        "packageName": "com.ss.android.article.lite",
+        "activityList": ["com.ss.android.xigualongvideo.detail.LongVideoDetailActivity",
+      "com.ss.android.article.lite.activity.SplashActivity",
+      "com.ss.android.live.host.livehostimpl.OpenLivePlayerActivity",
+      "com.ss.android.article.base.feature.detail2.view.NewVideoDetailActivity",
+      "com.bytedance.mira.stub.p0.StubSingleTaskActivity1",
+      "com.ss.android.ugc.detail.refactor.ui.TikTokActivity"]
+      },
+      {
+        "packageName": "com.ss.android.ugc.live",
+        "activityList": ["com.ss.android.ugc.live.detail.DetailActivity",
+      "com.ss.android.ugc.live.live.ui.LiveDetailActivity",
+      "com.ss.android.ugc.live.main.MainActivity"]
+      },
+      {
+        "packageName": "com.tencent.mm",
+        "activityList": ["com.tencent.mm.plugin.finder.ui.FinderShareFeedRelUI",
+      "com.tencent.mm.plugin.finder.feed.ui.BizProfileTimelineUI",
+      "com.tencent.mm.plugin.sns.ui.SnsOnlineVideoActivity",
+      "com.tencent.mm.plugin.voip.ui.VideoActivity",
+      "com.tencent.mm.plugin.fav.ui.detail.FavoriteVideoPlayUI",
+      "com.tencent.mm.plugin.fav.ui.detail.FavoriteSightDetailUI",
+      "com.tencent.mm.plugin.finder.feed.ui.FinderLiveVisitorWithoutAffinityUI",
+      "com.tencent.mm.plugin.finder.feed.ui.FinderProfileTimeLineUI",
+      "com.tencent.mm.plugin.finder.ui.FinderHomeUI",
+      "com.tencent.mm.ui.chatting.gallery.ImageGalleryUI"]
+      },
+      {
+        "packageName": "com.huawei.educenter",
+        "activityList": ["com.huawei.educenter.service.edudetail.view.activity.EduDetailActivity"]
+      }
+    ],
+
+    "video_idlist": {
+      "tv.danmaku.bili": [
+          "tv.danmaku.bili:id/videoview_container",
+          "tv.danmaku.bili:id/videoview_container_page",
+          "tv.danmaku.bili:id/video_wrapper",
+          "tv.danmaku.bili:id/danmaku_view_container",
+          "tv.danmaku.bili:id/video_view",
+          "tv.danmaku.bili:id/story_activity_root",
+          "tv.danmaku.bili:id/videoview_container_space",
+          "tv.danmaku.bili:id/roomContainerView",
+          "tv.danmaku.bili:id/player_constraint_layout",
+          "tv.danmaku.bili:id/video_area"
+      ],
+      "com.sohu.sohuvideo": [
+          "com.sohu.sohuvideo:id/detail_appbar",
+          "com.sohu.sohuvideo:id/play_layout",
+          "com.sohu.sohuvideo:id/fg_link_cover",
+          "com.sohu.sohuvideo:id/qflive_cover",
+          "com.sohu.sohuvideo:id/play_fragment_container",
+          "com.sohu.sohuvideo:id/rl_root_recommend",
+          "com.sohu.sohuvideo:id/video_container",
+          "com.sohu.sohuvideo:id/layout_video_container"
+      ],
+      "com.huawei.himovie": [
+          "com.huawei.himovie:id/multi_view_play_root",
+          "com.huawei.himovie:id/smallvideo_root_container",
+          "com.huawei.himovie:id/player_container",
+          "com.huawei.himovie:id/video_view",
+          "com.huawei.himovie:id/tplayer_screen",
+          "com.huawei.himovie:id/fragment_single_live_player_root_fl"
+      ],
+      "com.tencent.qqlivehuawei": [
+          "com.tencent.qqlivehuawei:id/multi_view_play_root"
+      ],
+      "com.cmcc.cmvideo": [
+          "com.cmcc.cmvideo:id/play_area",
+          "com.cmcc.cmvideo:id/fl_player",
+          "com.cmcc.cmvideo:id/mgsvdetail_short_video_paly_area",
+          "com.cmcc.cmvideo:id/videoContainer",
+          "com.cmcc.cmvideo:id/rl_root_control"
+      ],
+      "com.youku.phone": [
+          "com.youku.phone:id/head_panel_id",
+          "com.youku.phone:id/player2_view_container",
+          "com.youku.phone:id/player_view_1",
+          "com.youku.phone:id/customer_local_video_view"
+      ],
+      "com.huawei.hwvplayer.youku": [
+          "com.huawei.hwvplayer.youku:id/player_view_1",
+          "com.huawei.hwvplayer.youku:id/player2_view_container",
+          "com.huawei.hwvplayer.youku:id/head_player_container",
+          "com.huawei.hwvplayer.youku:id/head_panel_id",
+          "com.huawei.hwvplayer.youku:id/svf_costar_view_small_screen_container",
+          "com.huawei.hwvplayer.youku:id/svf_layout_costar_item"
+      ],
+      "com.baidu.haokan": [
+          "com.baidu.haokan:id/ccs",
+          "com.baidu.haokan:id/at5",
+          "com.baidu.haokan:id/d7f",
+          "com.baidu.haokan:id/avp",
+          "com.baidu.haokan:id/cjh",
+          "com.baidu.haokan:id/dv2",
+          "com.baidu.haokan:id/d5b",
+          "com.baidu.haokan:id/d5z",
+          "com.baidu.live.media.business:id/liveshow_cmp_player_stub",
+          "com.baidu.live.media.business:id/liveshow_screen_heart_root",
+          "com.baidu.live.media.business:id/liveshow_root_top_ui_bg_container",
+          "com.baidu.searchbox.yylive.entrance:id/fl_video_container",
+          "com.baidu.searchbox.yylive.yylib:id/s6",
+          "com.baidu.searchbox.yylive.yylib:id/dh"
+      ],
+      "com.hunantv.imgo.activity": [
+          "com.hunantv.imgo.activity:id/flPlayerContainer",
+          "com.hunantv.imgo.activity:id/rv_immersive",
+          "com.hunantv.imgo.activity:id/playerContainer",
+          "com.hunantv.imgo.activity:id/fl_video_play"
+      ],
+      "com.sohu.tv": [
+          "com.sohu.tv:id/videoView",
+          "com.sohu.tv:id/player_main",
+          "com.sohu.tv:id/player_main",
+          "com.sohu.tv:id/video_detail_video_layout",
+          "com.sohu.tv:id/layout_ad_container",
+          "com.sohu.tv:id/adVideoView"
+      ],
+      "tv.danmaku.bilibilihd": [
+          "tv.danmaku.bilibilihd:id/videoview_container_page",
+          "tv.danmaku.bilibilihd:id/live_operation_banner_container",
+          "tv.danmaku.bilibilihd:id/videoview_container"
+      ],
+      "com.qiyi.video": [
+          "com.qiyi.video:id/danmakuLayout",
+          "com.qiyi.video:id/danmaku_biz_container",
+          "com.qiyi.video:id/left_top_common_overlay_layout",
+          "com.qiyi.video.feature:id/player_prepare_bg",
+          "com.qiyi.video.feature:id/video_container",
+          "com.qiyi.video.feature:id/lesson_player_container",
+          "com.qiyi.video.feature:id/activity_live_room_viewpager",
+          "com.qiyi.video.feature:id/player_video_view",
+          "com.qiyi.video.feature:id/video_view_fl",
+          "com.qiyi.video.feature:id/qy_video_view"
+      ],
+      "com.qiyi.video.pad": [
+          "com.qiyi.video.pad:id/danmakuLayout",
+          "com.qiyi.video.pad:id/danmaku_biz_container",
+          "com.qiyi.video.pad:id/left_top_common_overlay_layout",
+          "com.qiyi.video.feature:id/player_prepare_bg",
+          "com.qiyi.video.feature:id/video_container",
+          "com.qiyi.video.feature:id/lesson_player_container",
+          "com.qiyi.video.feature:id/player_video_view",
+          "com.qiyi.video.feature:id/video_view_fl",
+          "com.qiyi.video.feature:id/qy_video_view"
+      ],
+      "com.alibaba.android.rimet": [
+          "com.alibaba.android.rimet:id/conf_subtitle_fragment",
+          "com.alibaba.android.rimet:id/conf_content_fragment_host",
+          "com.alibaba.android.rimet:id/live_video_view_container",
+          "com.alibaba.android.rimet:id/fl_player_container",
+          "com.alibaba.android.rimet:id/rv_video_slip",
+          "com.alibaba.android.rimet:id/live_item_view",
+          "com.alibaba.android.rimet:id/v_camera_status_bg",
+          "com.alibaba.android.rimet:id/video_content_container"
+      ],
+      "com.youdao.course": [
+          "com.youdao.course:id/player_view",
+          "com.youdao.course.activity.QuizPlayListActivity"
+      ],
+      "com.netease.edu.study": [
+          "com.netease.edu.study:id/unit_page_player_container",
+          "com.netease.edu.study:id/unit_header_frame_container",
+          "com.netease.edu.study:id/video_view_container",
+          "com.netease.edu.study:id/player_container"
+      ],
+      "cn.com.open.mooc": [
+          "cn.com.open.mooc:id/videoContainer",
+          "cn.com.open.mooc:id/exoPlayerViewContainer",
+          "cn.com.open.mooc:id/playerView",
+          "cn.com.open.mooc:id/gestureView",
+          "cn.com.open.mooc:id/exo_controller"
+      ],
+      "com.netease.vopen": [
+          "com.netease.vopen:id/video_view",
+          "com.netease.vopen:id/exo_ad_overlay",
+          "com.netease.vopen:id/exo_overlay",
+          "com.netease.vopen:id/exo_content_frame",
+          "com.netease.vopen:id/v_detail_player"
+      ],
+      "com.netease.edu.ucmooc": [
+          "com.netease.edu.ucmooc:id/header_intro_video_container",
+          "com.netease.edu.ucmooc:id/video_view",
+          "com.netease.edu.ucmooc:id/videoview_container",
+          "com.netease.edu.ucmooc:id/video_player_page"
+      ],
+      "com.zuoyebang.airclass": [
+          "com.zuoyebang.airclass:id/ll_playback_card_layout",
+          "com.zuoyebang.airclass:id/relalay_full_container"
+      ],
+      "com.xueersi.parentsmeeting": [
+          "com.xueersi.parentsmeeting:id/player_cover_status_pager",
+          "com.xueersi.parentsmeeting:id/vv_course_detail_banner_video",
+          "com.xueersi.parentsmeeting:id/fl_course_detail_index",
+          "com.xueersi.parentsmeeting:id/wv_browser",
+          "com.xueersi.parentsmeeting:id/live_root_constraintLayout"
+      ],
+      "com.gaotu100.superclass": [
+          "com.gaotu100.superclass:id/video_view",
+          "com.gaotu100.superclass:id/action_bar_root"
+      ],
+      "com.fenbi.android.servant": [
+          "com.fenbi.android.servant:id/image",
+          "com.fenbi.android.servant:id/graph",
+          "com.fenbi.android.servant:id/stroke",
+          "com.fenbi.android.servant:id/keynote",
+          "com.fenbi.android.servant:id/video_area"
+      ],
+      "com.gotokeep.keep": [
+          "com.gotokeep.keep:id/video_view",
+          "com.gotokeep.keep:id/header_layout",
+          "com.gotokeep.keep:id/collapse_layout",
+          "com.gotokeep.keep:id/appbar_layout",
+          "com.gotokeep.keep:id/videoContentView",
+          "com.gotokeep.keep:id/livePlayer"
+      ],
+      "com.xingin.xhs": [],
+      "com.zhihu.android": [
+          "com.zhihu.android:id/videoView",
+          "com.zhihu.android:id/videoViewContainer",
+          "com.zhihu.android:id/one_container",
+          "com.zhihu.android:id/video_view",
+          "com.zhihu.android:id/video_view_container",
+          "com.zhihu.android:id/fl_fullscreen_container",
+          "com.zhihu.android:id/vv_videoview"
+      ],
+      "com.sina.weibo": [
+          "com.sina.weibo:id/svs_touch_card",
+          "com.sina.weibo:id/svs_play_card",
+          "com.sina.weibo:id/svs_play_page_root",
+          "com.sina.weibo:id/svs_stream_recycler_view",
+          "com.sina.weibo:id/svs_stream_pull_view",
+          "com.sina.weibo:id/vtv_player",
+          "com.sina.weibo:id/story_play_card_video_view",
+          "com.sina.weibo:id/wblive_live_player_bg",
+          "com.sina.weibo:id/rl_wbvideo_container",
+          "com.sina.weibo:id/live_viewpager_container",
+          "com.sina.weibo:id/live_view_pager"
+      ],
+      "com.sina.weibolite": [
+          "com.sina.weibolite:id/act_video_small"
+      ],
+      "com.baidu.netdisk": [
+          "com.baidu.netdisk:id/videoPlayerPanelView",
+          "com.baidu.netdisk:id/vast_view_layout",
+          "com.baidu.netdisk:id/videoplayer_fragment",
+          "com.baidu.netdisk:id/root_coordinatorlayout"
+      ],
+      "com.cn21.ecloud": [
+          "com.cn21.ecloud:id/tv_player",
+          "com.cn21.ecloud:id/surfaceFramePlayer",
+          "com.cn21.ecloud:id/webview_parent"
+      ],
+      "com.alicloud.databox": [
+          "com.alicloud.databox:id/video_wrapper"
+      ],
+      "com.qq.qcloud": [
+          "com.qq.qcloud:id/video_container"
+      ],
+      "com.chinamobile.mcloud": [
+          "com.chinamobile.mcloud:id/textureView",
+          "com.chinamobile.mcloud:id/player_view_control_view"
+      ],
+      "com.baidu.homework": [
+          "com.baidu.homework:id/ll_playback_split_video_root",
+          "com.baidu.homework:id/fl_playback_video_view_container",
+          "com.baidu.homework:id/vv_playback_video_view",
+          "com.baidu.homework:id/webview_root_layout",
+          "com.baidu.homework:id/relay_full_stremlayout"
+      ],
+      "com.xunlei.downloadprovider": [
+          "com.xunlei.downloadprovider:id/playerView",
+          "com.xunlei.downloadprovider:id/player_container_layout",
+          "com.xunlei.downloadprovider:id/fl_play_view",
+          "com.xunlei.downloadprovider:id/refreshLayout"
+      ],
+      "com.xunlei.hddownloadprovider": [
+          "com.xunlei.hddownloadprovider:id/playerView",
+          "com.xunlei.hddownloadprovider:id/player_container_layout",
+          "com.xunlei.hddownloadprovider:id/fl_play_view"
+      ],
+      "com.huawei.educenter": [
+        "com.huawei.educenter:id/edudetail_video",
+        "com.huawei.educenter:id/start_image"
+      ],
+      "com.cctv.yangshipin.app.androidp": [],
+      "com.ss.android.article.video": [],
+      "com.qiyi.video.lite": [],
+      "com.tencent.qqlive": [],
+      "com.huawei.welink": [],
+      "com.ss.android.lark": [],
+      "com.ss.android.ugc.aweme": [],
+      "com.ss.android.ugc.aweme.lite": [],
+      "com.yuantiku.tutor": [],
+      "com.smile.gifmaker": [],
+      "com.kuaishou.nebula": [],
+      "com.tencent.edu": [],
+      "com.ss.android.ugc.live": [],
+      "com.ss.android.article.news": [],
+      "com.ss.android.article.lite": [],
+      "com.tencent.mm": [],
+      "com.tencent.wemeet.app": [
+        "android:id/content"
+      ],
+      "com.hihonor.youku.video":[
+        "com.hihonor.youku.video:id/player2_view_container"
+      ]
+    }
+  }
+}

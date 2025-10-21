@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<del_app_list>
+  <del_app packageName="com.huawei.meetime"/>
+  <del_app packageName="com.huawei.health"/>
+</del_app_list>

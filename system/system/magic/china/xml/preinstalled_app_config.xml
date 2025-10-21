@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <dict>
+    <array key="uninstall_hint_system_apps">
+      <string>com.huawei.music</string>
+      <string>com.huawei.himovie</string>
+      <string>com.huawei.wallet</string>
+      <string>com.hihonor.phoneservice</string>
+      <string>com.android.stk</string>
+      <string>com.hihonor.filemanager</string>
+      <string>com.hihonor.calendar</string>
+      <string>com.hihonor.deskclock</string>
+      <string>com.hihonor.devicemanager</string>
+      <string>com.huawei.android.thememanager</string>
+      <string>com.hihonor.devicefinder</string>
+    </array>
+  </dict>
+</config>

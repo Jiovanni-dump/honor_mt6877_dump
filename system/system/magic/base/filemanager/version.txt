@@ -1,0 +1,4 @@
+version=1.10.21.108
+type=FILEMANAGER
+subtype=CHINA
+compatibleVersion=1

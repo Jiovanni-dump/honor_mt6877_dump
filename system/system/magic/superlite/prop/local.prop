@@ -1,0 +1,18 @@
+# 2021-09-22 17:10:53.0
+msc.config.aqv_enabled=false
+# 2021-09-22 17:10:53.0
+msc.config.globalSearch=false
+# 2021-09-22 17:10:53.0
+msc.launcher.quick_switch_force_enable=false
+# 2021-09-22 17:10:53.0
+msc.launcher_gesture_snapshot_enable=true
+# 2021-09-22 17:10:53.0
+msc.window_corner_config=1,1,0,0
+# 2021-09-22 17:10:53.0
+ro.config.distributed_app_fwk=false
+# 2021-09-22 17:10:53.0
+ro.config.hicall=false
+# 2021-09-22 17:10:53.0
+ro.feature.animation.style=supersimple
+# 2021-09-22 17:10:53.0
+ro.feature.dfr.erecovery=false

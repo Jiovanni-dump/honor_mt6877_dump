@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <whiteapp name="snapshot_defer_app_tag" package="com.tencent.tmgp.sgame"/>
+  <whiteapp name="snapshot_defer_app_tag" package="com.tencent.qqlive"/>
+  <whiteapp name="snapshot_defer_app_tag" package="com.tencent.KiHan"/>
+  <whiteapp name="snapshot_defer_app_tag" package="com.qqgame.happymj"/>
+  <whiteapp name="snapshot_defer_app_tag" package="com.imangi.templerun2"/>
+  <whiteapp name="snapshot_defer_app_tag" package="com.kiloo.subwaysurf"/>
+  <whiteapp name="snapshot_defer_app_tag" package="com.ss.android.article.news"/>
+  <whiteapp name="snapshot_defer_app_tag" package="com.hihonor.photos"/>
+  <whiteapp name="snapshot_defer_app_tag" package="com.sdu.didi.psnger"/>
+  <whiteapp name="snapshot_defer_app_tag" package="com.autonavi.minimap"/>
+  <whiteapp name="snapshot_defer_app_tag" package="com.didapinche.booking"/>
+  <whiteapp name="snapshot_defer_app_tag" package="air.tv.douyu.android"/>
+  <whiteapp name="snapshot_defer_app_tag" package="com.tencent.af"/>
+  <whiteapp name="snapshot_defer_app_tag" package="com.tencent.peng"/>
+  <whiteapp name="snapshot_defer_app_tag" package="com.tencent.shootgame"/>
+  <whiteapp name="snapshot_defer_app_tag" package="com.miHoYo.Yuanshen"/>
+  <whiteapp name="snapshot_defer_app_tag" package="com.tencent.sgwsba"/>
+  <whiteapp name="snapshot_defer_app_tag" package="com.tencent.tmgp.pubgmhd"/>
+  <whiteapp name="snapshot_defer_app_tag" package="com.roblox.client"/>
+  <whiteapp name="snapshot_defer_app_tag" package="com.tencent.mm"/>
+  <whiteapp name="surfaceview_sync_app_tag" package="com.tencent.tmgp.pubgmhd"/>
+  <whiteapp name="surfaceview_sync_app_tag" package="com.tencent.ig"/>
+  <whiteapp name="surfaceview_sync_app_tag" package="com.activision.callofduty.shooter"/>
+  <whiteapp name="surfaceview_sync_app_tag" package="com.dts.freefireth"/>
+  <whiteapp name="surfaceview_sync_app_tag" package="com.ngame.allstar.eu"/>
+  <whiteapp name="surfaceview_sync_app_tag" package="com.axlebolt.standoff2"/>
+  <whiteapp name="surfaceview_sync_app_tag" package="com.miniclip.eightballpool"/>
+  <whiteapp name="surfaceview_sync_app_tag" package="com.outfit7.mytalkingtomfree"/>
+  <whiteapp name="surfaceview_sync_app_tag" package="com.gameloft.android.ANMP.GIoftA9HM"/>
+  <whiteapp name="surfaceview_sync_app_tag" package="com.supercell.clashroyale"/>
+  <whiteapp name="surfaceview_sync_app_tag" package="com.supercell.brawlstars"/>
+  <whiteapp name="surfaceview_sync_app_tag" package="com.supercell.clashofclans"/>
+  <whiteapp name="surfaceview_sync_app_tag" package="com.moblie.legends"/>
+</config>

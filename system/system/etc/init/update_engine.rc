@@ -1,0 +1,14 @@
+service update_engine /system/bin/update_engine --logtostderr --logtofile --foreground
+    user root
+    group root system wakelock inet cache media_rw everybody
+    writepid /dev/cpuset/top-app/tasks /dev/blkio/top-app/tasks /dev/stune/top-app/tasks
+    disabled
+
+on property:ro.boot.slot_suffix=*
+    enable update_engine
+
+on property:mscw.hnouc.update_engine.up=true
+    start update_engine
+
+on property:mscw.hnouc.update_engine.up=false
+    stop update_engine

@@ -1,0 +1,4 @@
+version=23.01.12.301
+type=BLUE_NOTIFICATION
+subtype=CHINA
+compatibleVersion=1

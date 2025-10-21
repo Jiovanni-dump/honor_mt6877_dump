@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datainitializor>
+  <contact>
+    <name>荣耀消费者服务热线</name>
+    <phone>
+      <detail>95030</detail>
+      <type>Mobile</type>
+    </phone>
+    <email>
+      <detail>support@hihonor.com</detail>
+      <type>Mobile</type>
+    </email>
+    <address>
+      <detail>深圳市福田区香蜜湖深业中城荣耀终端有限公司</detail>
+      <type>Work</type>
+    </address>
+    <avatar>/system/magic/base/media/Hotline_avatar.jpg</avatar>
+  </contact>
+</datainitializor>

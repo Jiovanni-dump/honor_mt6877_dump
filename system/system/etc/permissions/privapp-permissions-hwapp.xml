@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+    <privapp-permissions package="com.huawei.gamebox">
+        <deny-permission name="android.permission.DELETE_PACKAGES"/>
+        <deny-permission name="android.permission.INSTALL_PACKAGES"/>
+        <deny-permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <deny-permission name="com.huawei.permission.sec.ACCESS_UDID"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.huawei.hwread.dz">
+        <deny-permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <deny-permission name="com.huawei.permission.sec.ACCESS_UDID"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.huawei.hnreader">
+        <deny-permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <deny-permission name="com.huawei.permission.sec.ACCESS_UDID"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.huawei.hwireader">
+        <deny-permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <deny-permission name="com.huawei.permission.sec.ACCESS_UDID"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.huawei.appmarket">
+        <deny-permission name="android.permission.DELETE_PACKAGES"/>
+        <deny-permission name="android.permission.INSTALL_PACKAGES"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.huawei.music">
+        <deny-permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <deny-permission name="com.huawei.permission.sec.ACCESS_UDID"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.huawei.himovie">
+        <deny-permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <deny-permission name="com.huawei.permission.sec.ACCESS_UDID"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.huawei.hiskytone">
+        <deny-permission name="android.permission.INSTALL_PACKAGES"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.huawei.skytone">
+        <deny-permission name="android.permission.INSTALL_PACKAGES"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.huawei.android.hsf">
+        <deny-permission name="android.permission.INSTALL_PACKAGES"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.huawei.hwid">
+        <deny-permission name="android.permission.INSTALL_PACKAGES"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.huawei.hms.account">
+        <deny-permission name="android.permission.INSTALL_PACKAGES"/>
+    </privapp-permissions>
+</permissions>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataRetryStrategyList version="1.0">
+  <retryStrategy id="1" type="normal">
+    <causeList>8,27,28,31,32,33,44,45,65,70,82,83,84,4111</causeList>
+    <retryPolicy interval="10" intervalInd="1" times="1" action="3" backOffTime="720"/>
+  </retryStrategy>
+  <retryStrategy id="2" type="normal">
+    <causeList>26,29,35,38,54,67,69,95,96,97,98,99,100,101,111</causeList>
+    <retryPolicy interval="5" intervalInd="1" times="2" action="1" backOffTime="720"/>
+    <retryPolicy interval="5" intervalInd="1" times="1" action="3" backOffTime="720"/>
+  </retryStrategy>
+  <retryStrategy id="3" type="normal">
+    <causeList>2105,2227</causeList>
+    <retryPolicy interval="1" intervalInd="0" times="5" action="1" backOffTime="0"/>
+    <retryPolicy interval="1" intervalInd="0" times="1" action="0" backOffTime="0"/>
+  </retryStrategy>
+  <retryStrategy id="4" type="normal">
+    <causeList>2190</causeList>
+    <retryPolicy interval="2" intervalInd="0" times="2" action="1" backOffTime="0"/>
+    <retryPolicy interval="1" intervalInd="0" times="1" action="0" backOffTime="0"/>
+  </retryStrategy>
+  <retryStrategy id="5" type="normal">
+    <causeList>4110,2054</causeList>
+    <retryPolicy interval="1" intervalInd="0" times="3" action="1" backOffTime="0"/>
+    <retryPolicy interval="5" intervalInd="0" times="1" action="5" backOffTime="0"/>
+    <retryPolicy interval="5" intervalInd="0" times="1" action="5" backOffTime="0"/>
+    <retryPolicy interval="5" intervalInd="0" times="1" action="5" backOffTime="0"/>
+    <retryPolicy interval="10" intervalInd="0" times="1" action="5" backOffTime="0"/>
+    <retryPolicy interval="20" intervalInd="0" times="1" action="5" backOffTime="0"/>
+    <retryPolicy interval="30" intervalInd="0" times="1" action="5" backOffTime="0"/>
+    <retryPolicy interval="1" intervalInd="1" times="1" action="0" backOffTime="0"/>
+  </retryStrategy>
+</dataRetryStrategyList>

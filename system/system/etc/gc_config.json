@@ -1,0 +1,11 @@
+{
+    "force_enable":false,
+    "enable":true,
+    "extra_heap_MB":64,
+    "supported_chip": ["mt6885","mt6833","lahaina","taro","mt6895","mt6983"],
+    "supported_memory_GB":8,
+    "low_memory_MB":1536,
+    "long_pause_time_ms":5,
+    "log_all_gc":false,
+    "opcode_cache_enable": ["holi","mt6768","mt6877"]
+}

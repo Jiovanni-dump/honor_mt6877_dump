@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <HKeyUpdate scene="hw_alarm_list" value="hn_alarm_list"/>
+  <HKeyUpdate scene="hw_app_analytics_state" value="hn_app_analytics_state"/>
+  <HKeyUpdate scene="hw_auto_end_call" value="hn_auto_end_call"/>
+  <HKeyUpdate scene="hw_clear_code_ex" value="hn_clear_code_ex"/>
+  <HKeyUpdate scene="hw_ContactNewPortrait" value="hn_ContactNewPortrait"/>
+  <HKeyUpdate scene="hw_def_theme" value="hn_def_theme"/>
+  <HKeyUpdate scene="hw_del_cust_ringtones" value="hn_del_cust_ringtones"/>
+  <HKeyUpdate scene="hw_del_cust_wallpaper" value="hn_del_cust_wallpaper"/>
+  <HKeyUpdate scene="hw_dele_ring_mcc" value="hn_dele_ring_mcc"/>
+  <HKeyUpdate scene="hw_dele_wallpaper_mcc" value="hn_dele_wallpaper_mcc"/>
+  <HKeyUpdate scene="hw_enable_join" value="hn_enable_join"/>
+  <HKeyUpdate scene="hw_hide_call_geo_info" value="hn_hide_call_geo_info"/>
+  <HKeyUpdate scene="hw_hide_font_style" value="hn_hide_font_style"/>
+  <HKeyUpdate scene="hw_hot_number_top" value="hn_hot_number_top"/>
+  <HKeyUpdate scene="hw_notification_list" value="hn_notification_list"/>
+  <HKeyUpdate scene="hw_opt_pre_contact" value="hn_opt_pre_contact"/>
+  <HKeyUpdate scene="hw_rcm_cert" value="hn_rcm_cert"/>
+  <HKeyUpdate scene="hw_ringtone_list" value="hn_ringtone_list"/>
+  <HKeyUpdate scene="hw_show_fdn_name_in_calllog" value="hn_show_fdn_name_in_calllog"/>
+  <HKeyUpdate scene="hw_show_sdn_name_in_calllog" value="hn_show_sdn_name_in_calllog"/>
+  <HKeyUpdate scene="hw_sim_ringtone" value="hn_sim_ringtone"/>
+  <HKeyUpdate scene="hw_sim_wallpaper" value="hn_sim_wallpaper"/>
+  <HKeyUpdate scene="hw_split_navigation_bar_dp" value="hn_split_navigation_bar_dp"/>
+  <HKeyUpdate scene="hw_theme_blacklist" value="hn_theme_blacklist"/>
+  <HKeyUpdate scene="hw_theme_display_tw" value="hn_theme_display_tw"/>
+  <HKeyUpdate scene="hw_theme_ota_cut" value="hn_theme_ota_cut"/>
+  <HKeyUpdate scene="hw_theme_restore_version" value="hn_theme_restore_version"/>
+  <HKeyUpdate scene="hw_theme_ringtone_enable" value="hn_theme_ringtone_enable"/>
+  <HKeyUpdate scene="hw_theme_sensitive_country_list" value="hn_theme_sensitive_country_list"/>
+  <HKeyUpdate scene="hw_theme_sort" value="hn_theme_sort"/>
+  <HKeyUpdate scene="hw_theme_support_hwid" value="hn_theme_support_hnid"/>
+  <HKeyUpdate scene="hw_theme_support_pay" value="hn_theme_support_pay"/>
+  <HKeyUpdate scene="hw_vvm_filter_on" value="hn_vvm_filter_on"/>
+  <RomUpgrade scene="location_huawei_ads" value="location_honor_ads" table="secure"/>
+  <RomUpgrade scene="hw_invert_txtclr_packages" value="hn_invert_txtclr_packages" table="system"/>
+  <RomUpgrade scene="hw_device_agps" value="hn_device_agps" table="global"/>
+  <RomUpgrade scene="hw_nlp_global" value="hn_nlp_global" table="global"/>
+  <RomUpgrade scene="hw_nlp_vowifi" value="hn_nlp_vowifi" table="global"/>
+  <RomUpgrade scene="hw_nfc_on" value="hn_nfc_on" table="global"/>
+  <RomUpgrade scene="hw_nfc_gsma" value="hn_nfc_gsma" table="global"/>
+  <RomUpgrade scene="hw_nfcpay_screenoff_disable" value="hn_nfcpay_screenoff_disable" table="global"/>
+  <RomUpgrade scene="hw_nfc_url" value="hn_nfc_url" table="global"/>
+  <RomUpgrade scene="hw_is_support_hotspot2" value="hn_is_support_hotspot2" table="global"/>
+  <RomUpgrade scene="hw_devicenameandimei_ssid" value="hn_devicenameandimei_ssid" table="system"/>
+  <RomUpgrade scene="hw_predefined_eap_sim" value="hn_predefined_eap_sim" table="system"/>
+  <RomUpgrade scene="hw_not_modify_wifi" value="hn_not_modify_wifi" table="global"/>
+  <RomUpgrade scene="hw_hide_eap_sim_method" value="hn_hide_eap_sim_method" table="system"/>
+  <RomUpgrade scene="hw_wifi_ap_band" value="hn_wifi_ap_band" table="global"/>
+  <RomUpgrade scene="hw_predefined_kt_plmnssid" value="hn_predefined_kt_plmnssid" table="global"/>
+  <RomUpgrade scene="hw_show_vowifi_disable_notification" value="hn_show_vowifi_disable_notification" table="global"/>
+  <RomUpgrade scene="hw_disable_portal" value="hn_disable_portal" table="global"/>
+  <RomUpgrade scene="hw_full_ssid_name" value="hn_full_ssid_name" table="system"/>
+  <RomUpgrade scene="hw_app_analytics_state" value="hn_app_analytics_state" table="secure"/>
+  <RomUpgrade scene="hw_omacp_apponly" value="hn_omacp_apponly" table="system"/>
+  <RomUpgrade scene="hw_omacp_apn_policy" value="hn_omacp_apn_policy" table="system"/>
+  <RomUpgrade scene="hw_regional_reset_rematch" value="hn_regional_reset_rematch" table="system"/>
+  <RomUpgrade scene="hw_regional_after_setup" value="hn_regional_after_setup" table="system"/>
+  <RomUpgrade scene="hw_regional_plmn_VC" value="hn_regional_plmn_VC" table="system"/>
+  <RomUpgrade scene="hw_regional_default_VC" value="hn_regional_default_VC" table="system"/>
+  <RomUpgrade scene="hw_tme_mx_match" value="hn_tme_mx_match" table="system"/>
+  <RomUpgrade scene="hw_tme_new_rule_switch" value="hn_tme_new_rule_switch" table="global"/>
+  <RomUpgrade scene="hw_alarm_list" value="hn_alarm_list" table="system"/>
+  <RomUpgrade scene="hw_tme_first_match" value="hn_tme_first_match" table="system"/>
+  <RomUpgrade scene="hw_ringtone_list" value="hn_ringtone_list" table="system"/>
+  <RomUpgrade scene="hw_notification_list" value="hn_notification_list" table="system"/>
+  <RomUpgrade scene="hw_camera2_videosta_value" value="hn_camera2_videosta_value" table="system"/>
+  <RomUpgrade scene="hw_natural_tone_display_switch" value="hn_natural_tone_display_switch" table="system"/>
+  <RomUpgrade scene="hw_default_camera_overhot_exit" value="hn_default_camera_overhot_exit" table="system"/>
+  <RomUpgrade scene="hw_camera2_tabooicon_forbidden" value="hn_camera2_tabooicon_forbidden" table="system"/>
+  <RomUpgrade scene="hw_camera2_fb_margin_bottom" value="hn_camera2_fb_margin_bottom" table="system"/>
+  <RomUpgrade scene="hw_front_cam_videomode" value="hn_front_cam_videomode" table="system"/>
+  <RomUpgrade scene="hw_default_max_photo_resolution" value="hn_default_max_photo_resolution" table="system"/>
+  <RomUpgrade scene="hw_default_front_timer_value" value="hn_default_front_timer_value" table="system"/>
+  <RomUpgrade scene="hw_camera2_sound_muteable" value="hn_camera2_sound_muteable" table="system"/>
+  <RomUpgrade scene="hw_front_cam_photomode" value="hn_front_cam_photomode" table="system"/>
+  <RomUpgrade scene="hw_camera2_nightmode_enable" value="hn_camera2_nightmode_enable" table="system"/>
+  <RomUpgrade scene="hw_mirror_default_frame" value="hn_mirror_default_frame" table="system"/>
+  <RomUpgrade scene="hw_show_calendar_invite_dialog" value="hn_show_calendar_invite_dialog" table="system"/>
+  <RomUpgrade scene="hw_em_clearsettings" value="hn_em_clearsettings" table="system"/>
+  <RomUpgrade scene="hw_szlTextView_hint" value="hn_szlTextView_hint" table="system"/>
+  <RomUpgrade scene="hwdefault_CheckIntervalt" value="hndefault_CheckIntervalt" table="system"/>
+  <RomUpgrade scene="hw_forward_popedom" value="hn_forward_popedom" table="system"/>
+  <RomUpgrade scene="hw_forbid_accelerometer" value="hn_forbid_accelerometer" table="system"/>
+  <RomUpgrade scene="hw_show_lte_tile" value="hn_show_lte_tile" table="system"/>
+  <RomUpgrade scene="hw_phonecall_headsup_list" value="hn_phonecall_headsup_list" table="system"/>
+  <RomUpgrade scene="hw_customized_networkType_normal" value="hn_customized_networkType_normal" table="global"/>
+  <RomUpgrade scene="hw_auto_hide_operatorname" value="hn_auto_hide_operatorname" table="global"/>
+  <RomUpgrade scene="hw_notch_show_opername" value="hn_notch_show_opername" table="global"/>
+  <RomUpgrade scene="hw_auto_scale_opername_width" value="hn_auto_scale_opername_width" table="system"/>
+  <RomUpgrade scene="hw_show_five_signal" value="hn_show_five_signal" table="system"/>
+  <RomUpgrade scene="hw_show_dialog_enable" value="hn_show_dialog_enable" table="system"/>
+  <RomUpgrade scene="hw_cust_opername_min_width" value="hn_cust_opername_min_width" table="system"/>
+  <RomUpgrade scene="hw_split_navigation_bar_dp" value="hn_split_navigation_bar_dp" table="system"/>
+  <RomUpgrade scene="hw_show_lte" value="hn_show_lte" table="system"/>
+  <RomUpgrade scene="hw_show_roaming" value="hn_show_roaming" table="system"/>
+  <RomUpgrade scene="hw_theme_ota_cut" value="hn_theme_ota_cut" table="system"/>
+  <RomUpgrade scene="hw_theme_sensitive_country_list" value="hn_theme_sensitive_country_list" table="global"/>
+  <RomUpgrade scene="hw_theme_sort" value="hn_theme_sort" table="system"/>
+  <RomUpgrade scene="hw_theme_support_tryout" value="hn_theme_support_tryout" table="system"/>
+  <RomUpgrade scene="hw_dele_ring_mcc" value="hn_dele_ring_mcc" table="system"/>
+  <RomUpgrade scene="hw_del_cust_wallpaper" value="hn_del_cust_wallpaper" table="system"/>
+  <RomUpgrade scene="hw_ringtone_type" value="hn_ringtone_type" table="system"/>
+  <RomUpgrade scene="hw_theme_display_tw" value="hn_theme_display_tw" table="system"/>
+  <RomUpgrade scene="hw_dele_wallpaper_mcc" value="hn_dele_wallpaper_mcc" table="system"/>
+  <RomUpgrade scene="hw_theme_ringtone_enable" value="hn_theme_ringtone_enable" table="system"/>
+  <RomUpgrade scene="hw_sim_ringtone" value="hn_sim_ringtone" table="system"/>
+  <RomUpgrade scene="hw_theme_support_pay" value="hn_theme_support_pay" table="system"/>
+  <RomUpgrade scene="hw_theme_blacklist" value="hn_theme_blacklist" table="system"/>
+  <RomUpgrade scene="hw_theme_support_hnid" value="hn_theme_support_hwid" table="system"/>
+  <RomUpgrade scene="hw_theme_restore_version" value="hn_theme_restore_version" table="system"/>
+  <RomUpgrade scene="hw_def_theme" value="hn_def_theme" table="system"/>
+  <RomUpgrade scene="hw_sim_wallpaper" value="hn_sim_wallpaper" table="system"/>
+  <RomUpgrade scene="hw_del_cust_ringtones" value="hn_del_cust_ringtones" table="system"/>
+  <RomUpgrade scene="ro.config.hw_hide_virus" value="msc.config.hide_virus" table="system"/>
+  <RomUpgrade scene="hw_invisible_apps_in_trafficmanager" value="hn_invisible_apps_in_trafficmanager" table="system"/>
+  <RomUpgrade scene="hw_launcher_enable_getmorecached" value="hn_launcher_enable_getmorecached" table="system"/>
+  <RomUpgrade scene="hw_not_dispaly_week" value="hn_not_dispaly_week" table="system"/>
+  <RomUpgrade scene="hw_launcher_cota_force_load" value="hn_launcher_cota_force_load" table="system"/>
+  <RomUpgrade scene="hw_launcher_hide_petal_search_icon" value="hn_launcher_hide_petal_search_icon" table="system"/>
+  <RomUpgrade scene="hw_launcher_show_electronic_manual_dialog" value="hn_launcher_show_electronic_manual_dialog" table="system"/>
+  <RomUpgrade scene="hw_launcher_share_layout_config" value="hn_launcher_share_layout_config" table="system"/>
+  <RomUpgrade scene="hw_virtual_net_launcher_brand_def" value="hn_virtual_net_launcher_brand_def" table="system"/>
+  <RomUpgrade scene="hw_launcher_folder_swipe" value="hn_launcher_folder_swipe" table="system"/>
+  <RomUpgrade scene="hw_launcher_protect_device_admin" value="hn_launcher_protect_device_admin" table="system"/>
+  <RomUpgrade scene="hw_launcher_tme_matchcard" value="hn_launcher_tme_matchcard" table="system"/>
+  <RomUpgrade scene="hw_weatherclock_myloc_show_first" value="hn_weatherclock_myloc_show_first" table="system"/>
+  <RomUpgrade scene="hw_muslim_enable_mccmnc" value="hn_muslim_enable_mccmnc" table="system"/>
+  <RomUpgrade scene="hw_weatherclock_auto_update_off" value="hn_weatherclock_auto_update_off" table="system"/>
+  <RomUpgrade scene="hw_wifidialog_skip" value="hn_wifidialog_skip" table="global"/>
+  <RomUpgrade scene="hwouc_class_display" value="hnouc_class_display" table="global"/>
+  <RomUpgrade scene="hw_show_appstore_default" value="hn_show_appstore_default" table="global"/>
+  <RomUpgrade scene="hw_settings_voicecontrol_display" value="hn_settings_voicecontrol_display" table="secure"/>
+  <RomUpgrade scene="hw_status_bar_operators" value="hn_status_bar_operators" table="system"/>
+  <RomUpgrade scene="hw_boot_cost_data_tip" value="hn_boot_cost_data_tip" table="global"/>
+  <RomUpgrade scene="hw_wifipro_enable" value="hn_wifipro_enable" table="global"/>
+  <RomUpgrade scene="hw_hide_tc_mode" value="hn_hide_tc_mode" table="global"/>
+  <RomUpgrade scene="hw_wifipopup_off" value="hn_wifipopup_off" table="global"/>
+  <RomUpgrade scene="hw_launcher_desktop_mode" value="hn_launcher_desktop_mode" table="system"/>
+  <RomUpgrade scene="hw_hide_font_style" value="hn_hide_font_style" table="system"/>
+  <RomUpgrade scene="hw_invisible_apps_in_appmanager" value="hn_invisible_apps_in_appmanager" table="system"/>
+  <RomUpgrade scene="hw_dc_brightness_dimming_switch" value="hn_dc_brightness_dimming_switch" table="system"/>
+  <RomUpgrade scene="hw_apn_hide_by_plmn" value="hn_apn_hide_by_plmn" table="system"/>
+  <RomUpgrade scene="hw_customized_networkType" value="hn_customized_networkType" table="system"/>
+  <RomUpgrade scene="hw_iccid_enabled" value="hn_iccid_enabled" table="system"/>
+  <RomUpgrade scene="hw_wifi_connect_mode" value="hn_wifi_connect_mode" table="global"/>
+  <RomUpgrade scene="hw_eap_sim_always" value="hn_eap_sim_always" table="system"/>
+  <RomUpgrade scene="hw_imsi_enabled" value="hn_imsi_enabled" table="global"/>
+  <RomUpgrade scene="hw_screen_brightness_mode_value" value="screen_brightness_mode_value" table="system"/>
+  <RomUpgrade scene="hw_iccid_language" value="hn_iccid_language" table="system"/>
+  <RomUpgrade scene="hw_reduce_sar_fcc" value="hn_reduce_sar_fcc" table="system"/>
+  <RomUpgrade scene="hw_reduce_sar_special" value="hn_reduce_sar_special" table="system"/>
+  <RomUpgrade scene="hw_cust_roamingvoicemail" value="hn_cust_roamingvoicemail" table="system"/>
+  <RomUpgrade scene="hw_vmtag_follow_language" value="hn_vmtag_follow_language" table="system"/>
+  <RomUpgrade scene="hw_vmtag_not_from_conf" value="hn_vmtag_not_from_conf" table="system"/>
+  <RomUpgrade scene="hw_plmn_abbrev" value="hn_plmn_abbrev" table="system"/>
+  <RomUpgrade scene="hw_roam_hplmn_ex" value="hn_roam_hplmn_ex" table="system"/>
+  <RomUpgrade scene="hw_mcc_show_no_roaming" value="msc.show_no_roaming" table="system"/>
+  <RomUpgrade scene="hw_real_net_not_use_vn_ons" value="hn_real_net_not_use_vn_ons" table="system"/>
+  <RomUpgrade scene="hw_show_netname_only" value="hn_show_netname_only" table="system"/>
+  <RomUpgrade scene="hw_enable_srchListNameBySpn" value="hn_enable_srchListNameBySpn" table="system"/>
+  <RomUpgrade scene="hw_ons_hplmn_ex" value="hn_ons_hplmn_ex" table="system"/>
+  <RomUpgrade scene="hw_plmn_spn" value="hn_plmn_spn" table="system"/>
+  <RomUpgrade scene="hw_del_prompt_hplmn" value="hn_del_prompt_hplmn" table="system"/>
+  <RomUpgrade scene="hw_sst_pnn_by_mccmnc" value="hn_sst_pnn_by_mccmnc" table="system"/>
+  <RomUpgrade scene="hw_auto_select_network_mcc" value="hn_auto_select_network_mcc" table="system"/>
+  <RomUpgrade scene="hw_customized_roaming_apn" value="hn_customized_roaming_apn" table="system"/>
+  <RomUpgrade scene="hw_2gonly_psnotallowed" value="hn_2gonly_psnotallowed" table="system"/>
+  <RomUpgrade scene="hw_set_mtu_by_mccmnc" value="hn_set_mtu_by_mccmnc" table="system"/>
+  <RomUpgrade scene="hw_spnnull_defaultspn" value="hn_spnnull_defaultspn" table="system"/>
+  <RomUpgrade scene="hw_notUseVirtualNetCust" value="hn_notUseVirtualNetCust" table="system"/>
+  <RomUpgrade scene="hw_custom_dialstring_prefix" value="hn_custom_dialstring_prefix" table="system"/>
+  <RomUpgrade scene="hw_query_lwclash" value="hn_query_lwclash" table="system"/>
+  <RomUpgrade scene="hw_skip_data_roaming_gid" value="hn_skip_data_roaming_gid" table="system"/>
+  <RomUpgrade scene="hw_delay_imsi_detach_plmn" value="hn_delay_imsi_detach_plmn" table="system"/>
+  <RomUpgrade scene="hw_cust_7bit_enabled_mcc" value="hn_cust_7bit_enabled_mcc" table="system"/>
+  <RomUpgrade scene="hw_mmi_to_ussd" value="hn_mmi_to_ussd" table="system"/>
+  <RomUpgrade scene="hw_cust_emergency_nums" value="hn_cust_emergency_nums" table="system"/>
+  <RomUpgrade scene="hw_show_one_stk_icon" value="hn_show_one_stk_icon" table="global"/>
+  <RomUpgrade scene="hw_hide_phone_number" value="hn_hide_phone_number" table="global"/>
+  <RomUpgrade scene="hw.filterApnNotify" value="hn.filterApnNotify" table="system"/>
+  <RomUpgrade scene="hw_share_app_no_mms" value="hn_share_app_no_mms" table="system"/>
+  <RomUpgrade scene="hw_hot_number_top" value="hn_hot_number_top" table="global"/>
+  <RomUpgrade scene="hw_opt_pre_contact" value="hn_opt_pre_contact" table="global"/>
+  <RomUpgrade scene="hw_CustomNumberRelevance" value="hn_CustomNumberRelevance" table="system"/>
+  <RomUpgrade scene="hw_ContactNewPortrait" value="hn_ContactNewPortrait" table="global"/>
+  <RomUpgrade scene="hw_custom_sar_value" value="hn_custom_sar_value" table="system"/>
+  <RomUpgrade scene="hw_contacts_filter_number" value="hn_contacts_filter_number" table="system"/>
+  <RomUpgrade scene="hw_enable_join" value="hn_enable_join" table="global"/>
+  <RomUpgrade scene="hw_rcm_cert" value="hn_rcm_cert" table="global"/>
+  <RomUpgrade scene="hw_o2simlock_pukstring" value="hn_o2simlock_pukstring" table="system"/>
+  <RomUpgrade scene="hw_show_sdn_name_in_call" value="hn_show_sdn_name_in_call" table="system"/>
+  <RomUpgrade scene="hw_apn_skip_setting" value="hn_apn_skip_setting" table="global"/>
+  <RomUpgrade scene="hw_4g_show" value="hn_4g_show" table="global"/>
+  <RomUpgrade scene="hw_auto_end_call" value="hn_auto_end_call" table="system"/>
+  <RomUpgrade scene="hw_voicemail_ringtone_att" value="hn_voicemail_ringtone_att" table="system"/>
+  <RomUpgrade scene="hw_ECT" value="hn_ECT" table="global"/>
+  <RomUpgrade scene="hw_emergencyinsimlock" value="hn_emergencyinsimlock" table="system"/>
+  <RomUpgrade scene="hw_manualsignal_lost_option" value="hn_manualsignal_lost_option" table="system"/>
+  <RomUpgrade scene="hw_networkmode_gstyle" value="hn_networkmode_gstyle" table="system"/>
+  <RomUpgrade scene="hw_ussd_ime_type_class_phone" value="hn_ussd_ime_type_class_phone" table="system"/>
+  <RomUpgrade scene="hw_switch_network_mode_alert" value="hn_switch_network_mode_alert" table="system"/>
+  <RomUpgrade scene="hw_simlock_retries" value="hn_simlock_retries" table="global"/>
+  <RomUpgrade scene="hw_carrier_default_networkmode" value="hn_carrier_default_networkmode" table="system"/>
+  <RomUpgrade scene="hw_default_support_fdn_invalid" value="hn_default_support_fdn_invalid" table="system"/>
+  <RomUpgrade scene="hw_hide_call_geo_info" value="hn_hide_call_geo_info" table="system"/>
+  <RomUpgrade scene="hw_sb_cust_call_services" value="hn_sb_cust_call_services" table="system"/>
+  <RomUpgrade scene="hw_recent_emergency_call_threshold_ms" value="hn_recent_emergency_call_threshold_ms" table="system"/>
+  <RomUpgrade scene="hw_show_voice_mail_num_excep" value="hn_show_voice_mail_num_excep" table="system"/>
+  <RomUpgrade scene="hw_end_or_hold_call" value="hn_end_or_hold_call" table="system"/>
+  <RomUpgrade scene="hw_show_fdn_name_in_calllog" value="hn_show_fdn_name_in_calllog" table="system"/>
+  <RomUpgrade scene="hw_callFwNum_Formatted" value="hn_callFwNum_Formatted" table="system"/>
+  <RomUpgrade scene="hw_sdn_prefix" value="hn_sdn_prefix" table="system"/>
+  <RomUpgrade scene="hw_global_networkmode_settings_enable" value="hn_global_networkmode_settings_enable" table="system"/>
+  <RomUpgrade scene="hw_networkmode_preference" value="hn_networkmode_preference" table="system"/>
+  <RomUpgrade scene="hw_default_support_call_barring" value="hn_default_support_call_barring" table="system"/>
+  <RomUpgrade scene="hw_emergencyinsimlock_button" value="hn_emergencyinsimlock_button" table="system"/>
+  <RomUpgrade scene="hw_holdRetrivedToast" value="hn_holdRetrivedToast" table="global"/>
+  <RomUpgrade scene="hw_networkmode_preference_5G" value="hn_networkmode_preference_5G" table="system"/>
+  <RomUpgrade scene="hw_show_sdn_name_in_calllog" value="hn_show_sdn_name_in_calllog" table="system"/>
+  <RomUpgrade scene="hw_show_vmail_time" value="hn_show_vmail_time" table="global"/>
+  <RomUpgrade scene="hw_mcvenabled" value="hn_mcvenabled" table="global"/>
+  <RomUpgrade scene="hw_init_voicemail_setting_all_on" value="hn_init_voicemail_setting_all_on" table="system"/>
+  <RomUpgrade scene="hw_show_lte_for_mcc" value="hn_show_lte_for_mcc" table="system"/>
+  <RomUpgrade scene="hw_hidecallforward" value="hn_hidecallforward" table="global"/>
+  <RomUpgrade scene="hw_cust_display_nwmode_default" value="hn_cust_display_nwmode_default" table="global"/>
+  <RomUpgrade scene="hw_internet_calls_enable" value="hn_internet_calls_enable" table="system"/>
+  <RomUpgrade scene="hw_popup_disable" value="hn_popup_disable" table="global"/>
+  <RomUpgrade scene="hw_directly_callfdn" value="hn_directly_callfdn" table="global"/>
+  <RomUpgrade scene="hw_show_callwaiting_longger" value="hn_show_callwaiting_longger" table="system"/>
+  <RomUpgrade scene="hw_show_4g_lte" value="hn_show_4g_lte" table="system"/>
+  <RomUpgrade scene="hw_carrier_nwmode_pref_bymccmnc" value="hn_carrier_nwmode_pref_bymccmnc" table="system"/>
+  <RomUpgrade scene="hw_clear_code_ex" value="hn_clear_code_ex" table="system"/>
+  <RomUpgrade scene="hw_displayafterfirstring" value="hn_displayafterfirstring" table="system"/>
+  <RomUpgrade scene="hw_show_network_icon" value="hn_show_network_icon" table="global"/>
+  <RomUpgrade scene="hw_voicemail_ringtone_unefon" value="hn_voicemail_ringtone_unefon" table="system"/>
+  <RomUpgrade scene="hw_RemindWifiToPdp" value="hn_RemindWifiToPdp" table="global"/>
+  <RomUpgrade scene="hw_hide_call_merge" value="hn_hide_call_merge" table="system"/>
+  <RomUpgrade scene="hw_show_fdn_name_in_call" value="hn_show_fdn_name_in_call" table="system"/>
+  <RomUpgrade scene="hw_noservice_display" value="hn_noservice_display" table="system"/>
+  <RomUpgrade scene="hw_calllog_type" value="hn_calllog_type" table="system"/>
+  <RomUpgrade scene="hw_ussd_delayed_dismiss" value="hn_ussd_delayed_dismiss" table="system"/>
+  <RomUpgrade scene="hw_vvm_filter_on" value="hn_vvm_filter_on" table="global"/>
+  <RomUpgrade scene="hw_hidecugtoast" value="hn_hidecugtoast" table="global"/>
+  <RomUpgrade scene="hw_show_cal_hol" value="hn_show_cal_hol" table="system"/>
+  <RomUpgrade scene="hw_hide_japanese" value="hn_hide_japanese" table="system"/>
+  <RomUpgrade scene="hw_first_day_of_week" value="hn_first_day_of_week" table="system"/>
+  <RomUpgrade scene="hw_calendar_sports_subscription" value="hn_calendar_sports_subscription" table="secure"/>
+  <RomUpgrade scene="hw_hide_hebrew" value="hn_hide_hebrew" table="system"/>
+  <RomUpgrade scene="hwouc_policy_pswd_pin_patten_x1" value="hnouc_policy_pswd_pin_patten_x1" table="secure"/>
+  <RomUpgrade scene="hw_enhanced_service_1" value="hn_enhanced_service_1" table="secure"/>
+  <RomUpgrade scene="hwouc_keyguard_view_on_top" value="hnouc_keyguard_view_on_top" table="secure"/>
+  <RomUpgrade scene="hwouc_keyguard_verify_failed_attempts" value="hnouc_keyguard_verify_failed_attempts" table="secure"/>
+  <RomUpgrade scene="hw_new_cota_update" value="hn_new_cota_update" table="secure"/>
+  <RomUpgrade scene="hw_new_system_update" value="hn_new_system_update" table="secure"/>
+  <RomUpgrade scene="hw_upgrade_remind" value="hn_upgrade_remind" table="secure"/>
+  <RomUpgrade scene="hw_system_night_upgrade_switch" value="hn_system_night_upgrade_switch" table="secure"/>
+  <RomUpgrade scene="hw_cota_newversion_flag" value="hn_cota_newversion_flag" table="global"/>
+  <RomUpgrade scene="hwouc_display_night_details" value="hnouc_display_night_details" table="global"/>
+  <RomUpgrade scene="hwouc_rom_status" value="hnouc_rom_status" table="global"/>
+  <RomUpgrade scene="hw_vibrate_when_ringing" value="hn_vibrate_when_ringing" table="secure"/>
+  <RomUpgrade scene="hw_suw_frp_state" value="hn_suw_frp_state" table="secure"/>
+  <RomUpgrade scene="hw_hicall_setting_metaDataKey" value="hn_hicall_setting_metaDataKey" table="secure"/>
+  <RomUpgrade scene="hw_telephony_radio_state" value="hn_telephony_radio_state" table="system"/>
+  <RomUpgrade scene="huaweishare_mode" value="honorshare_mode" table="global"/>
+  <RomUpgrade scene="huaweishare_device_connected" value="honorshare_device_connected" table="global"/>
+  <RomUpgrade scene="huawei_rcs_switcher" value="hn_rcs_switcher" table="secure"/>
+  <RomUpgrade scene="huawei_rcs_enabler" value="hn_rcs_enabler" table="secure"/>
+  <RomUpgrade scene="sms_huawei_archive_state" value="sms_honor_archive_state" table="global"/>
+  <RomUpgrade scene="hw_rcs_version" value="hn_rcs_version" table="secure"/>
+  <RomUpgrade scene="huawei_rcs_number_switcher" value="hn_rcs_number_switcher" table="system"/>
+  <RomUpgrade scene="hw_default_digest" value="hn_default_digest" table="system"/>
+  <RomUpgrade scene="hw_service_contact_loaded" value="hn_service_contact_loaded" table="system"/>
+  <RomUpgrade scene="hw_service_contact_loaded" value="hn_service_contact_loaded" table="system"/>
+  <RomUpgrade scene="hw_numbermark_option" value="hn_numbermark_option" table="system"/>
+  <RomUpgrade scene="hw_numbermark_notification_option" value="hn_numbermark_notification_option" table="system"/>
+  <RomUpgrade scene="hw_volte_user_switch" value="hn_volte_user_switch" table="system"/>
+  <RomUpgrade scene="hw_volte_user_switch_0" value="hn_volte_user_switch_0" table="system"/>
+  <RomUpgrade scene="hw_volte_user_switch_1" value="hn_volte_user_switch_1" table="system"/>
+</resources>
