@@ -1,0 +1,6 @@
+on boot
+#isf log
+     mkdir /data/vendor/log/isflog
+     chmod 0775 /data/vendor/log/isflog
+     chown system system /data/vendor/log/isflog
+

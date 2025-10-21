@@ -1,0 +1,3 @@
+# Enable passthrough feature of FUSE
+on property:persist.sys.fuse=true
+    setprop persist.sys.fuse.passthrough.enable 1

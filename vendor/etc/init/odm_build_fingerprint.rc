@@ -1,0 +1,15 @@
+service odm_build_fingerprint /vendor/bin/odm_build_fingerprint
+    class main
+    user root
+    group shell system
+    disabled
+    oneshot
+
+on property:ro.build.version.incremental=*
+    start odm_build_fingerprint
+
+on property:ro.odm.magic.version.incremental=*
+    setprop ro.odm.build.version.incremental ${ro.odm.magic.version.incremental}
+
+on property:ro.odm.magic.product.name=*
+    setprop ro.product.odm.name ${ro.odm.magic.product.name}
