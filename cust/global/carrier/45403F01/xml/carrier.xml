@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="88026695be5ef30c9ed37973376055a4">
+  <dict>
+    <!--2021-09-17 15:13:42.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:13:42.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2021-09-17 15:13:42.000-->
+    <string key="virtual_ecclist_withcard">+911,+112,+999</string>
+    <!--2021-09-17 15:13:42.000-->
+    <string key="virtualnet_operatorname">Mo</string>
+  </dict>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="bd3f543dbac5b2d3bb641b17ace27772">
+  <dict>
+    <!--2021-09-17 15:17:41.000-->
+    <int key="max_message_size">614400</int>
+    <!--2021-09-17 15:17:41.000-->
+    <int key="num_match">9</int>
+    <!--2021-09-17 15:17:41.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2021-09-17 15:17:41.000-->
+    <string key="voicemail_carrier">NRJ Mobile</string>
+    <!--2021-09-17 15:17:41.000-->
+    <string key="voicemail_number">777</string>
+    <!--2021-09-17 15:17:41.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

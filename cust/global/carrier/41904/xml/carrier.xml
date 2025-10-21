@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="5f47bbf9e36fad99e042cf78635b9bbb">
+  <dict>
+    <!--2021-09-17 15:16:19.000-->
+    <int key="num_match">7</int>
+    <!--2021-09-17 15:16:19.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-09-17 15:16:19.000-->
+    <bool key="pre_plmn_reg_vowifi">true</bool>
+  </dict>
+</config>

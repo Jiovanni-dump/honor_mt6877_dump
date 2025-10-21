@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="dedbecd6264cf808cbf8e6e572f4c561">
+  <dict>
+    <!--2023-04-23 11:19:55.000-->
+    <string key="hn_nwmode_pref_bymccmnc">9</string>
+    <!--2023-04-23 11:19:55.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9</string>
+    <!--2021-09-17 15:16:44.000-->
+    <bool key="hn_remove_3g_only">true</bool>
+    <!--2021-09-17 15:16:44.000-->
+    <int key="num_match">9</int>
+    <!--2021-09-17 15:16:44.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-09-17 15:16:44.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2021-09-17 15:16:44.000-->
+    <string key="virtual_ecclist_withcard">+112</string>
+    <!--2023-11-02 21:08:06.000-->
+    <string key="virtualnet_operatorname">Odido</string>
+    <!--2021-09-17 15:16:44.000-->
+    <string key="voicemail_carrier">Tele2 NL</string>
+    <!--2021-09-17 15:16:44.000-->
+    <string key="voicemail_number">+31640192939</string>
+    <!--2021-09-17 15:16:44.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

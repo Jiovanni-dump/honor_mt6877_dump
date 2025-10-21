@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="SoftBank 4G" mcc="440" mnc="20" apn="plus.4g" user="plus" server="" password="4g" proxy="" port="" mmsproxy="andmms.plusacs.ne.jp" mmsport="8080" mmsc="http://mms-s" type="default,mms,supl" authtype="2"/>
+</apns>

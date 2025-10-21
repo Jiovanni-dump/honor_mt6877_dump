@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="440067cc1d176f1f79bc5cd5c89db42f">
+  <dict>
+    <!--2021-09-17 15:15:34.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:15:34.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:15:34.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2021-09-17 15:15:34.000-->
+    <string key="virtualnet_operatorname">Oister DK</string>
+  </dict>
+</config>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f02314358a3d73d7359e2a688b0d9611">
+  <dict>
+    <!--2021-09-17 15:17:21.000-->
+    <string key="hn_4g_custom_display_for_networkmode">4G:LTE</string>
+    <!--2021-09-17 15:17:21.000-->
+    <string key="hn_cust_long_vmNum">+5072156666</string>
+    <!--2021-09-17 15:17:21.000-->
+    <string key="hn_networkname_normal">all,LTE:LTE;CA:LTE;MiMo:LTE;CAMiMo:LTE</string>
+    <!--2021-09-17 15:17:21.000-->
+    <bool key="hn_support_long_vmNum">true</bool>
+    <!--2021-09-17 15:17:21.000-->
+    <int key="num_match">7</int>
+    <!--2021-09-17 15:17:21.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:17:21.000-->
+    <string key="voicemail_carrier">CWP</string>
+    <!--2021-09-17 15:17:21.000-->
+    <string key="voicemail_number">*111</string>
+    <!--2021-09-17 15:17:21.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

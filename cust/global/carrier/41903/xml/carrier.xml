@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="7018b214352509681e06980a89fc1a7d">
+  <dict>
+    <!--2023-06-06 11:01:55.000-->
+    <bool key="ims_conference_reported_participants_optimize">true</bool>
+    <!--2021-09-17 15:15:23.000-->
+    <int key="num_match">7</int>
+    <!--2021-09-17 15:15:23.000-->
+    <int key="plmn_esm_flag">1</int>
+  </dict>
+</config>

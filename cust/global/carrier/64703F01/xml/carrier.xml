@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="ba7a6e90deeb03b8c14f6f039e214297">
+  <dict>
+    <!--2021-09-17 15:22:23.000-->
+    <int key="max_message_size">614400</int>
+    <!--2021-09-17 15:22:23.000-->
+    <int key="num_match">9</int>
+    <!--2021-09-17 15:22:23.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2021-09-17 15:22:23.000-->
+    <string key="virtual_ecclist_withcard">+112,+911</string>
+    <!--2021-09-17 15:22:23.000-->
+    <string key="virtualnet_operatorname">Free</string>
+  </dict>
+</config>

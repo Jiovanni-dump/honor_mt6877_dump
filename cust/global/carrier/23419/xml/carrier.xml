@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="c2378f29261a3e53d1f7e52055171280">
+  <dict>
+    <!--2021-09-17 15:22:00.000-->
+    <int key="allow_mms_property_int">4</int>
+    <!--2021-09-17 15:22:00.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:22:00.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-09-17 15:22:00.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+  </dict>
+</config>

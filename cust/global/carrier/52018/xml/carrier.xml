@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="aa463c20a8704193d455a2aab20d0cbc">
+  <dict>
+    <!--2023-02-13 11:43:29.000-->
+    <bool key="ims_conference_participants_be_consistent">true</bool>
+    <!--2021-09-17 15:22:44.000-->
+    <int key="num_match">9</int>
+  </dict>
+</config>

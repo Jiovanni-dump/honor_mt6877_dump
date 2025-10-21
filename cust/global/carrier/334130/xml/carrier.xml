@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="57703d8182e9fb61b7a7090365b55c87">
+  <dict>
+    <!--2021-09-17 15:23:39.000-->
+    <bool key="data_roaming_switch">false</bool>
+    <!--2021-09-19 16:16:43.000-->
+    <string key="hn_cust_long_vmNum">+525510335000</string>
+    <!--2021-09-17 15:23:39.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-09-17 15:23:39.000-->
+    <string key="voicemail_carrier">ALESTRA</string>
+    <!--2021-09-17 15:23:39.000-->
+    <string key="voicemail_number">*86</string>
+    <!--2021-09-17 15:23:39.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

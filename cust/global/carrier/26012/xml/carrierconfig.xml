@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="01d78a261b32f7fea0395a129d0fdc78">
+  <dict>
+    <!--2021-09-17 15:12:51.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2023-06-29 11:01:44.000-->
+    <string key="is_show_vowifi_tile_flag">true</string>
+  </dict>
+</config>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="4d1f1a7b0ef7d2746c5b924463400b0a">
+  <dict>
+    <!--2021-09-17 15:12:59.000-->
+    <bool key="enable_sending_blank_sms">true</bool>
+    <!--2021-09-17 15:12:59.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:12:59.000-->
+    <int key="num_match">9</int>
+    <!--2021-09-17 15:12:59.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+    <!--2021-09-17 15:12:59.000-->
+    <string key="voicemail_carrier">Life</string>
+    <!--2021-09-17 15:12:59.000-->
+    <string key="voicemail_number">985</string>
+    <!--2021-09-17 15:12:59.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

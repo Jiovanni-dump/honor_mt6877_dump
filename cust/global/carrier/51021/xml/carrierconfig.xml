@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="888f3f0346f82cf0489ddc7ad5bcfd3f">
+  <dict>
+    <!--2021-09-17 15:12:26.000-->
+    <bool key="CFNRcChangeWithCFNL">false</bool>
+    <!--2021-09-17 15:12:26.000-->
+    <int key="callWaitingMode">3</int>
+    <!--2021-09-17 15:12:26.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2021-09-17 15:12:26.000-->
+    <string key="carrier_volte_hd_icon_flag">01010101</string>
+    <!--2021-09-17 15:12:26.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2021-09-17 15:12:26.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2021-09-17 15:12:26.000-->
+    <int key="setDefaultNoReplyTimer">0</int>
+    <!--2021-09-17 15:12:26.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2021-09-17 15:12:26.000-->
+    <int key="utUseApn">1</int>
+  </dict>
+</config>

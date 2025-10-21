@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="b288e3f76eeed20e929425fb1e2dbb4e">
+  <dict>
+    <!--2021-09-17 15:23:38.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:23:38.000-->
+    <int key="num_match">7</int>
+    <!--2021-09-17 15:23:38.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2021-09-17 15:23:38.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2021-09-17 15:23:38.000-->
+    <string key="virtualnet_operatorname">Network Norway</string>
+  </dict>
+</config>

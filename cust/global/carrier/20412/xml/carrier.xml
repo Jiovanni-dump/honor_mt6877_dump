@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="ad9921ec0f34934103a10974501ad3f3">
+  <dict>
+    <!--2021-09-17 15:16:23.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:16:23.000-->
+    <int key="num_match">9</int>
+    <!--2021-09-17 15:16:23.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2021-09-17 15:16:23.000-->
+    <string key="voicemail_carrier">Telfort</string>
+    <!--2021-09-17 15:16:23.000-->
+    <string key="voicemail_number">1233</string>
+    <!--2021-09-17 15:16:23.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

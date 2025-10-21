@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="c7b92914e2a476c294238541598137af">
+  <dict>
+    <!--2023-06-13 20:01:42.000-->
+    <bool key="ims_conference_reported_participants_optimize">true</bool>
+    <!--2021-09-17 15:17:00.000-->
+    <int key="num_match">7</int>
+    <!--2023-02-17 11:12:02.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-09-01 11:19:20.000-->
+    <bool key="single_pdp_enabled">false</bool>
+    <!--2021-09-17 15:17:00.000-->
+    <string key="voicemail_carrier">FASTWEB</string>
+    <!--2021-09-17 15:17:00.000-->
+    <string key="voicemail_number">4141</string>
+    <!--2021-09-17 15:17:00.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

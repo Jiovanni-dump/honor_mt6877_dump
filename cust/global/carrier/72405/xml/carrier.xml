@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="9a6d117d9d3f6bb9e1a1397b6d44c307">
+  <dict>
+    <!--2021-09-17 15:11:58.000-->
+    <bool key="cbs_del_2b_switch">true</bool>
+    <!--2021-09-17 15:11:58.000-->
+    <string key="hn_networkname_normal">all,GPRS:2G;EDGE:2G;HSDPA:3G;HSUPA:3G;HSPA:3G;HSPA+:3G+;LTE:4G;CA:4.5G;MiMo:4.5G;CAMiMo:4.5G+</string>
+    <!--2021-09-17 15:11:58.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:11:58.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:11:58.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:11:58.000-->
+    <int key="sms_to_mms_textthreshold">13</int>
+    <!--2021-09-17 15:11:58.000-->
+    <string key="voicemail_carrier">Claro</string>
+    <!--2021-09-17 15:11:58.000-->
+    <string key="voicemail_number">*100</string>
+    <!--2021-09-17 15:11:58.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="b51b865dcfa5df362e8f0ee71f9cf2a4">
+  <dict>
+    <!--2021-09-17 15:23:34.000-->
+    <string key="voicemail_carrier">MTN</string>
+    <!--2021-09-17 15:23:34.000-->
+    <string key="voicemail_number">100</string>
+    <!--2021-09-17 15:23:34.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="40ee2be1db1ece2cb96931a1c508027f">
+  <dict>
+    <!--2021-09-17 15:16:23.000-->
+    <bool key="hide_nr_tile_flag">true</bool>
+    <!--2021-09-17 15:16:23.000-->
+    <int key="smsToMmsTextThreshold">10</int>
+  </dict>
+</config>

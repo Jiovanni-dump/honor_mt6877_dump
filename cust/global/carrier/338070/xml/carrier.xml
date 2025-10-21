@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="689d98d8bfcf96dd85cb6506439aa379">
+  <dict>
+    <!--2021-09-17 15:23:23.000-->
+    <string key="hn_networkname_normal">all,LTE:4G;CA:4.5G;MiMo:4.5G;CAMiMo:4.5G+</string>
+    <!--2021-09-17 15:23:23.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:23:23.000-->
+    <int key="sms_to_mms_textthreshold">13</int>
+  </dict>
+</config>

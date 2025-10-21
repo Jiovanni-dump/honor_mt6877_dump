@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="eb57dcddc15ab1a028bf2123a8fe1cbd">
+  <dict>
+    <!--2023-10-31 19:37:50.000-->
+    <bool key="enable_mvno_apn_filter">true</bool>
+    <!--2021-09-17 15:17:40.000-->
+    <int key="num_match">10</int>
+    <!--2021-09-17 15:17:40.000-->
+    <string key="voicemail_carrier">Verizon Wireless</string>
+    <!--2021-09-17 15:17:40.000-->
+    <string key="voicemail_number">*86</string>
+    <!--2021-09-17 15:17:40.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

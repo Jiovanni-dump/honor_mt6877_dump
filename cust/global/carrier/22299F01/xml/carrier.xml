@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="4a41379d8fa60936e0813e4aeec637ee">
+  <dict>
+    <!--2021-09-17 15:19:40.000-->
+    <int key="allow_mms_property_int">6</int>
+    <!--2021-09-17 15:19:40.000-->
+    <bool key="hn_data_roam_option">true</bool>
+    <!--2021-09-17 15:19:40.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:19:40.000-->
+    <int key="num_match">7</int>
+    <!--2021-09-17 15:19:40.000-->
+    <bool key="single_pdp_enabled">true</bool>
+    <!--2021-09-17 15:19:40.000-->
+    <int key="sms_to_mms_textthreshold">-1</int>
+    <!--2021-09-17 15:19:40.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2021-09-17 15:19:40.000-->
+    <string key="virtual_ecclist_withcard">+112,+911</string>
+    <!--2021-09-17 15:19:40.000-->
+    <string key="virtualnet_operatorname">FASTWEB</string>
+    <!--2021-09-17 15:19:40.000-->
+    <string key="voicemail_carrier">FASTWEB</string>
+    <!--2021-09-17 15:19:40.000-->
+    <string key="voicemail_number">4141</string>
+    <!--2021-09-17 15:19:40.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

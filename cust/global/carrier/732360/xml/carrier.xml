@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="601440622b1e89be9f007767520b9627">
+  <dict>
+    <!--2022-04-26 18:13:07.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2022-06-20 16:36:50.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2022-04-26 18:13:07.000-->
+    <string key="voicemail_carrier">WOM</string>
+    <!--2022-04-26 18:13:07.000-->
+    <string key="voicemail_number">+573025001000</string>
+    <!--2022-04-26 18:13:07.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

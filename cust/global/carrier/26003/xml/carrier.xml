@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="7ef6f5d3f07700ad6a98ce5c010e2ab7">
+  <dict>
+    <!--2022-07-21 15:14:24.000-->
+    <bool key="carrier_show_dual_icon">true</bool>
+    <!--2021-09-17 15:23:27.000-->
+    <string key="hn_4g_custom_display_for_networkmode">4G:LTE</string>
+    <!--2021-09-17 15:23:27.000-->
+    <string key="hn_networkname_normal">all,LTE:LTE;CA:LTE+</string>
+    <!--2021-09-17 15:23:27.000-->
+    <int key="key_signal_strength_level_rule">1</int>
+    <!--2021-09-17 15:23:27.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:23:27.000-->
+    <int key="num_match">9</int>
+    <!--2021-09-17 15:23:27.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-09-17 15:23:27.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2021-09-17 15:23:27.000-->
+    <string key="voicemail_carrier">Orange</string>
+    <!--2021-09-17 15:23:27.000-->
+    <string key="voicemail_number">*501</string>
+    <!--2021-09-17 15:23:27.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

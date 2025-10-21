@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="12575476e4f7a21ab53d5010746963aa">
+  <dict>
+    <!--2021-09-17 15:12:05.000-->
+    <string key="hn_4g_custom_display_for_networkmode">4G:LTE</string>
+    <!--2021-09-17 15:12:05.000-->
+    <string key="hn_networkname_normal">all,LTE:LTE;CA:LTE;MiMo:LTE;CAMiMo:LTE</string>
+    <!--2023-05-31 10:29:09.000-->
+    <int key="num_match">10</int>
+    <!--2021-09-17 15:12:05.000-->
+    <string key="voicemail_carrier">Trilogy Dominicana S.A.</string>
+    <!--2021-09-17 15:12:05.000-->
+    <string key="voicemail_number">*89</string>
+    <!--2021-09-17 15:12:05.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

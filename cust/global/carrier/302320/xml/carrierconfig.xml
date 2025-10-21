@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="ba4b22eb612badbf96526fe02604babc">
+  <dict>
+    <!--2021-09-17 15:20:29.000-->
+    <int key="maxImageHeight">1440</int>
+    <!--2021-09-17 15:20:29.000-->
+    <int key="maxImageWidth">1920</int>
+    <!--2021-09-17 15:20:29.000-->
+    <int key="maxMessageSize">1048576</int>
+    <!--2021-09-17 15:20:29.000-->
+    <bool key="suppport_cnap_bool">true</bool>
+    <!--2021-09-17 15:20:29.000-->
+    <bool key="useCustomUserAgent">true</bool>
+  </dict>
+</config>

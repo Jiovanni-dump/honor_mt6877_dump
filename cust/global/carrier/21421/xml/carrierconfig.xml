@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="10f850806162ef7b019e026a30b68b6c">
+  <dict>
+    <!--2022-07-21 15:14:24.000-->
+    <string key="carrier_evs_icon_flag">000010</string>
+    <!--2022-07-21 15:14:24.000-->
+    <string key="carrier_wb_hd_icon_flag">000010</string>
+    <!--2021-09-17 15:22:07.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2021-09-17 15:22:07.000-->
+    <bool key="hide_nr_tile_flag">true</bool>
+    <!--2023-01-31 17:33:44.000-->
+    <string key="is_show_vowifi_tile_flag">true</string>
+    <!--2021-09-17 15:22:07.000-->
+    <array key="read_only_apn_types_string_array">
+      <string></string>
+    </array>
+    <!--2021-09-17 15:22:07.000-->
+    <bool key="smsUsesSimpleCharactersOnly">true</bool>
+  </dict>
+</config>

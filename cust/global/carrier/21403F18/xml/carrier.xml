@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f175a89cf88c8b4b05bcffe9f1d9c4c1">
+  <dict>
+    <!--2021-11-29 16:47:58.000-->
+    <int key="hn_omacp_apn_policy">-1</int>
+    <!--2021-09-17 15:16:14.000-->
+    <int key="key_signal_strength_level_rule">1</int>
+    <!--2021-09-17 15:16:14.000-->
+    <int key="num_match">9</int>
+    <!--2021-09-17 15:16:14.000-->
+    <int key="sms_7bit_enabled">1</int>
+  </dict>
+</config>

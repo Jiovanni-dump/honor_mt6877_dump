@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f560cb19882ed56cfe07ac394ebf5122">
+  <dict>
+    <!--2021-09-17 15:11:57.000-->
+    <bool key="hn_remove_3g_only">true</bool>
+    <!--2021-09-17 15:11:57.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:11:57.000-->
+    <int key="num_match">9</int>
+    <!--2021-09-17 15:11:57.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-09-17 15:11:57.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2021-09-17 15:11:57.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2021-09-17 15:11:57.000-->
+    <string key="voicemail_carrier">Tele2 NL</string>
+    <!--2021-09-17 15:11:57.000-->
+    <string key="voicemail_number">+31640192940</string>
+    <!--2021-09-17 15:11:57.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

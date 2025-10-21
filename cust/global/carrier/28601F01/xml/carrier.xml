@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="96233051e05c357a11b8df6535d7bde3">
+  <dict>
+    <!--2021-09-17 15:14:25.000-->
+    <string key="hn_4g_custom_display_for_networkmode">4G:4.5G</string>
+    <!--2021-09-17 15:14:25.000-->
+    <string key="hn_networkname_normal">all,LTE:4.5G;CA:4.5G</string>
+    <!--2021-09-17 15:14:25.000-->
+    <int key="plmn_esm_flag">0</int>
+    <!--2021-09-17 15:14:25.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2021-09-17 15:14:25.000-->
+    <string key="virtual_ecclist_withcard">+112</string>
+    <!--2021-09-17 15:14:25.000-->
+    <string key="virtualnet_operatorname">TCELL</string>
+    <!--2021-09-17 15:14:25.000-->
+    <string key="voicemail_carrier">KKTCELL</string>
+    <!--2021-09-17 15:14:25.000-->
+    <string key="voicemail_number">8780</string>
+    <!--2021-09-17 15:14:25.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

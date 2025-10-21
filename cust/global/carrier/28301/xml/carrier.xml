@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="833308e0cfa7391f000c5f153a7b74f7">
+  <dict>
+    <!--2021-09-17 15:15:29.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:15:29.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:15:29.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+    <!--2023-04-24 10:19:44.000-->
+    <string key="voicemail_carrier">Team_AM</string>
+    <!--2021-09-17 15:15:29.000-->
+    <string key="voicemail_number">0600</string>
+    <!--2021-09-17 15:15:29.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

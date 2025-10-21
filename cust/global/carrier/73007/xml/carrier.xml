@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="66c05795febf8b223e1cae34f3455b7a">
+  <dict>
+    <!--2022-06-27 15:54:10.000-->
+    <bool key="carrier_popup_disable">true</bool>
+    <!--2021-09-17 15:19:06.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:19:06.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:19:06.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2021-09-17 15:19:06.000-->
+    <string key="virtualnet_operatorname">GTD Movil</string>
+    <!--2021-09-17 15:19:06.000-->
+    <string key="voicemail_carrier">GTD</string>
+    <!--2021-09-17 15:19:06.000-->
+    <string key="voicemail_number">100</string>
+    <!--2021-09-17 15:19:06.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

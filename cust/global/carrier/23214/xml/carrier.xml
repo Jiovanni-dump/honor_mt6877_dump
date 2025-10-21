@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="b950e8d261507c70acbb7bd2a9e1664f">
+  <dict>
+    <!--2022-12-12 16:43:38.000-->
+    <bool key="hn_remove_2g_only">true</bool>
+    <!--2022-12-12 16:43:38.000-->
+    <bool key="hn_remove_3g_only">true</bool>
+    <!--2021-09-17 15:15:50.000-->
+    <int key="num_match">10</int>
+    <!--2021-09-17 15:15:50.000-->
+    <int key="num_match_short">7</int>
+    <!--2021-09-17 15:15:50.000-->
+    <int key="plmn_esm_flag">1</int>
+  </dict>
+</config>

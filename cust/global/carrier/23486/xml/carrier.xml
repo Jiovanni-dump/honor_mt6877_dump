@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="8e8191f17807a99231c65c8d88e0e98c">
+  <dict>
+    <!--2021-09-17 15:24:15.000-->
+    <int key="allow_mms_property_int">4</int>
+    <!--2022-11-30 17:52:03.000-->
+    <bool key="data_roaming_switch">true</bool>
+    <!--2021-09-17 15:24:15.000-->
+    <string key="hn_networkname_normal">all,CA:4G</string>
+    <!--2021-09-17 15:24:15.000-->
+    <string key="hn_nwmode_pref_bymccmnc">9</string>
+    <!--2021-09-17 15:24:15.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9</string>
+    <!--2021-09-17 15:24:15.000-->
+    <bool key="hn_remove_2g_only">true</bool>
+    <!--2021-09-17 15:24:15.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:24:15.000-->
+    <int key="num_match">10</int>
+    <!--2021-09-17 15:24:15.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-09-17 15:24:15.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+    <!--2021-09-17 15:24:15.000-->
+    <string key="voicemail_carrier">Orange UK</string>
+    <!--2021-09-17 15:24:15.000-->
+    <string key="voicemail_number">07973100123</string>
+    <!--2021-09-17 15:24:15.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

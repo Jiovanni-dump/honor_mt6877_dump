@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="42dbe504cb3e875d7abad27621c28fe2">
+  <dict>
+    <!--2022-07-21 15:14:24.000-->
+    <string key="carrier_evs_icon_flag">000010</string>
+    <!--2023-08-22 09:44:14.000-->
+    <string key="carrier_wb_hd_icon_flag">000010</string>
+    <!--2021-10-04 14:35:57.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+  </dict>
+</config>

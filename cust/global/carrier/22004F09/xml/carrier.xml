@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="62c9976a50852d83523d3ba3b105b1da">
+  <dict>
+    <!--2021-09-17 15:11:03.000-->
+    <string key="hn_networkname_normal">all,CA:4G</string>
+    <!--2021-09-17 15:11:03.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:11:03.000-->
+    <int key="plmn_esm_flag">0</int>
+    <!--2021-09-17 15:11:03.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2021-09-17 15:11:03.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2021-09-17 15:11:03.000-->
+    <string key="virtualnet_operatorname">Telekom.me</string>
+    <!--2021-09-17 15:11:03.000-->
+    <bool key="vm_edit_not_to_sim_bool">true</bool>
+    <!--2021-09-17 15:11:03.000-->
+    <string key="voicemail_carrier">T-Mobile</string>
+    <!--2021-09-17 15:11:03.000-->
+    <string key="voicemail_number">+3826714077</string>
+    <!--2021-09-17 15:11:03.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

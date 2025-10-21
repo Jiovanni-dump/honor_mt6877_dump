@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="271ae95b5b69ad73047feb2ea445afd5">
+  <dict>
+    <!--2021-09-17 15:21:38.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:21:38.000-->
+    <int key="num_match">7</int>
+    <!--2021-09-17 15:21:38.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2021-09-17 15:21:38.000-->
+    <string key="voicemail_carrier">Base Belgium</string>
+    <!--2021-09-17 15:21:38.000-->
+    <string key="voicemail_number">1955</string>
+    <!--2021-09-17 15:21:38.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

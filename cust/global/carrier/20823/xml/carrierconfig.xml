@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="31f53d327ea40cb290d1333a75494d1a">
+  <dict>
+    <!--2021-09-17 15:19:13.000-->
+    <int key="maxImageHeight">1440</int>
+    <!--2021-09-17 15:19:13.000-->
+    <int key="maxImageWidth">1920</int>
+    <!--2021-09-17 15:19:13.000-->
+    <int key="maxMessageSize">614400</int>
+  </dict>
+</config>

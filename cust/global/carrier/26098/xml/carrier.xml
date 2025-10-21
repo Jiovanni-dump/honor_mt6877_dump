@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="6877b2a993869b7c3999263d7663697f">
+  <dict>
+    <!--2021-09-17 15:21:04.000-->
+    <string key="SMSCAddress">+48790998250</string>
+    <!--2021-09-17 15:21:04.000-->
+    <bool key="data_roaming_switch">true</bool>
+    <!--2021-09-17 15:21:04.000-->
+    <bool key="delay_detach_switch">true</bool>
+    <!--2021-09-17 15:21:04.000-->
+    <string key="hn_4g_custom_display_for_networkmode">4G:LTE</string>
+    <!--2021-09-17 15:21:04.000-->
+    <bool key="hn_data_roam_option">true</bool>
+    <!--2021-09-17 15:21:04.000-->
+    <string key="hn_networkname_normal">all,LTE:LTE;CA:LTE+</string>
+    <!--2023-10-23 20:38:40.000-->
+    <bool key="hn_remove_3g_only">true</bool>
+    <!--2023-11-15 10:51:57.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+  </dict>
+</config>

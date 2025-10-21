@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="28045a6c2c4af159b0fa3fb044695b21">
+  <dict>
+    <!--2021-09-17 15:23:10.000-->
+    <string key="hn_4g_custom_display_for_networkmode">4G:LTE</string>
+    <!--2021-09-17 15:23:10.000-->
+    <string key="hn_networkname_normal">all,LTE:LTE;CA:LTE;MiMo:LTE;CAMiMo:LTE</string>
+    <!--2021-09-17 15:23:10.000-->
+    <int key="max_message_size">512000</int>
+    <!--2021-09-17 15:23:10.000-->
+    <int key="num_match">8</int>
+    <!--2023-10-24 14:20:28.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2021-09-17 15:23:10.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:23:10.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+    <!--2021-09-17 15:23:10.000-->
+    <string key="voicemail_carrier">Antel</string>
+    <!--2021-09-17 15:23:10.000-->
+    <string key="voicemail_number">*66</string>
+    <!--2021-09-17 15:23:10.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

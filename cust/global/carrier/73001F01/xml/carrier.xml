@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="5d507ce2562472eeccf3c65bfdc118c2">
+  <dict>
+    <!--2021-09-17 15:11:29.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:11:29.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:11:29.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2021-09-17 15:11:29.000-->
+    <string key="virtual_ecclist_withcard">+133,+112,+911,2+131,4+132</string>
+    <!--2021-09-17 15:11:29.000-->
+    <string key="virtualnet_operatorname">FALABELLA</string>
+    <!--2021-09-17 15:11:29.000-->
+    <string key="voicemail_carrier">Falabella</string>
+    <!--2021-09-17 15:11:29.000-->
+    <string key="voicemail_number">+56952800500</string>
+    <!--2021-09-17 15:11:29.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="61086009f7bbc8eef65b8ad05cdd04ca">
+  <dict>
+    <!--2023-11-03 17:42:24.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2021-09-17 15:10:52.000-->
+    <string key="carrier_networkmode_gstyle">true</string>
+    <!--2021-09-17 15:10:52.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-11-16 15:03:30.000-->
+    <bool key="carrier_volte_show_switch_bool">false</bool>
+    <!--2021-09-17 15:10:52.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2021-09-17 15:10:52.000-->
+    <bool key="utCanUseWifi">false</bool>
+  </dict>
+</config>

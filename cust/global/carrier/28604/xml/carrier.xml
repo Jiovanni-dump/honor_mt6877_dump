@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="6ce27f6a935b0e423a30006c8c9a1b14">
+  <dict>
+    <!--2021-09-17 15:21:10.000-->
+    <string key="hn_4g_custom_display_for_networkmode">4G:4.5G</string>
+    <!--2021-09-17 15:21:10.000-->
+    <string key="hn_networkname_normal">all,LTE:4.5G;CA:4.5G</string>
+    <!--2021-09-17 15:21:10.000-->
+    <int key="num_match">10</int>
+    <!--2021-09-17 15:21:10.000-->
+    <int key="sms_coding_national">1</int>
+    <!--2021-09-17 15:21:10.000-->
+    <string key="voicemail_carrier">Avea</string>
+    <!--2021-09-17 15:21:10.000-->
+    <string key="voicemail_number">999</string>
+    <!--2021-09-17 15:21:10.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

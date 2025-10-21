@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="c11e040aa6f4dfe531ad68b15f3dc560">
+  <dict>
+    <!--2021-09-17 15:20:34.000-->
+    <int key="max_message_size">1048576</int>
+    <!--2021-09-17 15:20:34.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:20:34.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2021-09-17 15:20:34.000-->
+    <string key="virtualnet_operatorname">Telavox</string>
+  </dict>
+</config>

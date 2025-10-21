@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="aed945ae95f1004871872a0e9396fa96">
+  <dict>
+    <!--2021-09-17 15:15:12.000-->
+    <int key="num_match">10</int>
+    <!--2021-09-17 15:15:12.000-->
+    <int key="num_match_short">9</int>
+    <!--2021-09-17 15:15:12.000-->
+    <bool key="pre_plmn_reg_vowifi">true</bool>
+  </dict>
+</config>

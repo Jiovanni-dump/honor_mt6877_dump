@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="1d9b6b090a30f60ce43ee082df6f5360">
+  <dict>
+    <!--2021-09-17 15:12:25.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:12:25.000-->
+    <int key="num_match">7</int>
+    <!--2021-09-17 15:12:25.000-->
+    <bool key="single_pdp_enabled">true</bool>
+    <!--2021-09-17 15:12:25.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2021-09-17 15:12:25.000-->
+    <string key="voicemail_carrier">YouPhone</string>
+    <!--2021-09-17 15:12:25.000-->
+    <string key="voicemail_number">*151</string>
+    <!--2021-09-17 15:12:25.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

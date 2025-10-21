@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="504b935503d0ad2bb2b57af9ebe8664d">
+  <dict>
+    <!--2021-09-17 15:16:04.000-->
+    <string key="SMSCAddress">+8491020005</string>
+    <!--2021-09-17 15:16:04.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:16:04.000-->
+    <int key="num_match">9</int>
+    <!--2021-09-17 15:16:04.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-09-17 15:16:04.000-->
+    <int key="sms_to_mms_textthreshold">6</int>
+    <!--2021-09-17 15:16:04.000-->
+    <string key="virtual_ecclist_withcard">+112,+113,+114,+115</string>
+    <!--2021-09-17 15:16:04.000-->
+    <string key="virtualnet_operatorname">reddi</string>
+  </dict>
+</config>

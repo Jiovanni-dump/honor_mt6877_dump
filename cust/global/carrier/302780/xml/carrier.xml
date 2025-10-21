@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="a4b7d80d25b3ae5f732d6da75508c703">
+  <dict>
+    <!--2021-09-17 15:22:24.000-->
+    <string key="hn_networkname_normal">all,HSDPA:H;HSUPA:H;HSPA:H;HSPA+:H+;LTE:LTE;CA:LTE+</string>
+    <!--2021-09-17 15:22:24.000-->
+    <int key="num_match">10</int>
+    <!--2021-09-17 15:22:24.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-09-17 15:22:24.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2021-09-17 15:22:24.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+  </dict>
+</config>

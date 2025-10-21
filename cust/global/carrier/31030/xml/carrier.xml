@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e2701959afbfb74ae8edb56129c2a297">
+  <dict>
+    <!--2021-09-17 15:17:54.000-->
+    <int key="max_message_size">1048576</int>
+  </dict>
+</config>

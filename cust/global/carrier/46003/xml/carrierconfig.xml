@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="0162f9892675a0dc7cbc3cca63b73a85">
+  <dict>
+    <!--2021-09-17 15:15:54.000-->
+    <string key="carrier_volte_hd_icon_flag">01010101</string>
+    <!--2021-09-17 15:15:54.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2021-09-17 15:15:54.000-->
+    <bool key="switch_nr_available_bool">true</bool>
+    <!--2021-09-17 15:15:54.000-->
+    <bool key="utCanUseWifi">false</bool>
+  </dict>
+</config>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="9af5b90b9c056593c3e8053404942091">
+  <dict>
+    <!--2021-09-17 15:19:03.000-->
+    <int key="smsToMmsTextThreshold">-1</int>
+  </dict>
+</config>

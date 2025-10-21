@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="14b53ef95eaabb18ebf7fde0f6da39fa">
+  <dict>
+    <!--2021-09-17 15:16:04.000-->
+    <int key="num_match">7</int>
+    <!--2021-09-17 15:16:04.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2021-09-17 15:16:04.000-->
+    <string key="virtual_ecclist_withcard">+112</string>
+    <!--2021-09-17 15:16:04.000-->
+    <string key="virtualnet_operatorname">One Call</string>
+  </dict>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="36e6adccbf41b336b2efc947a9bf093a">
+  <dict>
+    <!--2021-09-17 15:19:49.000-->
+    <bool key="data_roaming_switch">true</bool>
+    <!--2021-09-17 15:19:49.000-->
+    <string key="hn_networkname_normal">all,LTE:4G;CA:4G;MiMo:4G;CAMiMo:4G</string>
+    <!--2021-09-17 15:19:49.000-->
+    <int key="num_match">10</int>
+    <!--2021-09-17 15:19:49.000-->
+    <string key="voicemail_carrier">UNE</string>
+    <!--2021-09-17 15:19:49.000-->
+    <string key="voicemail_number">*123</string>
+    <!--2021-09-17 15:19:49.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

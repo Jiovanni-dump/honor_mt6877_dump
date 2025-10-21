@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="ee4bdf69877c5b6f0af9e55ef7dbac18">
+  <dict>
+    <!--2021-09-17 15:23:48.000-->
+    <string key="SMSCAddress">+35569200200</string>
+    <!--2021-09-17 15:23:48.000-->
+    <bool key="disable_sms_deliver_toast">true</bool>
+    <!--2021-09-17 15:23:48.000-->
+    <string key="hn_networkname_normal">all,GSM:G</string>
+    <!--2021-09-17 15:23:48.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:23:48.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+    <!--2021-09-17 15:23:48.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2021-09-17 15:23:48.000-->
+    <string key="virtualnet_operatorname">Vodafone AL</string>
+    <!--2021-09-17 15:23:48.000-->
+    <string key="voicemail_carrier">Vodafone</string>
+    <!--2021-09-17 15:23:48.000-->
+    <string key="voicemail_number">135</string>
+    <!--2021-09-17 15:23:48.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

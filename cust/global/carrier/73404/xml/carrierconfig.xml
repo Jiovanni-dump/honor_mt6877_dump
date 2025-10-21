@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="238220e2ff3d96efc69735766f919d99">
+  <dict>
+    <!--2021-09-17 15:23:50.000-->
+    <bool key="enabledMMS">false</bool>
+    <!--2021-09-17 15:23:50.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2024-01-08 09:40:15.000-->
+    <bool key="hide_nr_tile_flag">false</bool>
+    <!--2021-09-17 15:23:50.000-->
+    <int key="smsToMmsTextThreshold">-1</int>
+    <!--2021-09-17 15:23:50.000-->
+    <bool key="smsUsesSimpleCharactersOnly">true</bool>
+  </dict>
+</config>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="d53feb15136644a45bb70e5735f05443">
+  <dict>
+    <!--2021-09-17 15:22:49.000-->
+    <int key="key_signal_strength_level_rule">1</int>
+    <!--2021-09-17 15:22:49.000-->
+    <int key="num_match">9</int>
+    <!--2021-09-17 15:22:49.000-->
+    <int key="plmn_esm_flag">0</int>
+    <!--2021-09-17 15:22:49.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:22:49.000-->
+    <string key="virtualnet_operatorname">IOS</string>
+  </dict>
+</config>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="cc22210cac4b6971f3e827f30606b289">
+  <dict>
+    <!--2021-09-17 15:23:47.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:23:47.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:23:47.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2021-09-17 15:23:47.000-->
+    <string key="virtualnet_operatorname">YouSee</string>
+  </dict>
+</config>

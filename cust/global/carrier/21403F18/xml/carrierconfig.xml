@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="8fa2b0ade49ae27511a555ab40643941">
+  <dict>
+    <!--2021-09-17 15:16:14.000-->
+    <string key="carrier_vowifi_pop_content_type">POP_CAPIBILITY_INFO</string>
+    <!--2021-09-17 15:16:14.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2021-09-17 15:16:14.000-->
+    <bool key="hide_nr_tile_flag">true</bool>
+    <!--2021-09-17 15:16:14.000-->
+    <array key="read_only_apn_types_string_array">
+      <string></string>
+    </array>
+    <!--2021-09-17 15:16:14.000-->
+    <bool key="smsUsesSimpleCharactersOnly">true</bool>
+  </dict>
+</config>

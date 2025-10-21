@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="86c75c46468842974ae5a2ba8e438359">
+  <dict>
+    <!--2023-06-07 16:53:46.000-->
+    <bool key="carrier_allow_transfer_ims_call_bool">true</bool>
+    <!--2023-01-10 11:04:23.000-->
+    <string key="carrier_volte_hd_icon_flag">00100000</string>
+    <!--2023-03-15 12:29:26.000-->
+    <bool key="carrier_volte_show_calltrans_bool">true</bool>
+    <!--2023-01-29 15:44:11.000-->
+    <bool key="carrier_volte_show_switch_bool">false</bool>
+    <!--2023-02-10 14:45:37.000-->
+    <bool key="display_hd_audio_property_bool">false</bool>
+    <!--2021-09-17 15:14:27.000-->
+    <bool key="mmi_002_004_none_csfb_bool">true</bool>
+    <!--2021-09-17 15:14:27.000-->
+    <int key="smsToMmsTextThreshold">-1</int>
+    <!--2021-09-17 15:14:27.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2021-09-17 15:14:27.000-->
+    <string key="utParamsCfg">19:1</string>
+    <!--2021-09-17 15:14:27.000-->
+    <int key="utPreferOption">1</int>
+  </dict>
+</config>

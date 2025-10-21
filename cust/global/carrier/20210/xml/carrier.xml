@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="8d65c0d07934f1e6ed106ed7dd5f3300">
+  <dict>
+    <!--2021-09-17 15:22:39.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:22:39.000-->
+    <int key="num_match">7</int>
+    <!--2021-09-17 15:22:39.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:22:39.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2021-09-17 15:22:39.000-->
+    <string key="voicemail_carrier">Wind</string>
+    <!--2021-09-17 15:22:39.000-->
+    <string key="voicemail_number">122</string>
+    <!--2021-09-17 15:22:39.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="40439abf4a78022492f6251b0499f181">
+  <dict>
+    <!--2021-09-17 15:17:56.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:17:56.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:17:56.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+    <!--2021-09-17 15:17:56.000-->
+    <string key="voicemail_carrier">VivaCell / MTS</string>
+    <!--2021-09-17 15:17:56.000-->
+    <string key="voicemail_number">130</string>
+    <!--2021-09-17 15:17:56.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

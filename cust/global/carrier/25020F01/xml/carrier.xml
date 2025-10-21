@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="71e520b15a725bcbc8ba964bdf686e32">
+  <dict>
+    <!--2021-09-17 15:20:29.000-->
+    <bool key="enable_sending_blank_sms">true</bool>
+    <!--2022-01-20 15:55:11.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9,3,2,1</string>
+    <!--2021-09-17 15:20:29.000-->
+    <int key="num_match">10</int>
+    <!--2021-09-17 15:20:29.000-->
+    <string key="virtual_ecclist_withcard">+112,+911</string>
+    <!--2021-09-17 15:20:29.000-->
+    <string key="virtualnet_operatorname">Sberbank</string>
+  </dict>
+</config>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="9428833e67362846255b7705b29d9184">
+  <dict>
+    <!--2021-09-17 15:21:53.000-->
+    <int key="num_match">10</int>
+    <!--2021-09-17 15:21:53.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2021-09-17 15:21:53.000-->
+    <string key="virtualnet_operatorname">Mosiac</string>
+  </dict>
+</config>

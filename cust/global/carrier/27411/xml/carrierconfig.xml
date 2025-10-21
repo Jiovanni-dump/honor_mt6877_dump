@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="dc56baf056647ccda5e785c2699b4008">
+  <dict>
+    <!--2021-09-17 15:17:57.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2021-09-17 15:17:57.000-->
+    <string key="carrier_volte_hd_icon_flag">00000000</string>
+    <!--2021-09-17 15:17:57.000-->
+    <string key="carrier_vowifi_hd_icon_flag">00000000</string>
+    <!--2021-09-17 15:17:57.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2021-09-17 15:17:57.000-->
+    <int key="utBsfPort">80</int>
+    <!--2021-09-17 15:17:57.000-->
+    <int key="utUseApn">3</int>
+  </dict>
+</config>

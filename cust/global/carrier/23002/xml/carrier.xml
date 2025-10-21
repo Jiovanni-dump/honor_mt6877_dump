@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="ec3bd92c7ab42a824dfcefd096d44641">
+  <dict>
+    <!--2021-09-17 15:11:27.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:11:27.000-->
+    <int key="num_match">9</int>
+    <!--2022-04-06 15:42:44.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2021-09-17 15:11:27.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2021-09-17 15:11:27.000-->
+    <string key="voicemail_carrier">O2</string>
+    <!--2021-09-17 15:11:27.000-->
+    <string key="voicemail_number">+420602999999</string>
+    <!--2021-09-17 15:11:27.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

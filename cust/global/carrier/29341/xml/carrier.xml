@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="da785586206d26a47d7637c1bbb2a9de">
+  <dict>
+    <!--2021-09-17 15:20:47.000-->
+    <bool key="delay_detach_switch">true</bool>
+    <!--2022-05-05 20:47:20.000-->
+    <string key="hn_ims_cb_service_class">AO:0;OI:0;OX:0</string>
+    <!--2021-09-17 15:20:47.000-->
+    <int key="max_message_size">3145728</int>
+    <!--2021-09-17 15:20:47.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:20:47.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+  </dict>
+</config>

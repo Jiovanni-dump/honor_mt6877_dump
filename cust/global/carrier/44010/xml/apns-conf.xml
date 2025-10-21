@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="spモード" mcc="440" mnc="10" apn="spmode.ne.jp" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="0" protocol="IPV4V6"/>
+  <apn carrier="OCNモバイルONE" mcc="440" mnc="10" apn="ocn.ne.jp" user="mobileid@ocn" server="" password="mobile" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="2" protocol="IP"/>
+  <apn carrier="Emergency" mcc="440" mnc="10" apn="" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="Emergency" protocol="IPV6" roaming_protocol="IPV4V6"/>
+</apns>

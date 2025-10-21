@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="0fed9e5132ee5b1fb1886212e86f7ad9">
+  <dict>
+    <!--2023-09-28 10:22:06.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-09-28 10:22:06.000-->
+    <string key="carrier_volte_hd_icon_flag">00101010</string>
+    <!--2023-09-28 10:22:06.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2023-09-28 10:22:06.000-->
+    <string key="carrier_vowifi_title">Wifi Calling</string>
+    <!--2023-09-28 10:22:06.000-->
+    <string key="wfc_format_wifi_string">%1$s Wifi Call</string>
+    <!--2023-09-28 10:22:06.000-->
+    <string key="wfc_spn_string">Lebara</string>
+  </dict>
+</config>

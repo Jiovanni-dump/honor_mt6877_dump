@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="20339f752d673e7bc898a1aa8b60427c">
+  <dict>
+    <!--2021-09-17 15:22:25.000-->
+    <bool key="carrier_hide_network_mode_bool">true</bool>
+    <!--2021-09-17 15:22:25.000-->
+    <bool key="enabledMMS">false</bool>
+    <!--2021-09-17 15:22:25.000-->
+    <int key="smsToMmsTextThreshold">-1</int>
+  </dict>
+</config>

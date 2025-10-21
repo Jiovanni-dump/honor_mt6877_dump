@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="91d45aa42cc74b81ef4b69b652093e3a">
+  <dict>
+    <!--2021-09-17 15:23:54.000-->
+    <string key="hn_4g_custom_display_for_networkmode">4G:LTE</string>
+    <!--2021-09-17 15:23:54.000-->
+    <int key="num_match">7</int>
+    <!--2021-09-17 15:23:54.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2021-09-17 15:23:54.000-->
+    <string key="virtual_ecclist_withcard">+110,+000,+112,+911,+913,+917</string>
+    <!--2021-09-17 15:23:54.000-->
+    <string key="virtualnet_operatorname">Digicel</string>
+    <!--2021-09-17 15:23:54.000-->
+    <string key="voicemail_carrier">Digicel</string>
+    <!--2021-09-17 15:23:54.000-->
+    <string key="voicemail_number">555</string>
+    <!--2021-09-17 15:23:54.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="cdaf17057b3cf54f02a83185ec396e7a">
+  <dict>
+    <!--2021-09-17 15:20:04.000-->
+    <bool key="cbs_del_2b_switch">true</bool>
+    <!--2021-09-17 15:20:04.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:20:04.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:20:04.000-->
+    <string key="voicemail_carrier">Correios</string>
+    <!--2021-09-17 15:20:04.000-->
+    <string key="voicemail_number">*289</string>
+    <!--2021-09-17 15:20:04.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

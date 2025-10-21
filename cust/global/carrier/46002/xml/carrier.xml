@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="229bd53b8707b0c15b6d85b5c297fa43">
+  <dict>
+    <!--2021-09-17 15:16:15.000-->
+    <bool key="carrier_support_cft_bool">true</bool>
+    <!--2021-09-17 15:16:15.000-->
+    <string key="dend_data_self_cure_strategy">169:60:3:0</string>
+    <!--2021-09-17 15:16:15.000-->
+    <int key="num_match">11</int>
+    <!--2021-09-17 15:16:15.000-->
+    <int key="plmn_esm_flag">0</int>
+  </dict>
+</config>

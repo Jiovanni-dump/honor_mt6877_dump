@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="5ad19131c84f273240a630c13d27b247">
+  <dict>
+    <!--2021-09-17 15:20:47.000-->
+    <bool key="cbs_del_2b_switch">true</bool>
+    <!--2021-09-17 15:20:47.000-->
+    <string key="hn_networkname_normal">all,LTE:4G;CA:4.5G;MiMo:4.5G;CAMiMo:4.5G</string>
+    <!--2021-09-17 15:20:47.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:20:47.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:20:47.000-->
+    <int key="vm_prioritymode">3</int>
+    <!--2021-09-17 15:20:47.000-->
+    <string key="voicemail_carrier">Tim</string>
+    <!--2021-09-17 15:20:47.000-->
+    <string key="voicemail_number">*100</string>
+    <!--2021-09-17 15:20:47.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

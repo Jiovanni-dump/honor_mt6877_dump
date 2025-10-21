@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2021-09-17 15:12:36.000-->
+  <integer alert_duration="300000"/>
+  <!--2021-09-17 15:12:36.000-->
+  <string always_show_test_item="true"/>
+  <!--2021-09-17 15:12:36.000-->
+  <string always_vibrate="true"/>
+  <!--2021-09-17 15:12:36.000-->
+  <string display_channel_click_disabled="919,921"/>
+  <!--2021-09-17 15:12:36.000-->
+  <string hide_cmas_optout_dialog="true"/>
+  <!--2021-09-17 15:12:36.000-->
+  <string hide_full_volume_menu="true"/>
+  <!--2021-09-17 15:12:36.000-->
+  <string show_channel_settings="true"/>
+  <!--2021-09-17 15:12:36.000-->
+  <string show_date_time_title="true"/>
+  <!--2021-09-17 15:12:36.000-->
+  <string use_full_volume="true"/>
+</resources>

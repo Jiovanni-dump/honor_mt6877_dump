@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f617f7d5fdd8cc96a9e225685bf7ba8e">
+  <dict>
+    <!--2021-09-17 15:15:28.000-->
+    <string key="carrier_networkmode_gstyle">true</string>
+    <!--2021-10-12 17:42:01.000-->
+    <bool key="ignore_data_enabled_changed_for_video_calls">true</bool>
+    <!--2021-10-12 17:42:01.000-->
+    <bool key="vilte_data_is_metered_bool">false</bool>
+  </dict>
+</config>

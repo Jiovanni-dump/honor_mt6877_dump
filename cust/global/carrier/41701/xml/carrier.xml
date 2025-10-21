@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="6369430058985febd60b8e87fc48a6ca">
+  <dict>
+    <!--2021-09-17 15:20:49.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:20:49.000-->
+    <string key="voicemail_carrier">Syriatel</string>
+    <!--2021-09-17 15:20:49.000-->
+    <string key="voicemail_number">1777</string>
+    <!--2021-09-17 15:20:49.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

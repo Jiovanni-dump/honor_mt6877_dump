@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="0b4cd812d712aa0d507b2d1ef39ee9c9">
+  <dict>
+    <!--2022-11-14 10:17:28.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-11-07 17:01:35.000-->
+    <bool key="carrier_default_wfc_ims_enabled_bool">true</bool>
+    <!--2022-11-10 15:47:51.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2022-11-07 11:55:00.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2022-11-07 11:55:00.000-->
+    <bool key="carrier_wfc_notification_bool">true</bool>
+    <!--2022-11-24 15:49:46.000-->
+    <bool key="carrier_wfc_supports_cellular_preferred_bool">true</bool>
+    <!--2022-11-07 11:55:00.000-->
+    <bool key="hn_hide_pop_for_mcc">true</bool>
+    <!--2022-11-07 11:55:00.000-->
+    <string key="wfc_format_wifi_string">%1$s</string>
+    <!--2022-11-07 11:55:00.000-->
+    <string key="wfc_spn_string">BITE</string>
+  </dict>
+</config>

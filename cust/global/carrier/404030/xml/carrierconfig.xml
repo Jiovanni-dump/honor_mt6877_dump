@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="52d121f48884e664770963bbf135835f">
+  <dict>
+    <!--2021-09-17 15:11:11.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2021-09-17 15:11:11.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+  </dict>
+</config>

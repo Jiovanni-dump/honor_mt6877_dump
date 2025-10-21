@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e37366c896259e7f4ccbb55696ca2754">
+  <dict>
+    <!--2021-09-17 15:19:36.000-->
+    <bool key="enable_sending_blank_sms">true</bool>
+    <!--2022-01-20 15:55:11.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9,3,2,1</string>
+    <!--2021-09-17 15:19:36.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:19:36.000-->
+    <int key="num_match">10</int>
+    <!--2021-09-17 15:19:36.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+    <!--2021-09-17 15:19:36.000-->
+    <string key="voicemail_carrier">MegaFon</string>
+    <!--2021-09-17 15:19:36.000-->
+    <string key="voicemail_number">0525</string>
+    <!--2021-09-17 15:19:36.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

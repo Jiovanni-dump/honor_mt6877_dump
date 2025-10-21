@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="eca4f74212b85f76db1ad542aa57a6ea">
+  <dict>
+    <!--2023-03-14 19:46:17.000-->
+    <bool key="carrier_show_ims_apns">true</bool>
+    <!--2021-09-17 15:22:04.000-->
+    <bool key="cbs_del_2b_switch">true</bool>
+    <!--2021-09-17 15:22:04.000-->
+    <bool key="delay_detach_switch">true</bool>
+    <!--2023-04-18 19:11:03.000-->
+    <string key="dial_numbers_over_cs">132;135;136</string>
+    <!--2021-09-17 15:22:04.000-->
+    <string key="hn_nwmode_pref_bymccmnc">9</string>
+    <!--2021-09-17 15:22:04.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9</string>
+    <!--2021-09-17 15:22:04.000-->
+    <int key="num_match">9</int>
+    <!--2021-09-17 15:22:04.000-->
+    <bool key="pre_plmn_reg_vowifi">true</bool>
+    <!--2021-09-17 15:22:04.000-->
+    <string key="voicemail_carrier">MTN</string>
+    <!--2021-09-17 15:22:04.000-->
+    <string key="voicemail_number">132</string>
+    <!--2021-09-17 15:22:04.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

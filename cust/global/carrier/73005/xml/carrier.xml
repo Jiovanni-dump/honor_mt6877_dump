@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="8ffa21fb3a956bb35d14016b8fc60bcb">
+  <dict>
+    <!--2021-09-17 15:12:36.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:12:36.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:12:36.000-->
+    <string key="voicemail_carrier">vtr</string>
+    <!--2021-09-17 15:12:36.000-->
+    <string key="voicemail_number">#111</string>
+    <!--2021-09-17 15:12:36.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

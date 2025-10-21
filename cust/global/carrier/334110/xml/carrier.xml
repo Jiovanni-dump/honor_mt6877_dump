@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e6d5fecaeb880f2adbcdbe6c38e5ee05">
+  <dict>
+    <!--2021-09-17 15:12:03.000-->
+    <bool key="data_roaming_switch">false</bool>
+    <!--2021-09-17 15:12:03.000-->
+    <int key="plmn_esm_flag">1</int>
+  </dict>
+</config>

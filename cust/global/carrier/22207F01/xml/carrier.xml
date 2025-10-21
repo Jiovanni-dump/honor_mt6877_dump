@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="5bcc83566c2d7be96bd4e78a1095f720">
+  <dict>
+    <!--2022-09-19 11:41:51.000-->
+    <bool key="ims_conference_reported_participants_optimize">true</bool>
+    <!--2021-09-17 15:21:54.000-->
+    <int key="num_match">7</int>
+    <!--2022-06-10 15:21:31.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2021-09-17 15:21:54.000-->
+    <string key="virtual_ecclist_withcard">+112,+911</string>
+    <!--2021-09-17 15:21:54.000-->
+    <string key="virtualnet_operatorname">KENA MOBILE</string>
+  </dict>
+</config>

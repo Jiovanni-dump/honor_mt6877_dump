@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="62f345aa6093c81416218872f5b88dbe">
+  <dict>
+    <!--2021-09-17 15:12:26.000-->
+    <string key="hn_networkname_normal">all,GPRS:G;EDGE:E;UMTS:4G;HSDPA:4G;HSUPA:4G;HSPA:4G;HSPA+:4G;LTE:4G LTE;CA:4G LTE</string>
+  </dict>
+</config>

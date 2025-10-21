@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="8a480ce1d0cd88dbe9a53ef213771a74">
+  <dict>
+    <!--2021-09-17 15:18:05.000-->
+    <string key="SMSCAddress">+56964100020</string>
+    <!--2021-09-17 15:18:05.000-->
+    <bool key="data_roaming_switch">true</bool>
+    <!--2021-09-17 15:18:05.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:18:05.000-->
+    <int key="sms_7bit_enabled">1</int>
+  </dict>
+</config>

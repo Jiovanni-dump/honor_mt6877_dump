@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="4b76f5b30223b81de90691d777b95cc1">
+  <dict>
+    <!--2021-09-17 15:23:13.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:23:13.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2021-09-17 15:23:13.000-->
+    <string key="voicemail_carrier">Eronet</string>
+    <!--2021-09-17 15:23:13.000-->
+    <string key="voicemail_number">+387633888</string>
+    <!--2021-09-17 15:23:13.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

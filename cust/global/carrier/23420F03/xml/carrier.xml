@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="3092f65eb99eb653a4187848ef2032fe">
+  <dict>
+    <!--2021-09-17 15:21:26.000-->
+    <int key="allow_mms_property_int">4</int>
+    <!--2022-03-14 19:47:39.000-->
+    <string key="hn_nwmode_pref_bymccmnc">9</string>
+    <!--2022-03-14 19:47:39.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9</string>
+    <!--2022-04-03 16:52:06.000-->
+    <int key="num_match">10</int>
+    <!--2021-09-17 15:21:26.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-09-17 15:21:26.000-->
+    <string key="virtual_ecclist_withcard">+911,+112,+999</string>
+  </dict>
+</config>

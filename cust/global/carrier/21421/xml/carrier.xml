@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e8ea1978ab8765bbe24ba14b735a865c">
+  <dict>
+    <!--2022-07-21 15:14:24.000-->
+    <bool key="carrier_show_dual_icon">true</bool>
+    <!--2021-09-17 15:22:07.000-->
+    <int key="key_signal_strength_level_rule">1</int>
+    <!--2021-09-17 15:22:07.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:22:07.000-->
+    <int key="num_match">9</int>
+    <!--2021-09-17 15:22:07.000-->
+    <string key="omacp_apn_add_supl_and_dun">21421</string>
+    <!--2021-09-17 15:22:07.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:22:07.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2021-09-17 15:22:07.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2021-09-17 15:22:07.000-->
+    <string key="virtualnet_operatorname">JAZZTEL</string>
+    <!--2021-09-17 15:22:07.000-->
+    <string key="voicemail_carrier">Jazztel</string>
+    <!--2021-09-17 15:22:07.000-->
+    <string key="voicemail_number">1222</string>
+    <!--2021-09-17 15:22:07.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="018ca6122628c0b249091b8664c0b4c0">
+  <dict>
+    <!--2021-11-04 15:03:32.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2022-04-11 15:44:49.000-->
+    <int key="maxImageHeight">1440</int>
+    <!--2022-04-11 15:44:49.000-->
+    <int key="maxImageWidth">1920</int>
+    <!--2022-12-13 10:09:37.000-->
+    <int key="maxMessageSize">614400</int>
+  </dict>
+</config>

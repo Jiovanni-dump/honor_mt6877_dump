@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="6ff3c378845cf1bc3ad89033432fa7e3">
+  <dict>
+    <!--2021-09-17 15:16:38.000-->
+    <int key="num_match">7</int>
+    <!--2021-09-17 15:16:38.000-->
+    <string key="voicemail_carrier">Bitel</string>
+    <!--2021-09-17 15:16:38.000-->
+    <string key="voicemail_number">154</string>
+    <!--2021-09-17 15:16:38.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

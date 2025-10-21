@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="54f374101e826f2bd546a7aba41e2803">
+  <dict>
+    <!--2022-07-21 15:14:24.000-->
+    <bool key="carrier_show_dual_icon">true</bool>
+    <!--2021-09-17 15:14:51.000-->
+    <int key="num_match">9</int>
+    <!--2021-09-17 15:14:51.000-->
+    <string key="voicemail_carrier">Orange</string>
+    <!--2021-09-17 15:14:51.000-->
+    <string key="voicemail_number">800</string>
+    <!--2021-09-17 15:14:51.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

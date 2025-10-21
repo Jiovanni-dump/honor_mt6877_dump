@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="58e8bbc81019575ba31d822f9dbb0ee4">
+  <dict>
+    <!--2021-09-17 15:14:15.000-->
+    <int key="num_match">8</int>
+    <!--2023-02-27 15:38:08.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+  </dict>
+</config>

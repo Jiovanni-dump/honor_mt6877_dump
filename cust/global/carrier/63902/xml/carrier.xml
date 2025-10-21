@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="8aee01bd5ababf73328626bac9d538e7">
+  <dict>
+    <!--2021-09-17 15:11:22.000-->
+    <int key="num_match">9</int>
+    <!--2021-09-17 15:11:22.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-09-17 15:11:22.000-->
+    <bool key="single_pdp_enabled">true</bool>
+    <!--2021-09-17 15:11:22.000-->
+    <string key="voicemail_carrier">Safaricom</string>
+    <!--2021-09-17 15:11:22.000-->
+    <string key="voicemail_number">0722122</string>
+    <!--2021-09-17 15:11:22.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

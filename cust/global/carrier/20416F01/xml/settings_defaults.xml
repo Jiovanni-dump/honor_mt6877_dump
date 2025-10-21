@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2021-09-17 15:17:12.000-->
+  <integer default_cbs_state="1"/>
+  <!--2021-09-17 15:17:12.000-->
+  <string nl_cmas_alert="true"/>
+  <!--2021-09-17 15:17:12.000-->
+  <string show_master_toggle="true"/>
+</resources>

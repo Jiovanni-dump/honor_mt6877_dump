@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="4b06dd2ad99af1cd7df86a9066bb0938">
+  <dict>
+    <!--2021-09-17 15:13:22.000-->
+    <string key="hn_4g_custom_display_for_networkmode">4G:LTE</string>
+    <!--2021-09-17 15:13:22.000-->
+    <string key="hn_networkname_normal">all,HSPA+:4G;LTE:LTE;CA:LTE+;MiMo:LTE;CAMiMo:LTE+</string>
+    <!--2023-05-31 10:29:09.000-->
+    <int key="num_match">10</int>
+    <!--2021-09-17 15:13:22.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-09-17 15:13:22.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:13:22.000-->
+    <string key="voicemail_carrier">Altice</string>
+    <!--2021-09-17 15:13:22.000-->
+    <string key="voicemail_number">*777</string>
+    <!--2021-09-17 15:13:22.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

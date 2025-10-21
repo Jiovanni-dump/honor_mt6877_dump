@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f1b6c0b35e7a2f295a3903205e61da69">
+  <dict>
+    <!--2023-08-11 15:19:14.000-->
+    <bool key="carrier_show_ims_apns">true</bool>
+    <!--2021-09-17 15:15:49.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:15:49.000-->
+    <int key="num_match">7</int>
+    <!--2023-08-11 15:33:35.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2021-09-17 15:15:49.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2021-09-17 15:15:49.000-->
+    <string key="voicemail_carrier">Tango</string>
+    <!--2021-09-17 15:15:49.000-->
+    <string key="voicemail_number">691</string>
+    <!--2021-09-17 15:15:49.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

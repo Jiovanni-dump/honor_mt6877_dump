@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="5d258331c24f854e8a3ea5d1f1612462">
+  <dict>
+    <!--2022-03-14 19:47:39.000-->
+    <string key="hn_nwmode_pref_bymccmnc">9</string>
+    <!--2022-03-14 19:47:39.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9</string>
+    <!--2021-09-17 15:15:32.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:15:32.000-->
+    <int key="num_match">10</int>
+    <!--2021-09-17 15:15:32.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-09-17 15:15:32.000-->
+    <int key="sms_to_mms_textthreshold">-1</int>
+    <!--2021-09-17 15:15:32.000-->
+    <string key="voicemail_carrier">3</string>
+    <!--2021-09-17 15:15:32.000-->
+    <string key="voicemail_number">+447782333123</string>
+    <!--2021-09-17 15:15:32.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="19d27b516096d9767ca4c8fb87f6e76a">
+  <dict>
+    <!--2021-09-17 15:10:06.000-->
+    <bool key="carrier_force_volte_switch_on_bool">true</bool>
+    <!--2022-07-22 11:10:59.000-->
+    <bool key="carrier_hide_clir_bool">true</bool>
+    <!--2021-09-17 15:10:06.000-->
+    <string key="carrier_volte_hd_icon_flag">01010101</string>
+    <!--2021-09-17 15:10:06.000-->
+    <string key="carrierconfig_enhanced_video_feature">000000000010</string>
+    <!--2021-09-17 15:10:06.000-->
+    <bool key="cmcc_encryption_call_bool">true</bool>
+    <!--2023-01-06 09:46:27.000-->
+    <string key="nr_switch_policy">10,11,19,24</string>
+    <!--2021-09-17 15:10:06.000-->
+    <bool key="switch_nr_available_bool">true</bool>
+  </dict>
+</config>

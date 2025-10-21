@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="07cf639e1dd6605d435a5d816ae40c8a">
+  <dict>
+    <!--2022-06-27 15:54:10.000-->
+    <bool key="carrier_popup_disable">true</bool>
+    <!--2021-09-17 15:16:12.000-->
+    <bool key="data_roaming_switch">true</bool>
+    <!--2021-09-17 15:16:12.000-->
+    <bool key="delay_detach_switch">true</bool>
+    <!--2023-12-12 16:10:32.000-->
+    <string key="hn_4g_custom_display_for_networkmode">4G:LTE</string>
+    <!--2021-09-17 15:16:12.000-->
+    <string key="hn_cust_long_vmNum">+593995897707</string>
+    <!--2021-09-17 15:16:12.000-->
+    <string key="hn_networkname_normal">all,LTE:LTE;CA:LTE+;MiMo:LTE+;CAMiMo:LTE+</string>
+    <!--2021-09-17 15:16:12.000-->
+    <int key="hn_omacp_apn_policy">-1</int>
+    <!--2023-09-28 14:08:36.000-->
+    <bool key="hn_remove_2g_only">true</bool>
+    <!--2023-09-28 14:08:36.000-->
+    <bool key="hn_remove_3g_only">true</bool>
+    <!--2021-09-17 15:16:12.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:16:12.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:16:12.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-09-17 15:16:12.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:16:12.000-->
+    <int key="sms_to_mms_textthreshold">-1</int>
+    <!--2021-09-17 15:16:12.000-->
+    <string key="voicemail_carrier">movistar</string>
+    <!--2021-09-17 15:16:12.000-->
+    <string key="voicemail_number">*82</string>
+    <!--2021-09-17 15:16:12.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

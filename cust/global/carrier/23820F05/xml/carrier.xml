@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="b20bab80cabac905ca8dc3a904e11ac3">
+  <dict>
+    <!--2021-09-17 15:21:21.000-->
+    <int key="max_message_size">1048576</int>
+    <!--2021-09-17 15:21:21.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:21:21.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2021-09-17 15:21:21.000-->
+    <string key="virtualnet_operatorname">Mit Tele</string>
+  </dict>
+</config>

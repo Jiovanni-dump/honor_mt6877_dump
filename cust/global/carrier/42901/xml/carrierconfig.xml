@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="1397be41af25292844646116af644bee">
+  <dict>
+    <!--2021-09-17 15:23:00.000-->
+    <bool key="CFNRcChangeWithCFNL">false</bool>
+    <!--2021-09-17 15:23:00.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2022-11-18 17:40:15.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-09-13 09:57:50.000-->
+    <bool key="carrier_default_wfc_ims_enabled_bool">false</bool>
+    <!--2021-09-17 15:23:00.000-->
+    <string key="carrier_volte_hd_icon_flag">00101010</string>
+    <!--2023-09-13 09:57:50.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2021-09-17 15:23:00.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2021-09-17 15:23:00.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2021-09-17 15:23:00.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+  </dict>
+</config>

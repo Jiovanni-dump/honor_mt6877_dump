@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="6546a42bed0c47be001be22f3a7ce680">
+  <dict>
+    <!--2021-09-17 15:12:57.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:12:57.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:12:57.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-09-17 15:12:57.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2021-09-17 15:12:57.000-->
+    <string key="voicemail_carrier">Vodafone</string>
+    <!--2021-09-17 15:12:57.000-->
+    <string key="voicemail_number">+385917000</string>
+    <!--2021-09-17 15:12:57.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

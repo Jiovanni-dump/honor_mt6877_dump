@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="d88787a377bb557754454a72e98378bb">
+  <dict>
+    <!--2022-01-20 15:55:11.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9,3,2,1</string>
+    <!--2021-09-17 15:21:24.000-->
+    <int key="num_match">10</int>
+  </dict>
+</config>

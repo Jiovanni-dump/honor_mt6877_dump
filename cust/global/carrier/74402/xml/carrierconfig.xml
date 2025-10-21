@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="18bcca524e800bc1faaef08ed4b6936d">
+  <dict>
+    <!--2023-08-29 20:06:01.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2024-01-23 10:04:51.000-->
+    <int key="carrier_default_wfc_ims_mode_int">3</int>
+    <!--2024-01-23 10:04:51.000-->
+    <int key="carrier_default_wfc_ims_roaming_mode_int">2</int>
+    <!--2023-08-29 20:06:01.000-->
+    <string key="carrier_incall_cust_volte_type">VOLTE_DL</string>
+    <!--2023-08-29 20:06:01.000-->
+    <string key="carrier_incall_cust_vowifi_type">VOWIFI_DL</string>
+    <!--2023-08-29 20:06:01.000-->
+    <bool key="carrier_show_second_calllog_icon">true</bool>
+    <!--2023-08-29 20:06:01.000-->
+    <string key="carrier_statusbar_volte_type">VOLTE_DL</string>
+    <!--2023-08-29 20:06:01.000-->
+    <string key="carrier_statusbar_vowifi_type">VOWIFI_DL</string>
+    <!--2023-08-29 20:06:01.000-->
+    <string key="carrier_volte_calllog_icon_type">VOLTE_DL</string>
+    <!--2023-08-29 20:06:01.000-->
+    <string key="carrier_volte_dialer_icon_type">VOLTE_DL</string>
+    <!--2023-08-29 20:06:01.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-08-29 20:06:01.000-->
+    <string key="carrier_vowifi_calllog_icon_type">VOWIFI_DL</string>
+    <!--2023-08-29 20:06:01.000-->
+    <string key="carrier_vowifi_dialer_icon_type">VOWIFI_DL</string>
+    <!--2023-08-29 20:06:01.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2024-01-23 10:04:51.000-->
+    <bool key="carrier_wfc_supports_cellular_preferred_bool">true</bool>
+    <!--2023-08-29 20:06:01.000-->
+    <bool key="com.google.android.dialer.display_wifi_calling_button_bool">true</bool>
+    <!--2023-08-29 20:06:01.000-->
+    <bool key="display_call_type_icon_bool">true</bool>
+    <!--2023-11-14 17:43:10.000-->
+    <bool key="enabledMMS">false</bool>
+    <!--2023-11-20 21:15:11.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2021-09-17 15:14:41.000-->
+    <string key="is_show_vowifi_tile_flag">true</string>
+    <!--2023-11-20 21:15:11.000-->
+    <int key="smsToMmsTextThreshold">-1</int>
+    <!--2023-08-29 20:06:01.000-->
+    <bool key="vowifi_pref_domestic">true</bool>
+    <!--2023-08-29 20:06:01.000-->
+    <bool key="vowifi_pref_roaming">true</bool>
+    <!--2023-08-29 20:06:01.000-->
+    <string key="wfc_format_wifi_string">%1$s</string>
+    <!--2023-08-29 20:06:01.000-->
+    <string key="wfc_spn_string">Claro PY</string>
+  </dict>
+</config>

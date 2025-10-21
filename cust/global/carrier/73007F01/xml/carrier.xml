@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="ade3849076536a3527f87d405f30bab8">
+  <dict>
+    <!--2021-09-17 15:11:26.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:11:26.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:11:26.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2021-09-17 15:11:26.000-->
+    <string key="virtual_ecclist_withcard">+133,+112,+911</string>
+    <!--2021-09-17 15:11:26.000-->
+    <string key="virtualnet_operatorname">Colo-Colo Móvil</string>
+    <!--2021-09-17 15:11:26.000-->
+    <string key="voicemail_carrier">Colo colo</string>
+    <!--2021-09-17 15:11:26.000-->
+    <string key="voicemail_number">500</string>
+    <!--2021-09-17 15:11:26.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

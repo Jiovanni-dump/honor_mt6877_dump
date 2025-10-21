@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="8f8cbfb5342470c53acd1397a406fa88">
+  <dict>
+    <!--2023-03-03 09:37:30.000-->
+    <bool key="carrier_show_ims_apns">true</bool>
+    <!--2021-09-17 15:16:24.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:16:24.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2021-09-17 15:16:24.000-->
+    <string key="virtual_ecclist_withcard">+911,+112,+999</string>
+    <!--2021-09-17 15:16:24.000-->
+    <string key="virtualnet_operatorname">CSL</string>
+  </dict>
+</config>

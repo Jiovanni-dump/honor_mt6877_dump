@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="8318ec7e20c26d0dd807ece20de5a33e">
+  <dict>
+    <!--2021-09-17 15:10:08.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:10:08.000-->
+    <int key="num_match">7</int>
+    <!--2021-09-17 15:10:08.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2021-09-17 15:10:08.000-->
+    <string key="voicemail_carrier">Cellcom</string>
+    <!--2021-09-17 15:10:08.000-->
+    <string key="voicemail_number">*151</string>
+    <!--2021-09-17 15:10:08.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

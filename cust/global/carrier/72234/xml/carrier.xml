@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="51be80dde3e14d8128c8f181b68d785f">
+  <dict>
+    <!--2021-09-17 15:14:41.000-->
+    <string key="hn_networkname_normal">all,LTE:4G;CA:4G+;MiMo:4G+;CAMiMo:4G+</string>
+    <!--2021-09-17 15:14:41.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:14:41.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:14:41.000-->
+    <string key="voicemail_carrier">personal</string>
+    <!--2021-09-17 15:14:41.000-->
+    <string key="voicemail_number">*555</string>
+    <!--2021-09-17 15:14:41.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

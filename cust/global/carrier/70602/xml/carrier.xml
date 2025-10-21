@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="8c60a8c9a0a3b505fee0f81d4fd7b7f6">
+  <dict>
+    <!--2021-09-17 15:10:44.000-->
+    <string key="hn_4g_custom_display_for_networkmode">4G:LTE</string>
+    <!--2021-09-17 15:10:44.000-->
+    <string key="hn_networkname_normal">all,GPRS:E;EDGE:E;UMTS:H;HSDPA:H;HSUPA:H;HSPA:H;HSPA+:H+;LTE:LTE;CA:LTE;MiMo:LTE;CAMiMo:LTE</string>
+    <!--2021-09-17 15:10:44.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:10:44.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:10:44.000-->
+    <string key="voicemail_carrier">DIGICEL</string>
+    <!--2021-09-17 15:10:44.000-->
+    <string key="voicemail_number">*123</string>
+    <!--2021-09-17 15:10:44.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

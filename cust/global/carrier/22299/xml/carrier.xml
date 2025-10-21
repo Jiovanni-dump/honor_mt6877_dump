@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="20b0fd3985e461d08383572fd789bf31">
+  <dict>
+    <!--2021-09-17 15:10:18.000-->
+    <int key="allow_mms_property_int">6</int>
+    <!--2021-09-17 15:10:18.000-->
+    <bool key="hn_data_roam_option">false</bool>
+    <!--2022-09-19 11:41:51.000-->
+    <bool key="ims_conference_reported_participants_optimize">true</bool>
+    <!--2021-09-17 15:10:18.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:10:18.000-->
+    <int key="num_match">7</int>
+    <!--2023-10-17 09:45:13.000-->
+    <bool key="show_volte_switch_in_nsa">false</bool>
+    <!--2021-09-17 15:10:18.000-->
+    <int key="sms_to_mms_textthreshold">-1</int>
+    <!--2021-09-17 15:10:18.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2021-09-17 15:10:18.000-->
+    <string key="voicemail_carrier">3</string>
+    <!--2021-09-17 15:10:18.000-->
+    <string key="voicemail_number">4133</string>
+    <!--2021-09-17 15:10:18.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

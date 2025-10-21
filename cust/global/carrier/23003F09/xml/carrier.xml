@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="ee36664370903bcdaea4bcff62630473">
+  <dict>
+    <!--2021-09-17 15:19:34.000-->
+    <string key="SMSCAddress">+420608005681</string>
+    <!--2021-09-17 15:19:34.000-->
+    <bool key="disable_sms_deliver_toast">true</bool>
+    <!--2021-09-17 15:19:34.000-->
+    <string key="hn_networkname_normal">all,GSM:G</string>
+    <!--2023-04-06 15:02:43.000-->
+    <bool key="hn_remove_3g_only">true</bool>
+    <!--2021-09-17 15:19:34.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:19:34.000-->
+    <int key="num_match">9</int>
+    <!--2021-09-17 15:19:34.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-09-17 15:19:34.000-->
+    <int key="sms_to_mms_textthreshold">7</int>
+    <!--2021-09-17 15:19:34.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2021-09-17 15:19:34.000-->
+    <string key="virtualnet_operatorname">Vodafone CZ</string>
+    <!--2021-09-17 15:19:34.000-->
+    <string key="voicemail_carrier">Vodafone</string>
+    <!--2021-09-17 15:19:34.000-->
+    <string key="voicemail_number">+420608989898</string>
+    <!--2021-09-17 15:19:34.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

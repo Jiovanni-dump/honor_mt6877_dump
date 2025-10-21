@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e9006a118c3ef574b55ce2b5b01aea4b">
+  <dict>
+    <!--2023-03-03 09:37:30.000-->
+    <bool key="carrier_show_ims_apns">true</bool>
+    <!--2021-09-17 15:16:38.000-->
+    <int key="num_match">8</int>
+  </dict>
+</config>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="eb84738bbd5ac4be57172f9fa7eab06d">
+  <dict>
+    <!--2021-09-17 15:13:43.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:13:43.000-->
+    <string key="voicemail_carrier">ooredoo</string>
+    <!--2021-09-17 15:13:43.000-->
+    <string key="voicemail_number">1777</string>
+    <!--2021-09-17 15:13:43.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packageList>
+	<packageInfo author="AOSP" feature="AOSP扩展动态库。" package="android.ext.shared" label="android.ext.shared">
+	</packageInfo>
+	<packageInfo author="保益互动" feature="屏幕阅读器" package="com.bjbyhd.screenreader_huawei" label="com.bjbyhd.screenreader_huawei">
+	</packageInfo>
+	<packageInfo package="com.huawei.triwebviewlib" feature="web浏览内核共享组件。" author="华为终端有限公司" label="com.huawei.triwebviewlib">
+	</packageInfo>
+	<packageInfo package="com.huawei.webview" feature="系统WebView，展示HTML页面的系统控件。" author="华为终端有限公司" label="com.huawei.webview">
+	</packageInfo>
+</packageList>

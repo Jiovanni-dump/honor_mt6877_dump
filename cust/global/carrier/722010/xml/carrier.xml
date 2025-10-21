@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="378179a552768dd5e86e8551a5fce398">
+  <dict>
+    <!--2021-09-17 15:22:25.000-->
+    <bool key="delay_detach_switch">true</bool>
+    <!--2021-09-17 15:22:25.000-->
+    <bool key="hide_network_mode_pref_5G">true</bool>
+    <!--2022-03-22 21:36:10.000-->
+    <string key="hn_cust_long_vmNum">+5491151440555</string>
+    <!--2021-09-17 15:22:25.000-->
+    <string key="hn_networkname_normal">all,LTE:4G;CA:4G+;MiMo:4G+;CAMiMo:4G+</string>
+    <!--2021-09-17 15:22:25.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:22:25.000-->
+    <int key="sms_to_mms_textthreshold">-1</int>
+  </dict>
+</config>

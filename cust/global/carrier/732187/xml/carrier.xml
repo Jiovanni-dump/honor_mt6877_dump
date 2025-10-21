@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="67734f4064804c87f05f8806b10a55a2">
+  <dict>
+    <!--2021-09-17 15:19:37.000-->
+    <bool key="data_roaming_switch">true</bool>
+    <!--2021-09-17 15:19:37.000-->
+    <string key="hn_networkname_normal">all,LTE:4G;CA:4G;MiMo:4G;CAMiMo:4G</string>
+    <!--2021-09-17 15:19:37.000-->
+    <int key="num_match">10</int>
+    <!--2021-09-17 15:19:37.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:19:37.000-->
+    <string key="voicemail_carrier">ETB</string>
+    <!--2021-09-17 15:19:37.000-->
+    <string key="voicemail_number">*123</string>
+    <!--2021-09-17 15:19:37.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

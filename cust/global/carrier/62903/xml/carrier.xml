@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="19344bea8403f4b6d2f214bf2aa4ab0c">
+  <dict>
+    <!--2021-09-17 15:23:12.000-->
+    <int key="num_match">7</int>
+    <!--2021-09-17 15:23:12.000-->
+    <string key="voicemail_carrier">Congo telecom</string>
+    <!--2021-09-17 15:23:12.000-->
+    <string key="voicemail_number">185</string>
+    <!--2021-09-17 15:23:12.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="d8c895a8890e4ddb52bc75a65ccd1e9f">
+  <dict>
+    <!--2021-09-17 15:15:49.000-->
+    <int key="num_match">11</int>
+    <!--2021-09-17 15:15:49.000-->
+    <int key="num_match_short">10</int>
+    <!--2021-09-17 15:15:49.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-09-17 15:15:49.000-->
+    <bool key="single_pdp_enabled">true</bool>
+    <!--2021-09-17 15:15:49.000-->
+    <string key="voicemail_carrier">Emobile</string>
+    <!--2021-09-17 15:15:49.000-->
+    <string key="voicemail_number">1416</string>
+    <!--2021-09-17 15:15:49.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

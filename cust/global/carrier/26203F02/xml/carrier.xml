@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="cbdb16e1b9d5e552c4c0010e0022ca5c">
+  <dict>
+    <!--2022-01-20 17:55:49.000-->
+    <string key="hn_networkname_normal">all,LTE:LTE;CA:LTE+</string>
+    <!--2021-09-17 15:18:32.000-->
+    <int key="num_match">10</int>
+    <!--2021-09-17 15:18:32.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-11-23 16:54:27.000-->
+    <bool key="save_ims_conf_participants">true</bool>
+    <!--2022-01-18 14:54:17.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2021-09-17 15:18:32.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2021-09-17 15:18:32.000-->
+    <string key="virtual_ecclist_withcard">+112</string>
+    <!--2021-09-17 15:18:32.000-->
+    <string key="virtualnet_operatorname">o2 - de</string>
+  </dict>
+</config>

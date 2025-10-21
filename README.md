@@ -1,0 +1,14 @@
+# magic-user 12 SP1A.210812.016 eng.root.20250415.103716 release-keys
+- manufacturer: alps
+- platform: mt6877
+- codename: MT6877
+- flavor: magic-user
+- release: 12
+- id: SP1A.210812.016
+- incremental: eng.root.20250416.142038
+- tags: release-keys
+- fingerprint: alps/vnd_k6877v1_64/k6877v1_64:12/SKQ1.210908.001/root04161420:user/release-keys
+- is_ab: true
+- brand: Honor
+- branch: magic-user-12-SP1A.210812.016-eng.root.20250415.103716-release-keys
+- repo: honor_mt6877_dump

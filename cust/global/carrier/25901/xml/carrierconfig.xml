@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="84364a990efaee0d0ee7bef7792f9036">
+  <dict>
+    <!--2024-01-31 15:39:25.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2021-09-17 15:19:03.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-08-17 14:03:26.000-->
+    <bool key="display_hd_audio_property_bool">false</bool>
+    <!--2023-04-18 17:58:43.000-->
+    <bool key="enabledMMS">false</bool>
+    <!--2021-09-17 15:19:03.000-->
+    <bool key="preferToUseUT">false</bool>
+  </dict>
+</config>

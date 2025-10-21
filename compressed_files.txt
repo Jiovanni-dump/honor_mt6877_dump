@@ -1,0 +1,3 @@
+preas/app/HwTriWebviewLib/HwTriWebviewLib.apk.xz
+system/system/priv-app/Settings/Settings.apk.xz
+system/system/priv-app/HnVideoEditor/HnVideoEditor.apk.xz

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="b5a757e8df622b3f01c30b7e4259e9b4">
+  <dict>
+    <!--2022-06-27 15:54:10.000-->
+    <bool key="carrier_popup_disable">true</bool>
+    <!--2021-09-17 15:16:31.000-->
+    <bool key="data_roaming_switch">true</bool>
+    <!--2021-09-17 15:16:31.000-->
+    <string key="hn_networkname_normal">all,LTE:4G;CA:4.5G;MiMo:4.5G;CAMiMo:4.5G+</string>
+    <!--2021-09-17 15:16:31.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:16:31.000-->
+    <int key="num_match">10</int>
+    <!--2021-09-17 15:16:31.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-11-24 14:48:00.000-->
+    <bool key="save_ims_conf_participants">true</bool>
+    <!--2022-06-20 16:36:50.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2021-09-17 15:16:31.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:16:31.000-->
+    <int key="sms_to_mms_textthreshold">13</int>
+    <!--2021-09-17 15:16:31.000-->
+    <string key="voicemail_carrier">Comcel</string>
+    <!--2021-09-17 15:16:31.000-->
+    <string key="voicemail_number">*123</string>
+    <!--2021-09-17 15:16:31.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

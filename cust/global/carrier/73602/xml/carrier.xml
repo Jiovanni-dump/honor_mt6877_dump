@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="25544425a0c69c4a07ecc89a1dfe72c4">
+  <dict>
+    <!--2021-09-17 15:23:25.000-->
+    <int key="num_match">8</int>
+    <!--2021-09-17 15:23:25.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:23:25.000-->
+    <string key="voicemail_carrier">Entel</string>
+    <!--2021-09-17 15:23:25.000-->
+    <string key="voicemail_number">106</string>
+    <!--2021-09-17 15:23:25.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

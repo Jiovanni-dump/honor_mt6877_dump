@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f17089b45d87554199cfc5e7a7b4edbf">
+  <dict>
+    <!--2021-09-17 15:12:06.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:12:06.000-->
+    <int key="num_match">7</int>
+    <!--2021-09-17 15:12:06.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2021-09-17 15:12:06.000-->
+    <string key="voicemail_carrier">SALT FL</string>
+    <!--2021-09-17 15:12:06.000-->
+    <string key="voicemail_number">+4237801000</string>
+    <!--2021-09-17 15:12:06.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="6deecae40f7293e96dd3d3468e8431ee">
+  <dict>
+    <!--2021-09-17 15:13:27.000-->
+    <bool key="hn_add_4g_only">true</bool>
+    <!--2021-09-17 15:13:27.000-->
+    <string key="hn_nr_onoff_mapping">67,11</string>
+    <!--2021-09-17 15:13:27.000-->
+    <int key="num_match">10</int>
+    <!--2021-09-17 15:13:27.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2021-09-17 15:13:27.000-->
+    <string key="voicemail_carrier">Rakuten</string>
+    <!--2021-09-17 15:13:27.000-->
+    <string key="voicemail_number">1417</string>
+    <!--2021-09-17 15:13:27.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

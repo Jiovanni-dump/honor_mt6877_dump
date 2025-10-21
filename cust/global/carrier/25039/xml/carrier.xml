@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="405bc6b81a54b680b5c0d45d6d3299d0">
+  <dict>
+    <!--2021-09-17 15:17:49.000-->
+    <bool key="enable_sending_blank_sms">true</bool>
+    <!--2022-01-20 15:55:11.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9,3,2,1</string>
+    <!--2021-09-17 15:17:49.000-->
+    <int key="max_message_size">307200</int>
+    <!--2021-09-17 15:17:49.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+  </dict>
+</config>

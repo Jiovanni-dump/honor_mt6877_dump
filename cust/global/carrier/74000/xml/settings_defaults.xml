@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2021-09-17 15:16:12.000-->
+  <integer alert_duration="180000"/>
+  <!--2021-09-17 15:16:12.000-->
+  <string always_vibrate="true"/>
+  <!--2021-09-17 15:16:12.000-->
+  <string hide_full_volume_menu="true"/>
+  <!--2021-09-17 15:16:12.000-->
+  <string show_add_channel="false"/>
+  <!--2021-09-17 15:16:12.000-->
+  <string show_channel_settings="true"/>
+  <!--2021-09-17 15:16:12.000-->
+  <string use_full_volume="true"/>
+</resources>

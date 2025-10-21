@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="08b0cf6330f6ba9a9da1f21f5dea5b65">
+  <dict>
+    <!--2021-09-17 15:20:40.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2022-01-06 16:33:40.000-->
+    <bool key="carrier_default_wfc_ims_enabled_bool">false</bool>
+    <!--2022-11-16 10:19:41.000-->
+    <bool key="carrier_need_check_location_bool">true</bool>
+    <!--2022-11-16 10:19:41.000-->
+    <bool key="carrier_need_check_wifi_bool">false</bool>
+    <!--2021-09-24 11:49:43.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2022-11-16 10:19:41.000-->
+    <bool key="remind_close_vowifi_when_close_location">true</bool>
+    <!--2022-11-16 10:19:41.000-->
+    <bool key="show_vowifi_register_style">true</bool>
+  </dict>
+</config>

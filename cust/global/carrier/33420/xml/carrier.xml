@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="d34e7edaf5ebd770598552fa104fbc73">
+  <dict>
+    <!--2021-09-17 15:16:55.000-->
+    <int key="num_match">7</int>
+    <!--2021-09-17 15:16:55.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2021-09-17 15:16:55.000-->
+    <string key="voicemail_carrier">Telcel</string>
+    <!--2021-09-17 15:16:55.000-->
+    <string key="voicemail_number">*86</string>
+    <!--2021-09-17 15:16:55.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>
